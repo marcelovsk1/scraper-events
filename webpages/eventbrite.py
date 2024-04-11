@@ -11,7 +11,7 @@ from unidecode import unidecode
 import re
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 
 def generate_tags(title, description):
     prompt = (
