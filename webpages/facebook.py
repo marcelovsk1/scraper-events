@@ -7,7 +7,7 @@ from datetime import datetime
 from geopy.geocoders import Nominatim
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 
 # Variável global para rastrear o ID
 event_id_counter = 1
