@@ -11,7 +11,7 @@ from geopy.geocoders import Nominatim
 from unidecode import unidecode
 import openai
 
-openai.api_key = ""
+openai.api_key = "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"
 
 event_id_counter = 1
 
@@ -51,7 +51,7 @@ def generate_tags(title, description):
 def calculate_similarity(str1, str2):
     return fuzz.token_sort_ratio(str1, str2)
 
-def scroll_to_bottom(driver, max_scroll=10):
+def scroll_to_bottom(driver, max_scroll=20):
     for _ in range(max_scroll):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
@@ -127,7 +127,7 @@ def get_location_details(latitude, longitude):
     return None, None, None
 
 #### FACEBOOK ####
-def scrape_facebook_events(driver, url, selectors, max_scroll=15):
+def scrape_facebook_events(driver, url, selectors, max_scroll=20):
     global event_id_counter
 
     driver.get(url)
@@ -369,7 +369,7 @@ def get_previous_page_image_url(driver):
 
     return None
 
-def scrape_eventbrite_events(driver, url, selectors, max_pages=20):
+def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
     global event_id_counter
 
     driver.get(url)

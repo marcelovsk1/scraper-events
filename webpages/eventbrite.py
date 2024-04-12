@@ -11,13 +11,13 @@ from unidecode import unidecode
 import re
 import openai
 
-openai.api_key = ""
+openai.api_key = "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"
+ticketmaster_tags = ["music", "festival", "rock", "sports", "comedy", "party", "theatre"]
 
-def generate_tags(title, description):
-    prompt = (
-        f"Generate tags related to the event \"{title}\" and \"{description}\""
-
-    )
+def generate_tags(ticketmaster_tags):
+    # Concatenar as tags da Ticketmaster com o prompt para o GPT
+    ticketmaster_tags_str = ", ".join(ticketmaster_tags)
+    prompt = f"Generate additional tags relevant to Ticketmaster events. Tags must be one-word, unique keywords. Consider genres, themes, and activities commonly associated with events. Ticketmaster tags: {ticketmaster_tags_str}."
 
     response = openai.Completion.create(
         engine="davinci-002",
@@ -27,12 +27,22 @@ def generate_tags(title, description):
         stop=None
     )
 
-    # Extrair as tags e formatá-las corretamente
-    tags = response.choices[0].text.strip().split(",")
-    formatted_tags = [tag.strip() for tag in tags]
-    unique_tags = list(set(formatted_tags))  # Remover tags duplicadas
+    # Extrair as tags geradas pelo GPT e formatá-las corretamente
+    generated_tags = response.choices[0].text.strip().split(",")
+    formatted_generated_tags = [tag.strip() for tag in generated_tags]
+
+    # Remover tags que são frases irrelevantes
+    filtered_tags = [tag for tag in formatted_generated_tags if len(tag.split()) == 1]
+
+    # Combinação das tags da Ticketmaster e as tags geradas pelo GPT
+    combined_tags = ticketmaster_tags + filtered_tags
+    unique_tags = list(set(combined_tags))  # Remover tags duplicadas
+
     return unique_tags
 
+# Exemplo de como usar a função
+tags = generate_tags(ticketmaster_tags)
+print("Tags geradas:", tags)
 
 
 def scroll_to_bottom(driver, max_clicks=5):
@@ -264,7 +274,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=40):
             location_element = event_page.find('p', class_='location-info__address-text')
             location = location_element.text.strip() if location_element else None
             ImageURL = get_previous_page_image_url(driver)
-            tags = generate_tags(title, description)
+            tags = generate_tags(ticketmaster_tags)
 
             # Obtenha as coordenadas de latitude e longitude
             latitude, longitude = get_coordinates(location)
