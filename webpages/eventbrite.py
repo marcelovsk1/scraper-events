@@ -9,40 +9,61 @@ from geopy.geocoders import Nominatim
 import geopy.exc
 from unidecode import unidecode
 import re
+import requests
 import openai
 
-openai.api_key = "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"
-ticketmaster_tags = ["music", "festival", "rock", "sports", "comedy", "party", "theatre"]
+openai.api_key = "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"
+
+def get_ticketmaster_tags(api_key):
+    endpoint = "https://app.ticketmaster.com/discovery/v2/classifications/segmentName.json"
+
+    params = {
+        "apikey": api_key
+    }
+
+    response = requests.get(endpoint, params=params)
+
+    if response.status_code == 200:
+        data = response.json()
+        tags = [segment["name"].lower() for segment in data["_embedded"]["segments"]]
+        return tags
+    else:
+        print("Falha ao obter as tags da Ticketmaster.")
+        return []
+
+
+ticketmaster_api_key = "XXEn18ypu1or6412B7C4P6iP3EFO7Mfx"
+ticketmaster_tags = get_ticketmaster_tags(ticketmaster_api_key)
+
+
+print("Tags da Ticketmaster:", ticketmaster_tags)
+
 
 def generate_tags(ticketmaster_tags):
-    # Concatenar as tags da Ticketmaster com o prompt para o GPT
     ticketmaster_tags_str = ", ".join(ticketmaster_tags)
-    prompt = f"Generate additional tags relevant to Ticketmaster events. Tags must be one-word, unique keywords. Consider genres, themes, and activities commonly associated with events. Ticketmaster tags: {ticketmaster_tags_str}."
+    prompt = f"Generate additional tags relevant to scraped events. Tags must be one-word, unique keywords. Consider genres, themes, and activities commonly associated with events. Ticketmaster tags: {ticketmaster_tags_str}."
 
     response = openai.Completion.create(
         engine="davinci-002",
         prompt=prompt,
-        max_tokens=50,  # Defina o número máximo de tokens de acordo com suas necessidades
+        max_tokens=50,
         n=1,
         stop=None
     )
 
-    # Extrair as tags geradas pelo GPT e formatá-las corretamente
     generated_tags = response.choices[0].text.strip().split(",")
     formatted_generated_tags = [tag.strip() for tag in generated_tags]
 
-    # Remover tags que são frases irrelevantes
     filtered_tags = [tag for tag in formatted_generated_tags if len(tag.split()) == 1]
 
-    # Combinação das tags da Ticketmaster e as tags geradas pelo GPT
     combined_tags = ticketmaster_tags + filtered_tags
-    unique_tags = list(set(combined_tags))  # Remover tags duplicadas
+    unique_tags = list(set(combined_tags))
 
     return unique_tags
 
-# Exemplo de como usar a função
 tags = generate_tags(ticketmaster_tags)
 print("Tags geradas:", tags)
+
 
 
 def scroll_to_bottom(driver, max_clicks=5):
@@ -240,7 +261,7 @@ def get_previous_page_image_url(driver):
 
     return None
 
-def scrape_eventbrite_events(driver, url, selectors, max_pages=40):
+def scrape_eventbrite_events(driver, url, selectors, max_pages=10):
     driver.get(url)
     driver.implicitly_wait(20)
 
