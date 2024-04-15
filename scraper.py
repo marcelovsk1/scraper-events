@@ -10,43 +10,92 @@ import geopy
 from geopy.geocoders import Nominatim
 from unidecode import unidecode
 import openai
+import requests
+import re
 
-openai.api_key = "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"
-
-event_id_counter = 1
+ticketmaster_api_key = "XXEn18ypu1or6412B7C4P6iP3EFO7Mfx"
+openai.api_key = "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"
 
 def generate_tags(title, description):
+    # Concatenar título e descrição para uma representação mais abrangente do evento
+    text_to_search = f"{title} {description}" if description else title
 
-    prompt = (
-    f"Create 10 tags for the event \"{title}\" using the \"{description}\".\n"
-    "The tags should be one-word, unique keywords that accurately represent the event. Avoid irrelevant information and"
-    "focus on the event's essence. This is the list of possible tags:\n"
-    "1 - brunch\n"
-    "2 - montreal\n"
-    "3 - music\n"
-    "4 - dj\n"
-    "5 - entertainment\n"
-    "6 - social\n"
-    "7 - food\n"
-    "8 - drinks\n"
-    "0 - No relevant tag\n"
+    # Limpar e processar o texto antes de enviar para a API do Ticketmaster
+    cleaned_text = text_to_search.lower() if text_to_search else ""
+    cleaned_text = re.sub(r'[^\w\s]', '', cleaned_text)  # Remover caracteres especiais
 
-    "Output only a JSON array of all the numbers corresponding to the relevant tags for the event."
-)
+    # Chamada à API da Ticketmaster para obter tags iniciais
+    initial_tags = get_ticketmaster_tags(cleaned_text)
 
+    # Chamada à função GPT para gerar tags adicionais
+    gpt_tags = generate_tags_with_gpt_api(title, description)
 
+    # Combinar as tags da Ticketmaster com as tags da GPT
+    combined_tags = list(set(initial_tags + gpt_tags))
+
+    return combined_tags
+
+def get_ticketmaster_tags(cleaned_text):
+    url = f"https://app.ticketmaster.com/discovery/v2/suggest?keyword={cleaned_text}&apikey={ticketmaster_api_key}&countryCode=US"
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        tags = []
+        data = response.json()
+        if "_embedded" in data and "attractions" in data["_embedded"]:
+            for attraction in data["_embedded"]["attractions"]:
+                tags.append(attraction["name"])
+        return tags
+    else:
+        print("Error fetching data from Ticketmaster API")
+        return []
+
+def generate_tags_with_gpt_api(title, description):
+    # Concatenar título e descrição para entrada na função GPT
+    prompt = f"Evento: {title}\nDescrição: {description}\nTags:"
+
+    # Usar a função completar da GPT para gerar tags adicionais
     response = openai.Completion.create(
-        engine="davinci-002",
+        engine="davinci-002",  # Usar o modelo text-davinci
         prompt=prompt,
-        max_tokens=150,
-        n=1,
-        stop=None
+        max_tokens=50,  # Defina o número máximo de tokens para a saída das tags
+        n=10,  # Defina o número de respostas para gerar
+        stop="\n"  # Parar na primeira quebra de linha para obter a lista de tags
     )
 
-    tags = response.choices[0].text.strip().split(",")
-    formatted_tags = [tag.strip() for tag in tags]
+    # Extrair as tags geradas pela função GPT
+    gpt_tags = [tag["text"].strip() for tag in response["choices"]]
 
-    return formatted_tags
+    # Processar as tags para extrair apenas palavras-chave e aplicar as modificações necessárias
+    keyword_tags = []
+    for tag in gpt_tags:
+        # Separar a tag em palavras
+        words = tag.split()
+        # Remover palavras com menos de 3 caracteres
+        words = [word for word in words if len(word) >= 3]
+        # Garantir que cada palavra comece com letra maiúscula
+        words = [word.capitalize() for word in words]
+        # Limitar o número de palavras para no máximo duas
+        words = words[:3]
+        # Juntar as palavras novamente em uma única tag
+        formatted_tag = " ".join(words)
+        # Adicionar a tag à lista final, se ela não estiver vazia
+        if formatted_tag:
+            keyword_tags.append(formatted_tag)
+
+    # Garantir que haja exatamente 10 tags
+
+    return keyword_tags[:10]
+
+
+# Exemplo de uso
+title = "Artisan Fair & Summerlea Book Sale"
+description = "Save the date!  Artisan Fair & Summerlea Book Sale on Sat, May 11 - 10am-3pm and Summerlea Book Sale on Friday, May 10 - 10am-3pm"
+tags = generate_tags(title, description)
+print("Tags for the event:")
+for tag in tags:
+    print("-", tag)
+
 
 def calculate_similarity(str1, str2):
     return fuzz.token_sort_ratio(str1, str2)
@@ -178,6 +227,7 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=20):
 
         address_span = event_page.find('span', class_='x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x1f6kntn xvq8zen xo1l8bm xi81zsa x1yc453h')
         address = address_span.text.strip() if address_span else None
+        event_id_counter = 0
 
         tags = generate_tags(title, description)
 
@@ -237,7 +287,6 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=20):
         all_events.append(event_info)
         unique_event_titles.add(title)
 
-        event_id_counter += 1
 
         driver.back()
 
@@ -264,7 +313,6 @@ def extract_start_end_time(date_str):
         end_time = day_match.group(2)
         return start_time.strip(), end_time.strip()
 
-    # Converta os dias da semana para inglês
     date_str = re.sub(r'\b(?:lun(?:di)?|mon(?:day)?)\b', 'Monday', date_str, flags=re.IGNORECASE)
     date_str = re.sub(r'\b(?:mar(?:di)?|tue(?:sday)?)\b', 'Tuesday', date_str, flags=re.IGNORECASE)
     date_str = re.sub(r'\b(?:mer(?:credi)?|wed(?:nesday)?)\b', 'Wednesday', date_str, flags=re.IGNORECASE)
@@ -406,7 +454,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             location = location_element.text.strip() if location_element else None
             ImageURL = get_previous_page_image_url(driver)
             tags = generate_tags(title, description)
-            event_id_counter += 1
+            event_id_counter = 0
 
             # Isolating the number from the price using regular expressions
             price_number = None
