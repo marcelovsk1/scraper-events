@@ -165,3 +165,130 @@ Output only a JSON array of all the numbers corresponding to the relevant tags f
 
 
 After implement in your scraping, with we have the database connection, insert the tags in the prompt dinamically, and be sure the tags still in the database
+
+create a python list, array of strings,
+
+make a list of all the tags, and
+
+
+
+
+tags = [
+    {
+        "id": "...",
+        "name": "Startup",
+        "emoji": "..."
+    },
+    {
+        "id": "...",
+        "name": "Reggae",
+        "emoji": "..."
+    }
+]
+
+Startup, Reggae
+
+
+
+
+documentID                              emoji   id                                      name        tagCategory
+005a4420-88c3-11ee-ab49-69be32c19a11	"🚀"	"005a4420-88c3-11ee-ab49-69be32c19a11"	"Startup"	"Education"
+00fb7c50-3c47-11ee-bb59-7f5156da6f07	" 💚"	"00fb7c50-3c47-11ee-bb59-7f5156da6f07"	"Reggae"	"Musique"
+00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🏸"	"00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Squash"	"Sports"
+0159ac60-3d0c-11ee-a0b5-a3a6fbdfc7e4	"🏊‍♂️"	"0159ac60-3d0c-11ee-a0b5-a3a6fbdfc7e4"	"Aquatics"	"Sports"
+01785870-4ce5-11ee-931a-073fc9abbdfa	"🎤"	"01785870-4ce5-11ee-931a-073fc9abbdfa"	"Karaoke"	"Leisure"
+06759f60-5c8d-11ee-8ae0-fb963ffbedc0	"🌞"	"06759f60-5c8d-11ee-8ae0-fb963ffbedc0"	"Holiday"	"Musique"
+0693e050-5c8e-11ee-8ae0-fb963ffbedc0	"🛼"	"0693e050-5c8e-11ee-8ae0-fb963ffbedc0"	"Roller Derby"	"Sports"
+099b2b90-4ce5-11ee-931a-073fc9abbdfa	"🎤"	"099b2b90-4ce5-11ee-931a-073fc9abbdfa"	"Singing"	"Leisure"
+09dddaa0-573d-11ee-8b78-9b77053f08ef	"♟"	"09dddaa0-573d-11ee-8b78-9b77053f08ef"	"Chess"	"Leisure"
+0a3f4540-3c46-11ee-bb59-7f5156da6f07	" 🎵"	"0a3f4540-3c46-11ee-bb59-7f5156da6f07"	"Blues"	"Musique"
+0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4	"⛳"	"0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Golf"	"Sports"
+0b379d00-3d0c-11ee-a0b5-a3a6fbdfc7e4	"🏅"	"0b379d00-3d0c-11ee-a0b5-a3a6fbdfc7e4"	"Athletic Races"	"Sports"
+0cafac20-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🏄‍♀️"	"0cafac20-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Surfing"	"Sports"
+0dc9b310-45df-11ee-837b-e184466a9b82	"📖"	"0dc9b310-45df-11ee-837b-e184466a9b82"	"Book"	"Leisure"
+108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4	"🥻"	"108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4"	"Fashion"	"Leisure"
+11164b60-4381-11ee-b8b1-a1b868b635cd	"👩‍🎤"	"11164b60-4381-11ee-b8b1-a1b868b635cd"	"Punk"	"Musique"
+133a3370-3c47-11ee-bb59-7f5156da6f07	"✝"	"133a3370-3c47-11ee-bb59-7f5156da6f07"	"Religious"	"Musique"
+1453a7c0-3d0d-11ee-a0b5-a3a6fbdfc7e4	"🤸‍♀️"	"1453a7c0-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Gymnastics"	"Sports"
+15de0a70-45e3-11ee-837b-e184466a9b82	"🏃‍♂️"	"15de0a70-45e3-11ee-837b-e184466a9b82"	"Hiking"	"Sports"
+1859e020-6ec5-11ee-b583-53aa736b74aa	"👠"	"1859e020-6ec5-11ee-b583-53aa736b74aa"	"Burlesque"	"Leisure"
+1aa334a0-45d8-11ee-837b-e184466a9b82	"🌈"	"1aa334a0-45d8-11ee-837b-e184466a9b82"	"LGBTQ+"	"Communities"
+1aabd790-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🏊‍♂️"	"1aabd790-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Swimming"	"Sports"
+1bf32fc0-92f1-11ee-a5be-ab0364f8070e	"🔈"	"1bf32fc0-92f1-11ee-a5be-ab0364f8070e"	"Trance"	"Musique"
+1e5f58e0-5176-11ee-b7c8-e385952d03b8	"🎓"	"1e5f58e0-5176-11ee-b7c8-e385952d03b8"	"Sir George Williams University‎"	"Universities"
+1e6c5c90-589a-11ee-b119-ed05073c4567	"🧗‍♀️"	"1e6c5c90-589a-11ee-b119-ed05073c4567"	"Climbing "	"Sports"
+1f4ad800-3c46-11ee-bb59-7f5156da6f07	" 🎵"	"1f4ad800-3c46-11ee-bb59-7f5156da6f07"	"Chanson Francaise"	"Musique"
+2051b940-3d0d-11ee-a0b5-a3a6fbdfc7e4	"🏐"	"2051b940-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Handball"	"Sports"
+2193a290-3d22-11ee-ab40-a5c3399d9b23	"👨‍👩‍👧‍👧"	"2193a290-3d22-11ee-ab40-a5c3399d9b23"	"Family"	"Leisure"
+21b46fb0-4372-11ee-b8b1-a1b868b635cd	"👗"	"21b46fb0-4372-11ee-b8b1-a1b868b635cd"	"Vintage store"	"Leisure"
+22142f40-5191-11ee-a0a7-e3e01b3b8639	"🐬"	"22142f40-5191-11ee-a0a7-e3e01b3b8639"	"Tatoo"	"Leisure"
+22726150-3c47-11ee-bb59-7f5156da6f07	" 🎸"	"22726150-3c47-11ee-bb59-7f5156da6f07"	"Rock"	"Musique"
+23518270-573d-11ee-8b78-9b77053f08ef	"📸"	"23518270-573d-11ee-8b78-9b77053f08ef"	"Photography"	"Leisure"
+23866950-3d0b-11ee-a0b5-a3a6fbdfc7e4	"🎨"	"23866950-3d0b-11ee-a0b5-a3a6fbdfc7e4"	"Fine Art"	"Leisure"
+23c2afe0-45db-11ee-837b-e184466a9b82	"🌏"	"23c2afe0-45db-11ee-837b-e184466a9b82"	"Exchange student"	"Universities"
+24a62550-45cb-11ee-837b-e184466a9b82	"🚴‍♂️"	"24a62550-45cb-11ee-837b-e184466a9b82"	" stationary bike"	"Sports"
+26151320-5899-11ee-b119-ed05073c4567	"💭"	"26151320-5899-11ee-b119-ed05073c4567"	"Philosophy"	"Education"
+262d6610-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🏓"	"262d6610-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Table Tennis"	"Sports"
+28122110-3d0d-11ee-a0b5-a3a6fbdfc7e4	"🏒"	"28122110-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Hockey"	"Sports"
+2a905bd0-4381-11ee-b8b1-a1b868b635cd	"👀"	"2a905bd0-4381-11ee-b8b1-a1b868b635cd"	"Market"	"Others"
+2b65d9b0-5176-11ee-b7c8-e385952d03b8	"🎓"	"2b65d9b0-5176-11ee-b7c8-e385952d03b8"	"Dawson College‎"	"Universities"
+2d2822e0-45e0-11ee-837b-e184466a9b82	"🍁"	"2d2822e0-45e0-11ee-837b-e184466a9b82"	"Indigenous"	"Communities"
+2e0e7720-45d3-11ee-837b-e184466a9b82	"🛰"	"2e0e7720-45d3-11ee-837b-e184466a9b82"	"Space"	"Education"
+2e4093b0-3d0c-11ee-a0b5-a3a6fbdfc7e4	"🏸"	"2e4093b0-3d0c-11ee-a0b5-a3a6fbdfc7e4"	"Badminton"	"Sports"
+2f063b10-45c7-11ee-837b-e184466a9b82	"🍝"	"2f063b10-45c7-11ee-837b-e184466a9b82"	"Food"	"Leisure"
+2fb15a10-45c5-11ee-837b-e184466a9b82	"🌤"	"2fb15a10-45c5-11ee-837b-e184466a9b82"	"Open Air"	"Others"
+30bc2d00-3c46-11ee-bb59-7f5156da6f07	" 🎵"	"30bc2d00-3c46-11ee-bb59-7f5156da6f07"	"Children's Music"	"Musique"
+31f422c0-6ec5-11ee-b583-53aa736b74aa	"💅"	"31f422c0-6ec5-11ee-b583-53aa736b74aa"	"Pole Dance"	"Leisure"
+32015a50-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🎾"	"32015a50-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Tennis"	"Sports"
+336e6770-45d8-11ee-837b-e184466a9b82	"🎸"	"336e6770-45d8-11ee-837b-e184466a9b82"	"Emo"	"Musique"
+35067970-3d0d-11ee-a0b5-a3a6fbdfc7e4	"⛸"	"35067970-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Ice Skating"	"Sports"
+36b1ca60-3d0b-11ee-a0b5-a3a6fbdfc7e4	"🕴"	"36b1ca60-3d0b-11ee-a0b5-a3a6fbdfc7e4"	"Magic & Illusion"	"Leisure"
+373596b0-45da-11ee-837b-e184466a9b82	"🌟"	"373596b0-45da-11ee-837b-e184466a9b82"	"Producer"	"Others"
+39c337f0-5176-11ee-b7c8-e385952d03b8	"🎓"	"39c337f0-5176-11ee-b7c8-e385952d03b8"	"Loyola College"	"Universities"
+3b128c80-3c47-11ee-bb59-7f5156da6f07	" 🎼"	"3b128c80-3c47-11ee-bb59-7f5156da6f07"	"World"	"Musique"
+3b300390-436e-11ee-b8b1-a1b868b635cd	"🎙"	"3b300390-436e-11ee-b8b1-a1b868b635cd"	"Concert"	"Others"
+3c926b30-3c46-11ee-bb59-7f5156da6f07	"🎻"	"3c926b30-3c46-11ee-bb59-7f5156da6f07"	"Classical"	"Musique"
+3da243d0-573d-11ee-8b78-9b77053f08ef	"📨"	"3da243d0-573d-11ee-8b78-9b77053f08ef"	"Contest"	"Others"
+412d96c0-3d0d-11ee-a0b5-a3a6fbdfc7e4	"🥅"	"412d96c0-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Indoor Soccer"	"Sports"
+455b2d00-45e3-11ee-837b-e184466a9b82	"🍸"	"455b2d00-45e3-11ee-837b-e184466a9b82"	"Cocktail"	"Leisure"
+46161db0-5c8e-11ee-8ae0-fb963ffbedc0	"👫"	"46161db0-5c8e-11ee-8ae0-fb963ffbedc0"	"Toros"	"Sports"
+46de1330-4cd8-11ee-931a-073fc9abbdfa	"🗣"	"46de1330-4cd8-11ee-931a-073fc9abbdfa"	"Commercial music"	"Musique"
+47029ec0-3d0c-11ee-a0b5-a3a6fbdfc7e4	"⚾"	"47029ec0-3d0c-11ee-a0b5-a3a6fbdfc7e4"	"Baseball"	"Sports"
+48fb8ce0-5176-11ee-b7c8-e385952d03b8	"🎓"	"48fb8ce0-5176-11ee-b7c8-e385952d03b8"	"LaSalle College"	"Universities"
+49d14e00-4381-11ee-b8b1-a1b868b635cd	"🛹"	"49d14e00-4381-11ee-b8b1-a1b868b635cd"	"Skateboard"	"Sports"
+4a2555b0-45d7-11ee-837b-e184466a9b82	"✡"	"4a2555b0-45d7-11ee-837b-e184466a9b82"	"Jewish"	"Communities"
+4aa2a590-45e3-11ee-837b-e184466a9b82	"🍺"	"4aa2a590-45e3-11ee-837b-e184466a9b82"	"Beer"	"Leisure"
+4b2ad100-5c8f-11ee-8ae0-fb963ffbedc0	"💞"	"4b2ad100-5c8f-11ee-8ae0-fb963ffbedc0"	"Variety"	"Leisure"
+4d28a270-3c46-11ee-bb59-7f5156da6f07	" 🤠"	"4d28a270-3c46-11ee-bb59-7f5156da6f07"	"Country"	"Musique"
+4dadcb10-45d5-11ee-837b-e184466a9b82	"🇧🇷"	"4dadcb10-45d5-11ee-837b-e184466a9b82"	"Forró"	"Leisure"
+4fabb8e0-3d0c-11ee-a0b5-a3a6fbdfc7e4	"🏀"	"4fabb8e0-3d0c-11ee-a0b5-a3a6fbdfc7e4"	"Basketball"	"Sports"
+4feaf030-45dd-11ee-837b-e184466a9b82	"🎼"	"4feaf030-45dd-11ee-837b-e184466a9b82"	"Opera"	"Musique"
+5018b610-3d0d-11ee-a0b5-a3a6fbdfc7e4	"🥍"	"5018b610-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Lacrosse"	"Sports"
+510dc8c0-6ec3-11ee-b583-53aa736b74aa	"🕺"	"510dc8c0-6ec3-11ee-b583-53aa736b74aa"	"Swing"	"Leisure"
+5279c790-5898-11ee-b119-ed05073c4567	"🎰"	"5279c790-5898-11ee-b119-ed05073c4567"	"Poker"	"Leisure"
+53c2f320-5176-11ee-b7c8-e385952d03b8	"🎓"	"53c2f320-5176-11ee-b7c8-e385952d03b8"	"Cégep du Vieux Montréal"	"Universities"
+544f96c0-4354-11ee-b00c-b95036984391	"🎓"	"544f96c0-4354-11ee-b00c-b95036984391"	"ÉTS"	"Universities"
+557416b0-3d0b-11ee-a0b5-a3a6fbdfc7e4	"🖼"	"557416b0-3d0b-11ee-a0b5-a3a6fbdfc7e4"	"Multimedia"	"Leisure"
+56f25cd0-3d0c-11ee-a0b5-a3a6fbdfc7e4	"🏅"	"56f25cd0-3d0c-11ee-a0b5-a3a6fbdfc7e4"	"Biathlon"	"Sports"
+5918c390-5176-11ee-b7c8-e385952d03b8	"🎓"	"5918c390-5176-11ee-b7c8-e385952d03b8"	"Cégep de Saint-Laurent"	"Universities"
+5b808ec0-5c8d-11ee-8ae0-fb963ffbedc0	"🏑"	"5b808ec0-5c8d-11ee-8ae0-fb963ffbedc0"	"Bandy"	"Sports"
+5c293e20-3d0d-11ee-a0b5-a3a6fbdfc7e4	"🥋"	"5c293e20-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Martial Arts"	"Sports"
+5d915360-5176-11ee-b7c8-e385952d03b8	"🎓"	"5d915360-5176-11ee-b7c8-e385952d03b8"	"Cégep André-Laurendeau"	"Universities"
+5ff14480-595a-11ee-b5d1-c71b8dcecc69	"🎻"	"5ff14480-595a-11ee-b5d1-c71b8dcecc69"	"Orchestra"	"Musique"
+603b4e80-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🏃‍♂️"	"603b4e80-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Track & Field"	"Sports"
+62300f20-8587-11ee-82f0-3fee77b170ec	"👯‍♀️"	"62300f20-8587-11ee-82f0-3fee77b170ec"	"Dance"	"Sports"
+62a4a7f0-589a-11ee-b119-ed05073c4567	"👹"	"62a4a7f0-589a-11ee-b119-ed05073c4567"	"Horror moovie"	"Leisure"
+62af9690-5c8e-11ee-8ae0-fb963ffbedc0	"🎭"	"62af9690-5c8e-11ee-8ae0-fb963ffbedc0"	"Children's theatre"	"Leisure"
+64d55060-3d0b-11ee-a0b5-a3a6fbdfc7e4	"🎵"	"64d55060-3d0b-11ee-a0b5-a3a6fbdfc7e4"	"Music"	"Leisure"
+66da0aa0-45ca-11ee-837b-e184466a9b82	"🎸"	"66da0aa0-45ca-11ee-837b-e184466a9b82"	"70'"	"Musique"
+68688a80-573c-11ee-8b78-9b77053f08ef	"🛼"	"68688a80-573c-11ee-8b78-9b77053f08ef"	"Roller"	"Sports"
+692eb810-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🏐"	"692eb810-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Volleyball"	"Sports"
+6f12b430-3d0d-11ee-a0b5-a3a6fbdfc7e4	"🚵‍♂️"	"6f12b430-3d0d-11ee-a0b5-a3a6fbdfc7e4"	"Motorsports/Racing"	"Sports"
+6f894e50-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🤽‍♀️"	"6f894e50-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Waterpolo"	"Sports"
+6fc14430-4ce6-11ee-931a-073fc9abbdfa	"🤣"	"6fc14430-4ce6-11ee-931a-073fc9abbdfa"	"Humor"	"Leisure"
+71108520-589a-11ee-b119-ed05073c4567	"🎬"	"71108520-589a-11ee-b119-ed05073c4567"	"Cinema"	"Leisure"
+71a43000-45ca-11ee-837b-e184466a9b82	"🎹"	"71a43000-45ca-11ee-837b-e184466a9b82"	"Piano"	"Musique"
+73229e90-3c46-11ee-bb59-7f5156da6f07	"🎶"	"73229e90-3c46-11ee-bb59-7f5156da6f07"	"Folk"	"Musique"
+7540ffc0-3d0c-11ee-a0b5-a3a6fbdfc7e4	"💪"	"7540ffc0-3d0c-11ee-a0b5-a3a6fbdfc7e4"	"Body Building"	"Sports"
+76128d30-4386-11ee-b8b1-a1b868b635cd	"🔊"	"76128d30-4386-11ee-b8b1-a1b868b635cd"	"Dubstep"	"Musique"
+79322530-3d0e-11ee-a0b5-a3a6fbdfc7e4	"🤼‍♀️"	"79322530-3d0e-11ee-a0b5-a3a6fbdfc7e4"	"Wrestling"	"Sports"

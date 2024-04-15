@@ -1,5 +1,4 @@
 import json
-import re
 import time
 from datetime import datetime
 from bs4 import BeautifulSoup
@@ -14,23 +13,16 @@ import requests
 import re
 
 ticketmaster_api_key = "XXEn18ypu1or6412B7C4P6iP3EFO7Mfx"
-openai.api_key = "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"
+openai.api_key = "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"
 
 def generate_tags(title, description):
-    # Concatenar título e descrição para uma representação mais abrangente do evento
     text_to_search = f"{title} {description}" if description else title
 
-    # Limpar e processar o texto antes de enviar para a API do Ticketmaster
     cleaned_text = text_to_search.lower() if text_to_search else ""
-    cleaned_text = re.sub(r'[^\w\s]', '', cleaned_text)  # Remover caracteres especiais
+    cleaned_text = re.sub(r'[^\w\s]', '', cleaned_text)
 
-    # Chamada à API da Ticketmaster para obter tags iniciais
     initial_tags = get_ticketmaster_tags(cleaned_text)
-
-    # Chamada à função GPT para gerar tags adicionais
     gpt_tags = generate_tags_with_gpt_api(title, description)
-
-    # Combinar as tags da Ticketmaster com as tags da GPT
     combined_tags = list(set(initial_tags + gpt_tags))
 
     return combined_tags
@@ -51,44 +43,34 @@ def get_ticketmaster_tags(cleaned_text):
         return []
 
 def generate_tags_with_gpt_api(title, description):
-    # Concatenar título e descrição para entrada na função GPT
+
     prompt = f"Evento: {title}\nDescrição: {description}\nTags:"
 
-    # Usar a função completar da GPT para gerar tags adicionais
     response = openai.Completion.create(
-        engine="davinci-002",  # Usar o modelo text-davinci
+        engine="davinci-002",
         prompt=prompt,
-        max_tokens=50,  # Defina o número máximo de tokens para a saída das tags
-        n=10,  # Defina o número de respostas para gerar
-        stop="\n"  # Parar na primeira quebra de linha para obter a lista de tags
+        max_tokens=50,
+        n=20,
+        stop="\n"
     )
 
-    # Extrair as tags geradas pela função GPT
     gpt_tags = [tag["text"].strip() for tag in response["choices"]]
 
-    # Processar as tags para extrair apenas palavras-chave e aplicar as modificações necessárias
-    keyword_tags = []
+    keyword_tags = set()
     for tag in gpt_tags:
-        # Separar a tag em palavras
+        tag = re.sub(r'[^\w\s]', '', tag)
         words = tag.split()
-        # Remover palavras com menos de 3 caracteres
         words = [word for word in words if len(word) >= 3]
-        # Garantir que cada palavra comece com letra maiúscula
         words = [word.capitalize() for word in words]
-        # Limitar o número de palavras para no máximo duas
-        words = words[:3]
-        # Juntar as palavras novamente em uma única tag
         formatted_tag = " ".join(words)
-        # Adicionar a tag à lista final, se ela não estiver vazia
-        if formatted_tag:
-            keyword_tags.append(formatted_tag)
+        if formatted_tag and all(formatted_tag not in t for t in keyword_tags):
+            keyword_tags.add(formatted_tag)
 
-    # Garantir que haja exatamente 10 tags
+    keyword_tags = list(keyword_tags)[:10]
 
-    return keyword_tags[:10]
+    return keyword_tags
 
-
-# Exemplo de uso
+# EXAMPLE OF TAG
 title = "Artisan Fair & Summerlea Book Sale"
 description = "Save the date!  Artisan Fair & Summerlea Book Sale on Sat, May 11 - 10am-3pm and Summerlea Book Sale on Friday, May 10 - 10am-3pm"
 tags = generate_tags(title, description)
@@ -280,7 +262,7 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=20):
             'EventUrl': event_url,
             'StartTime': start_time,
             'EndTime': end_time,
-            'gpttags': tags,
+            'Tags': tags,
             'Event_Id': event_id_counter
         }
 
