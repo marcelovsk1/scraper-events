@@ -15,26 +15,7 @@
         "CountryCode": "ca",
         "Latitude": 53.5508437,
         "Longitude": -113.4899445,
-        "GPTtags": [
-            "theatre",
-            "#laugh",
-            "movie",
-            "tickets",
-            "com",
-            "show",
-            "concert",
-            "live",
-            "music",
-            "sports",
-            "discounts",
-            "entertainment",
-            "events",
-            "tix",
-            "seatsNow",
-            "seats",
-            "cheap",
-            "#classy"
-        ],
+        "GPTtags": [],
         "EventUrl": "https://www.eventbrite.ca/e/-toujours-lukraine-ukraine-lives-tickets-823207966187?aff=ebdssbdestsearch",
         "MapURL": "https://www.google.com/maps/search/?api=1&query=53.5508437,-113.4899445"
     },
@@ -43,7 +24,7 @@
         "Description": "Elevate your network at Montreal's top event for business leaders | \u00c9levez votre r\u00e9seau au top \u00e9v\u00e9nement \u00e0 Montr\u00e9al pour leaders en affaires",
         "Date": "Wed, Apr 24, 2024 6:00 PM - 9:00 PM EDT",
         "Location": "Restaurant Pangea",
-        "Price": null,
+        "Price": "From $44.50",
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
         "Organizer": null,
         "Organizer_IMG": null,
@@ -63,7 +44,7 @@
         "Description": "Get ready to become a camping pro at Learn-to Camp, where we'll teach you all the basics and secrets of camping in a fun and interactive wor",
         "Date": "Sat, Apr 20, 2024 9:00 AM - 12:00 PM EDT",
         "Location": "Gr\u00e2ce Notre Dame Park, Avenue Girouard, Montr\u00e9al, QC, Canada",
-        "Price": null,
+        "Price": "$0 \u2013 $27.96",
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
         "Organizer": null,
         "Organizer_IMG": null,
@@ -75,10 +56,12 @@
         "Latitude": null,
         "Longitude": null,
         "GPTtags": [
-            "Design",
-            "Innovate",
-            "Learn",
-            "Create"
+            ".sport",
+            "com",
+            ".kid",
+            ".cheap",
+            ".cool",
+            ".deals"
         ],
         "EventUrl": "https://www.eventbrite.com/e/learn-to-camp-camping-workshop-beginners-tickets-781041334657?aff=ebdssbdestsearch"
     },
@@ -98,9 +81,7 @@
         "CountryCode": "ca",
         "Latitude": 45.5039845,
         "Longitude": -73.5627637,
-        "GPTtags": [
-            "vs"
-        ],
+        "GPTtags": [],
         "EventUrl": "https://www.eventbrite.ca/e/vbhc-summit-of-the-americas-1st-dragons-grant-of-the-americas-tickets-805974029017?aff=ebdssbdestsearch",
         "MapURL": "https://www.google.com/maps/search/?api=1&query=45.5039845,-73.5627637"
     },
@@ -140,10 +121,8 @@
         "Latitude": null,
         "Longitude": null,
         "GPTtags": [
-            "munication",
-            "taggenreedm",
-            "general",
-            "arts"
+            "Harestucker",
+            "edit"
         ],
         "EventUrl": "https://www.eventbrite.ca/e/sunday-stand-up-spectacular-live-comedy-by-mtlcomedyclubcom-tickets-866912407347?aff=ebdssbdestsearch"
     },
@@ -163,9 +142,7 @@
         "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
-        "GPTtags": [
-            "Admission"
-        ],
+        "GPTtags": [],
         "EventUrl": "https://www.eventbrite.ca/e/midweek-comedy-bash-stand-up-comedy-show-mtlcomyclubcom-tickets-853371897317?aff=ebdssbdestsearch"
     },
     {
@@ -184,7 +161,20 @@
         "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
-        "GPTtags": [],
+        "GPTtags": [
+            "events:[stit-to",
+            "o-air-lis",
+            "IBBB",
+            "karaoke",
+            "comedy",
+            "IBAJ",
+            "theatre",
+            "susan",
+            "MJMA",
+            "dance",
+            "JMQA",
+            "circus"
+        ],
         "EventUrl": "https://www.eventbrite.ca/e/thursday-night-chuckles-stand-up-comedy-show-mtlcomedyclubcom-tickets-853377524147?aff=ebdssbdestsearch"
     },
     {
@@ -203,18 +193,7 @@
         "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
-        "GPTtags": [
-            "ADRIFT",
-            "alien",
-            "alternative",
-            "NET",
-            "antique",
-            "alpenfest",
-            "anime",
-            "animals",
-            "air-soft",
-            "annual"
-        ],
+        "GPTtags": [],
         "EventUrl": "https://www.eventbrite.ca/e/sunday-silliness-hilarious-stand-up-comedy-by-mtlcomedyclubcom-tickets-866870502007?aff=ebdssbdestsearch"
     },
     {
@@ -234,24 +213,14 @@
         "Latitude": null,
         "Longitude": null,
         "GPTtags": [
-            ".sports",
-            ".tokyo",
-            "\u201c",
-            "com",
-            ".denver",
-            ".music",
-            ".paris",
-            ".tv",
-            ".chicago",
-            ".country",
-            ".nashville"
+            "Running"
         ],
         "EventUrl": "https://www.eventbrite.ca/e/brass-door-comedy-club-sunday-laughter-destination-by-mtlcomedyclubcom-tickets-866898866847?aff=ebdssbdestsearch"
     },
     {
         "Title": "Laughs : Comedy Night at Brass Door BY MTLCOMEDYCLUB.COM",
         "Description": "Sunday at 8pm at Brass Door on Crescent in downtown Montreal!",
-        "Date": "Sunday, April 14 \u00b7 8 - 9:30pm EDT",
+        "Date": "Sunday, April 14 \u00b7 8 - 9:30pm GMT-4",
         "Location": "Brass Door Pub",
         "Price": null,
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
@@ -302,7 +271,9 @@
         "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
-        "GPTtags": [],
+        "GPTtags": [
+            "sports"
+        ],
         "EventUrl": "https://www.eventbrite.ca/e/comedy-delight-at-brass-door-by-mtlcomedyclubcom-tickets-866891795697?aff=ebdssbdestsearch"
     },
     {
@@ -310,7 +281,7 @@
         "Description": "Workshops & Social Event tickets for CSPM Meeting only. For full conference program tickets, visit: www.canadiansocietyforpelvicmedicine.org",
         "Date": "Fri, Apr 12, 2024 8:30 AM - Sun, Apr 14, 2024 5:00 PM EDT",
         "Location": "Research Center CrChum",
-        "Price": null,
+        "Price": "$294.28",
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
         "Organizer": null,
         "Organizer_IMG": null,
@@ -322,15 +293,24 @@
         "Latitude": null,
         "Longitude": null,
         "GPTtags": [
-            ".concerts.",
-            ".comedy-hydepark.",
-            ".bluegrass.",
-            ".com",
-            ".jambands.",
-            ".country.",
-            "action-adventure.",
-            ".alternative",
-            ".bands-for-hire"
+            "New",
+            "Electronic",
+            "Drama",
+            "Comedy",
+            "Concert",
+            "Blues",
+            "Celtic",
+            "Festival",
+            "Big-Band/Jazz",
+            "Broadway",
+            "Latin",
+            "Classical",
+            "Dance",
+            "Americana",
+            "Country",
+            "International",
+            "Jazz/Fusion",
+            "Alternative"
         ],
         "EventUrl": "https://www.eventbrite.ca/e/5th-annual-meeting-of-the-canadian-society-for-pelvic-medicine-tickets-679807391207?aff=ebdssbdestsearch"
     },
@@ -350,7 +330,21 @@
         "CountryCode": "ca",
         "Latitude": 47.8671994,
         "Longitude": 2.220839,
-        "GPTtags": [],
+        "GPTtags": [
+            ".venue.identifier",
+            ".genre",
+            ".billType",
+            ".billNum.attr",
+            ".billNum",
+            ".qvMain",
+            ".houseType",
+            "cityCode",
+            ".eventCommunities",
+            ".billInfo",
+            ".rating",
+            ".venue",
+            ".rating.attr"
+        ],
         "EventUrl": "https://www.eventbrite.com/e/billets-afrovibe-x-caribbeanvybz-877574267257?aff=ebdssbdestsearch",
         "MapURL": "https://www.google.com/maps/search/?api=1&query=47.8671994,2.220839"
     },
@@ -359,7 +353,7 @@
         "Description": "Late night improv comedy!",
         "Date": "Saturday, April 13 \u00b7 9:30 - 10:30pm EDT",
         "Location": "Impro Montr\u00e9al / Montreal Improv",
-        "Price": null,
+        "Price": "From CA$0",
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
         "Organizer": null,
         "Organizer_IMG": null,
@@ -370,11 +364,7 @@
         "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
-        "GPTtags": [
-            "cover_fun",
-            ".frightening",
-            ".family_safe"
-        ],
+        "GPTtags": [],
         "EventUrl": "https://www.eventbrite.ca/e/last-call-tickets-870289869427?aff=ebdssbdestsearch"
     },
     {
@@ -393,11 +383,7 @@
         "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
-        "GPTtags": [
-            "com",
-            ".tv",
-            ".tv.com"
-        ],
+        "GPTtags": [],
         "EventUrl": "https://www.eventbrite.ca/e/the-immigrant-edition-tickets-874577574067?aff=ebdssbdestsearch"
     },
     {
@@ -416,7 +402,9 @@
         "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
-        "GPTtags": [],
+        "GPTtags": [
+            "remove"
+        ],
         "EventUrl": "https://www.eventbrite.ca/e/executive-exchange-networking-cocktail-8th-edition-tickets-733981647867?aff=ebdssbdestsearch"
     },
     {
@@ -424,7 +412,7 @@
         "Description": "Join us for a hands-on Qi Gong workshop with Craig Cormack, perfect for Integrative Medicine enthusiasts like you!",
         "Date": "Thursday, April 25 \u00b7 6 - 7:30pm EDT",
         "Location": "11D-2100 Marlowe Ave (NDG), Montreal, Quebec H4A 3K5",
-        "Price": null,
+        "Price": "From CA$50",
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
         "Organizer": null,
         "Organizer_IMG": null,
@@ -436,8 +424,9 @@
         "Latitude": null,
         "Longitude": null,
         "GPTtags": [
-            "edu",
-            "Instagram"
+            "droga5",
+            "adwcid",
+            "disney"
         ],
         "EventUrl": "https://www.eventbrite.ca/e/qi-gong-for-practitioners-of-integrative-medicine-with-craig-cormack-tickets-877517547607?aff=ebdssbdestsearch"
     },
@@ -446,7 +435,7 @@
         "Description": "Your real-life stories, our made up jokes!",
         "Date": "Friday, April 12 \u00b7 8 - 9pm EDT",
         "Location": "Impro Montr\u00e9al / Montreal Improv",
-        "Price": null,
+        "Price": "From CA$6.66",
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
         "Organizer": null,
         "Organizer_IMG": null,

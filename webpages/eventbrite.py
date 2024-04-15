@@ -8,11 +8,11 @@ import geopy
 from geopy.geocoders import Nominatim
 import geopy.exc
 from unidecode import unidecode
-import re
 import requests
 import openai
+import re
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def get_ticketmaster_tags(api_key):
     endpoint = "https://app.ticketmaster.com/discovery/v2/classifications/segmentName.json"
@@ -35,35 +35,48 @@ def get_ticketmaster_tags(api_key):
 ticketmaster_api_key = "XXEn18ypu1or6412B7C4P6iP3EFO7Mfx"
 ticketmaster_tags = get_ticketmaster_tags(ticketmaster_api_key)
 
+# Modificando as tags obtidas da Ticketmaster
+ticketmaster_tags = [tag.capitalize() for tag in ticketmaster_tags]
 
 print("Tags da Ticketmaster:", ticketmaster_tags)
 
 
-def generate_tags(ticketmaster_tags):
-    ticketmaster_tags_str = ", ".join(ticketmaster_tags)
-    prompt = f"Generate additional tags relevant to scraped events. Tags must be one-word, unique keywords. Consider genres, themes, and activities commonly associated with events. Ticketmaster tags: {ticketmaster_tags_str}."
+def generate_tags(title, description, ticketmaster_tags):
+    formatted_ticketmaster_tags = ", ".join(ticketmaster_tags)
+    prompt = (
+        f"Generate tags related to the event {title}. "
+        f"This is the description of our events: {description}. These tags must be short, "
+        "one-word keywords that accurately represent the essence of the event. "
+        "Separate each tag with a comma and ensure that each tag is unique. "
+        "Avoid including irrelevant information or instructions in the tags. "
+        "Focus solely on keywords that describe the event. Example tags for this event "
+        "could include: - Brunch - Montreal - Music - DJ - Entertainment - Social - Food - Drinks. "
+        "Please avoid using full sentences or phrases as tags. Ensure that the tags are concise and "
+        f"directly relevant to the event. Ticketmaster tags: {', '.join(ticketmaster_tags)}."
+    )
 
     response = openai.Completion.create(
         engine="davinci-002",
         prompt=prompt,
-        max_tokens=50,
+        max_tokens=100,
         n=1,
         stop=None
     )
 
+
     generated_tags = response.choices[0].text.strip().split(",")
-    formatted_generated_tags = [tag.strip() for tag in generated_tags]
+    formatted_generated_tags = [tag.strip().capitalize() for tag in generated_tags]
 
-    filtered_tags = [tag for tag in formatted_generated_tags if len(tag.split()) == 1]
+    # Remover caracteres especiais e números das tags geradas
+    clean_tags = [re.sub(r'[#._\d]', '', tag) for tag in formatted_generated_tags]
 
-    combined_tags = ticketmaster_tags + filtered_tags
-    unique_tags = list(set(combined_tags))
+    # Filtrar tags com pelo menos uma letra
+    filtered_tags = [tag for tag in clean_tags if re.match(r'[a-zA-Z]', tag)]
 
-    return unique_tags
+    return filtered_tags
 
-tags = generate_tags(ticketmaster_tags)
+tags = generate_tags("Event Title", "Event Description", ticketmaster_tags)
 print("Tags geradas:", tags)
-
 
 
 def scroll_to_bottom(driver, max_clicks=5):
@@ -295,7 +308,8 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=10):
             location_element = event_page.find('p', class_='location-info__address-text')
             location = location_element.text.strip() if location_element else None
             ImageURL = get_previous_page_image_url(driver)
-            tags = generate_tags(ticketmaster_tags)
+            tags = generate_tags("Event Title", "Event Description", ticketmaster_tags)
+
 
             # Obtenha as coordenadas de latitude e longitude
             latitude, longitude = get_coordinates(location)
