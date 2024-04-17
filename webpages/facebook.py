@@ -1,61 +1,78 @@
 import json
-import re
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
 from datetime import datetime
 from geopy.geocoders import Nominatim
 import openai
+import re
+import random
 
-openai.api_key = ""
+openai.api_key = "sk-proj-pziSQ8CLb0WKqFvrOZpKT3BlbkFJdz7483mX5OOxY8Qgfhnz"
 
-# Variável global para rastrear o ID
-event_id_counter = 1
+def select_related_tags_with_gpt(title, description, tags_list, num_tags=5):
+    """
+    Select related tags from the given list based on the title and description of the event,
+    using GPT-3.5 to assist in tag selection.
 
-def generate_tags(title, description):
-    prompt = (
-        f"Generate tags related to the event \"{title}\". "
-        "These tags must be short, one-word keywords that accurately represent the essence of the event. "
-        "Please provide keywords that are directly related to the event title and description, and can be used as tags. "
-        "Here's a brief description of the event:\n"
-        f"{description}\n\n"
-        "Separate each tag with a comma and ensure that each tag is unique.\n"
-        "Avoid including irrelevant information or instructions in the tags. "
-        "Focus solely on keywords that describe the event."
-        "Separate each tag with a comma and ensure that each tag is unique.\n"
-        "Tags:\n"
-        "   \"Canada Events\",\n"
-        "   \"Quebec Events\",\n"
-        "   \"Things to do in Montreal, Canada\",\n"
-        "   \"Montreal Conferences\",\n"
-        "   \"Montreal Other Conferences\",\n"
-        "   \"diversity\",\n"
-        "   \"futureofwork\",\n"
-        "   \"conference\",\n"
-        "   \"academic\",\n"
-        "   \"futureskills\",\n"
-        "   \"wil\",\n"
-        "   \"future_of_work\",\n"
-        "   \"futureworkforce\",\n"
-        "   \"human_resources\",\n"
-        "   \"experiential_learning\"\n"
-    )
+    Args:
+    - title (str): The title of the event.
+    - description (str): The description of the event.
+    - tags_list (list): List of tags, each tag represented as a dictionary.
+    - num_tags (int): Number of tags to select. Default is 5.
 
+    Returns:
+    - selected_tags (list): List of selected tags for the event.
+    """
+    # Concatenate title and description to form the prompt
+    prompt = f"Title: {title}\nDescription: {description}\nTags:"
+
+    # Generate GPT-3.5 completions to assist in selecting related tags
     response = openai.Completion.create(
         engine="davinci-002",
         prompt=prompt,
-        max_tokens=150,
-        n=1,
-        stop=None
+        max_tokens=50,
+        stop=None,  # Stop sequence for completion generation
+        temperature=0.7,  # Temperature parameter for randomness in generation
+        top_p=1,  # Nucleus sampling parameter
+        frequency_penalty=0,  # Frequency penalty parameter
+        presence_penalty=0.6,  # Presence penalty parameter
+        best_of=1,  # Number of completions to return
     )
 
-    tags = response.choices[0].text.strip().split(",")  # Obtem as tags do GPT
-    formatted_tags = [tag.strip() for tag in tags]  # Remove espaços extras
+    # Extract selected tags from GPT-3.5 completions
+    selected_tags = response.choices[0].text.strip().split(',')
 
-    # Formata as tags conforme o padrão esperado
-    formatted_tags_str = ",\n".join(['   "{}"'.format(tag.strip()) for tag in formatted_tags])
+    # Filter selected tags to ensure they are present in the provided tag list
+    selected_tags = [tag.strip() for tag in selected_tags if any(tag.strip().lower() == tag_name.lower() for tag_name in [tag['name'] for tag in tags_list])]
 
-    return formatted_tags_str
+    # Select a random subset of tags if there are more than num_tags selected
+    if len(selected_tags) > num_tags:
+        selected_tags = random.sample(selected_tags, num_tags)
+
+    # If fewer than num_tags are selected, select additional random tags from the provided tag list
+    while len(selected_tags) < num_tags:
+        remaining_tags = [tag['name'] for tag in tags_list if tag['name'] not in selected_tags]
+        additional_tag = random.choice(remaining_tags)
+        selected_tags.append(additional_tag)
+
+    return selected_tags
+
+
+# Example usage:
+title = "Startup Event"
+description = "Join us for an exciting event showcasing the latest innovations in the startup world."
+tags = [
+    {"id": "005a4420-88c3-11ee-ab49-69be32c19a11", "name": "Startup", "emoji": "🚀", "tagCategory": "Education"},
+    {"id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07", "name": "Reggae", "emoji": " 💚", "tagCategory": "Musique"},
+    {"id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4", "name": "Squash", "emoji": "🏸", "tagCategory": "Sports"},
+    {"id": "0159ac60-3d0c-11ee-a0b5-a3a6fbdfc7e4", "name": "Aquatics", "emoji": "🏊‍♂️", "tagCategory": "Sports"},
+    {"id": "01785870-4ce5-11ee-931a-073fc9abbdfa", "name": "Karaoke", "emoji": "🎤", "tagCategory": "Leisure"}
+    # Add more tags as needed
+]
+selected_tags = select_related_tags_with_gpt(title, description, tags)
+print(selected_tags)
+
 
 
 def scroll_to_bottom(driver, max_scroll=1):
@@ -119,7 +136,7 @@ def get_location_details(latitude, longitude):
         return None, None, None
 
 
-def scrape_facebook_events(driver, url, selectors, max_scroll=30):
+def scrape_facebook_events(driver, url, selectors, max_scroll=3):
     global event_id_counter  # Referenciando a variável global
 
     driver.get(url)
@@ -158,42 +175,13 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=30):
 
         description = event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs').text.strip() if event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs') else None
 
-        tags = generate_tags(event_title, description if description else "")
-
-        location_div = event_page.find('div', class_='x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f')
-        events = webpage.find_all(selectors['event']['tag'], class_=selectors['event'].get('class'))
-
-    for event in events:
-        event_link = event.find('a', href=True)
-        if not event_link:
-            continue
-
-        event_url = 'https://www.facebook.com' + event_link['href'] if event_link['href'].startswith('/') else event_link['href']
-
-        driver.get(event_url)
-        time.sleep(1)
-
-        event_page_content = driver.page_source
-        event_page = BeautifulSoup(event_page_content, 'html.parser')
-
-        event_title_elem = event_page.find('span', class_='x1lliihq x6ikm8r x10wlt62 x1n2onr6')
-        if event_title_elem:
-            event_title = event_title_elem.text.strip()
-            if any(event_title == existing_title for existing_title in unique_event_titles):
-                continue
-        else:
-            continue
-
-        description = event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs').text.strip() if event_page.find('div', class_='xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs') else None
-
-        tags = generate_tags(event_title, description if description else "")
-
         location_div = event_page.find('div', class_='x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv xzsf02u x1s688f')
         location_span = event_page.find('span', class_='xt0psk2')
         location_text = location_div.text.strip() if location_div else (location_span.text.strip() if location_span else None)
 
         latitude, longitude = get_coordinates(location_text)
         google_maps_url = open_google_maps(latitude, longitude)
+        event_id_counter = 0
 
         address_span = event_page.find('span', class_='x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x1f6kntn xvq8zen xo1l8bm xi81zsa x1yc453h')
         address = address_span.text.strip() if address_span else None
@@ -252,8 +240,6 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=30):
 
         all_events.append(event_info)
         unique_event_titles.add(event_title)
-
-        event_id_counter += 1  # Incrementando o contador de ID
 
         driver.back()
 
