@@ -8,75 +8,54 @@ from selenium.webdriver.chrome.options import Options
 import geopy
 from geopy.geocoders import Nominatim
 from unidecode import unidecode
-import openai
-import requests
 import re
+import openai
 
-ticketmaster_api_key = "XXEn18ypu1or6412B7C4P6iP3EFO7Mfx"
-openai.api_key = "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"
+openai.api_key = "sk-proj-OES7kV3v4riH8Rr3iFwGT3BlbkFJ0FdXh91c4epoblzOTvfW"
 
 def generate_tags(title, description):
-    text_to_search = f"{title} {description}" if description else title
+    predefined_tags = [
+        "Startup", "Reggae", "Squash", "Aquatics", "Karaoke", "Holiday",
+        "Roller Derby", "Singing", "Chess", "Blues", "Golf", "Athletic Races",
+        "Surfing", "Book", "Fashion", "Punk", "Religious", "Gymnastics", "Hiking",
+        "Cycling", "Fencing", "Yoga", "Photography", "Jazz", "Pop", "R&B",
+        "Rock", "Soul", "Classical", "Baseball", "Country", "Folk", "Hip-Hop",
+        "Dance", "Indie", "Metal", "Punk Rock", "Reggaeton", "Tennis", "Basketball",
+        "Gospel", "Rock and Roll", "Ska", "Soul", "Techno", "World Music"
+    ]
 
-    cleaned_text = text_to_search.lower() if text_to_search else ""
-    cleaned_text = re.sub(r'[^\w\s]', '', cleaned_text)
-
-    initial_tags = get_ticketmaster_tags(cleaned_text)
-    gpt_tags = generate_tags_with_gpt_api(title, description)
-    combined_tags = list(set(initial_tags + gpt_tags))
-
-    return combined_tags
-
-def get_ticketmaster_tags(cleaned_text):
-    url = f"https://app.ticketmaster.com/discovery/v2/suggest?keyword={cleaned_text}&apikey={ticketmaster_api_key}&countryCode=US"
-    response = requests.get(url)
-
-    if response.status_code == 200:
-        tags = []
-        data = response.json()
-        if "_embedded" in data and "attractions" in data["_embedded"]:
-            for attraction in data["_embedded"]["attractions"]:
-                tags.append(attraction["name"])
-        return tags
-    else:
-        print("Error fetching data from Ticketmaster API")
-        return []
-
-def generate_tags_with_gpt_api(title, description):
-
-    prompt = f"Evento: {title}\nDescrição: {description}\nTags:"
+    prompt = (
+        f"Based on the event \"{title}\" and its \"{description}\", choose 5 relevant tags from the following predefined tags:\n\n"
+        f"{', '.join(predefined_tags)}"
+    )
 
     response = openai.Completion.create(
         engine="davinci-002",
         prompt=prompt,
-        max_tokens=50,
-        n=20,
-        stop="\n"
+        max_tokens=150,
+        n=5,
+        temperature=1,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0
     )
 
-    gpt_tags = [tag["text"].strip() for tag in response["choices"]]
+    suggested_tags = [tag.strip() for choice in response.choices for tag in choice.text.strip().split(",")]
+    relevant_tags = [tag for tag in suggested_tags if tag in predefined_tags]
 
-    keyword_tags = set()
-    for tag in gpt_tags:
-        tag = re.sub(r'[^\w\s]', '', tag)
-        words = tag.split()
-        words = [word for word in words if len(word) >= 3]
-        words = [word.capitalize() for word in words]
-        formatted_tag = " ".join(words)
-        if formatted_tag and all(formatted_tag not in t for t in keyword_tags):
-            keyword_tags.add(formatted_tag)
+    if len(relevant_tags) < 5:
+        additional_tags = predefined_tags[:5 - len(relevant_tags)]
+        relevant_tags.extend(additional_tags)
 
-    keyword_tags = list(keyword_tags)[:10]
+    return relevant_tags[:5]
 
-    return keyword_tags
+# Exemplo de uso:
+title = "Inter Miami x Orlando City"
+description = "MLS Cup Final Match"
 
-# EXAMPLE OF TAG
-title = "Artisan Fair & Summerlea Book Sale"
-description = "Save the date!  Artisan Fair & Summerlea Book Sale on Sat, May 11 - 10am-3pm and Summerlea Book Sale on Friday, May 10 - 10am-3pm"
 tags = generate_tags(title, description)
-print("Tags for the event:")
-for tag in tags:
-    print("-", tag)
+print("Tags relacionadas encontradas:", tags)
+
 
 
 def calculate_similarity(str1, str2):
