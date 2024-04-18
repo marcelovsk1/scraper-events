@@ -8,8 +8,8 @@ from selenium.webdriver.chrome.options import Options
 import geopy
 from geopy.geocoders import Nominatim
 from unidecode import unidecode
-import openai
 import re
+import openai
 
 openai.api_key = "sk-proj-OES7kV3v4riH8Rr3iFwGT3BlbkFJ0FdXh91c4epoblzOTvfW"
 
@@ -34,23 +34,24 @@ def generate_tags(title, description):
         prompt=prompt,
         max_tokens=150,
         n=5,
-        stop=None
+        temperature=1,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0
     )
 
-    suggested_tags = [choice.text.strip().split(",") for choice in response.choices]
+    suggested_tags = [tag.strip() for choice in response.choices for tag in choice.text.strip().split(",")]
+    relevant_tags = [tag for tag in suggested_tags if tag in predefined_tags]
 
-    relevant_tags = []
-    for tags in suggested_tags:
-        for tag in tags:
-            tag_striped = tag.strip()
-            if tag_striped in predefined_tags and tag_striped not in relevant_tags:
-                relevant_tags.append(tag_striped)
+    if len(relevant_tags) < 5:
+        additional_tags = predefined_tags[:5 - len(relevant_tags)]
+        relevant_tags.extend(additional_tags)
 
     return relevant_tags[:5]
 
-# EXAMPLE
-title = "Psy Crisis IV: JUNGLE"
-description = "With immense joy and excitement, Wizard Tribe in collaboration with AlpaKa MuziK/Productions present..."
+# Exemplo de uso:
+title = "Burning Sun - Terrace Party"
+description = "Saturday seclusion, an opportunity to experience the power of a party that creates community. A gathering that celebrates not just the music, but the importance of all that lies before us."
 
 tags = generate_tags(title, description)
 print("Tags relacionadas encontradas:", tags)
