@@ -86,9 +86,13 @@ def generate_tags(title, description):
 
     if len(relevant_tags) < 5:
         additional_tags = predefined_tags[:5 - len(relevant_tags)]
-        relevant_tags.extend([tag['name'] for tag in additional_tags])
+        relevant_tags.extend(additional_tags)
 
-    return relevant_tags[:5]
+    formatted_tags = [
+        {"id": tag['id'], "name": tag['name'], "emoji": tag['emoji'], "tagCategory": tag['tagCategory']}
+                      for tag in predefined_tags if tag['name'] in relevant_tags]
+
+    return formatted_tags
 
 # Exemplo de uso:
 title = "Inter Miami x Orlando City"
@@ -96,6 +100,7 @@ description = "MLS Cup Final Match"
 
 tags = generate_tags(title, description)
 print("Tags relacionadas encontradas:", tags)
+
 
 
 def calculate_similarity(str1, str2):
