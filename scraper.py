@@ -41,7 +41,10 @@ def generate_tags(title, description):
 
     relevant_tags = []
     for tags in suggested_tags:
-        relevant_tags.extend([tag.strip() for tag in tags if tag.strip() in predefined_tags])
+        for tag in tags:
+            tag_striped = tag.strip()
+            if tag_striped in predefined_tags and tag_striped not in relevant_tags:
+                relevant_tags.append(tag_striped)
 
     return relevant_tags[:5]
 
@@ -51,6 +54,7 @@ description = "With immense joy and excitement, Wizard Tribe in collaboration wi
 
 tags = generate_tags(title, description)
 print("Tags relacionadas encontradas:", tags)
+
 
 
 def calculate_similarity(str1, str2):
