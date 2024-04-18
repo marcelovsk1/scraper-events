@@ -1,0 +1,73 @@
+[
+    {
+        "Title": "Learn-to Camp, camping workshop (Beginners)",
+        "Description": "Get ready to become a camping pro at Learn-to Camp, where we'll teach you all the basics and secrets of camping in a fun and interactive wor",
+        "Date": "Sat, Apr 20, 2024 9:00 AM - 12:00 PM EDT",
+        "Location": "Gr\u00e2ce Notre Dame Park, Avenue Girouard, Montr\u00e9al, QC, Canada",
+        "Price": null,
+        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
+        "Organizer": null,
+        "Organizer_IMG": null,
+        "Image URL Organizer": null,
+        "StartTime": "Saturday, Apr 20, 2024 9:00 AM",
+        "EndTime": "12:00 PM",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.com/e/learn-to-camp-camping-workshop-beginners-tickets-781041334657?aff=ebdssbdestsearch",
+        "Tags": [
+            "Singing",
+            "Basketball",
+            "Golf",
+            "Basketball"
+        ],
+        "Event_Id": 0
+    },
+    {
+        "Title": "Morocco-Quebec Biz Bash: Uniting Continents, Igniting Opportunities!",
+        "Description": "Celebrate Moroccan culture and explore business opportunities at the Morocco-Quebec Biz Bash in Montreal!",
+        "Date": "Sat, Apr 20, 2024 6:00 PM - 9:00 PM EDT",
+        "Location": "Babylon V.I.P",
+        "Price": null,
+        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
+        "Organizer": null,
+        "Organizer_IMG": null,
+        "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F737637059%2F2092964498123%2F1%2Foriginal.20240407-052559?w=400&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C400%2C400&s=d14d400c4c7b39bec6374dde0096a213",
+        "StartTime": "Saturday, Apr 20, 2024 6:00 PM",
+        "EndTime": "9:00 PM",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.ca/e/morocco-quebec-biz-bash-uniting-continents-igniting-opportunities-tickets-878825228917?aff=ebdssbdestsearch",
+        "Tags": [
+            "Singing",
+            "Dance",
+            "Tennis",
+            "Punk Rock",
+            "Holiday"
+        ],
+        "Event_Id": 0
+    },
+    {
+        "Title": "Pixel Mingle at LumaLofts",
+        "Description": "Welcome to our first community event! Bringing visual creatives together to network and produce quality content in a studio environment.",
+        "Date": "Sun, Apr 28, 2024 4:00 PM - 7:00 PM EDT",
+        "Location": "Luma Lofts Creative Space for Rent",
+        "Price": 33.36,
+        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F681255919%2F369560566375%2F1%2Foriginal.20240123-233436?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=304b229c8d3bfb1a195395e75a3f8c09",
+        "Organizer": null,
+        "Organizer_IMG": null,
+        "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F726818209%2F2071437869193%2F1%2Foriginal.20240324-010739?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=6%2C0%2C1416%2C1416&s=46d84d4870196606a972d579c467e264",
+        "StartTime": "Sunday, Apr 28, 2024 4:00 PM",
+        "EndTime": "7:00 PM",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.ca/e/pixel-mingle-at-lumalofts-tickets-870235577037?aff=ebdssbdestsearch",
+        "Tags": [
+            "Photography",
+            "Photography",
+            "Baseball",
+            "Basketball",
+            "Pop"
+        ],
+        "Event_Id": 0
+    }
+]

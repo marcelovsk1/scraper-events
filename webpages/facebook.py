@@ -4,75 +4,60 @@ from bs4 import BeautifulSoup
 import time
 from datetime import datetime
 from geopy.geocoders import Nominatim
-import openai
 import re
-import random
+import openai
 
-openai.api_key = "sk-proj-pziSQ8CLb0WKqFvrOZpKT3BlbkFJdz7483mX5OOxY8Qgfhnz"
+openai.api_key = "sk-proj-OES7kV3v4riH8Rr3iFwGT3BlbkFJ0FdXh91c4epoblzOTvfW"
 
-def select_related_tags_with_gpt(title, description, tags_list, num_tags=5):
-    """
-    Select related tags from the given list based on the title and description of the event,
-    using GPT-3.5 to assist in tag selection.
+def generate_tags(title, description):
+    predefined_tags = [
+        "Startup", "Reggae", "Squash", "Aquatics", "Karaoke", "Holiday",
+        "Roller Derby", "Singing", "Chess", "Blues", "Golf", "Athletic Races",
+        "Surfing", "Book", "Fashion", "Punk", "Religious", "Gymnastics", "Hiking",
+        "Cycling", "Fencing", "Yoga", "Photography", "Jazz", "Pop", "R&B",
+        "Rock", "Soul", "Classical", "Baseball", "Country", "Folk", "Hip-Hop",
+        "Dance", "Indie", "Metal", "Punk Rock", "Reggaeton", "Tennis", "Basketball",
+        "Gospel", "Rock and Roll", "Ska", "Soul", "Techno", "World Music"
+    ]
 
-    Args:
-    - title (str): The title of the event.
-    - description (str): The description of the event.
-    - tags_list (list): List of tags, each tag represented as a dictionary.
-    - num_tags (int): Number of tags to select. Default is 5.
+    # Criar a prompt personalizada
+    prompt = (
+        f"Based on the event \"{title}\" and its \"{description}\", choose 5 relevant tags from the following predefined tags:\n\n"
+        f"{', '.join(predefined_tags)}"
+    )
 
-    Returns:
-    - selected_tags (list): List of selected tags for the event.
-    """
-    # Concatenate title and description to form the prompt
-    prompt = f"Title: {title}\nDescription: {description}\nTags:"
-
-    # Generate GPT-3.5 completions to assist in selecting related tags
+    # Chamar a API do OpenAI para obter as tags relevantes com base no título e na descrição
     response = openai.Completion.create(
         engine="davinci-002",
         prompt=prompt,
-        max_tokens=50,
-        stop=None,  # Stop sequence for completion generation
-        temperature=0.7,  # Temperature parameter for randomness in generation
-        top_p=1,  # Nucleus sampling parameter
-        frequency_penalty=0,  # Frequency penalty parameter
-        presence_penalty=0.6,  # Presence penalty parameter
-        best_of=1,  # Number of completions to return
+        max_tokens=150,
+        n=5,
+        stop=None
     )
 
-    # Extract selected tags from GPT-3.5 completions
-    selected_tags = response.choices[0].text.strip().split(',')
+    # Extrair as tags sugeridas da resposta
+    suggested_tags = [choice.text.strip().split(",") for choice in response.choices]
 
-    # Filter selected tags to ensure they are present in the provided tag list
-    selected_tags = [tag.strip() for tag in selected_tags if any(tag.strip().lower() == tag_name.lower() for tag_name in [tag['name'] for tag in tags_list])]
+    # Retornar apenas as tags que estão na lista predefined_tags
+    relevant_tags = []
+    for tags in suggested_tags:
+        relevant_tags.extend([tag.strip() for tag in tags if tag.strip() in predefined_tags])
 
-    # Select a random subset of tags if there are more than num_tags selected
-    if len(selected_tags) > num_tags:
-        selected_tags = random.sample(selected_tags, num_tags)
+    # Retornar até 5 tags sugeridas
+    return relevant_tags[:5]
 
-    # If fewer than num_tags are selected, select additional random tags from the provided tag list
-    while len(selected_tags) < num_tags:
-        remaining_tags = [tag['name'] for tag in tags_list if tag['name'] not in selected_tags]
-        additional_tag = random.choice(remaining_tags)
-        selected_tags.append(additional_tag)
+# Exemplo de uso:
+title = "Psy Crisis IV: JUNGLE"
+description = "With immense joy and excitement, Wizard Tribe in collaboration with AlpaKa MuziK/Productions present..."
 
-    return selected_tags
+tags = generate_tags(title, description)
+print("Tags relacionadas encontradas:", tags)
 
 
-# Example usage:
-title = "Startup Event"
-description = "Join us for an exciting event showcasing the latest innovations in the startup world."
-tags = [
-    {"id": "005a4420-88c3-11ee-ab49-69be32c19a11", "name": "Startup", "emoji": "🚀", "tagCategory": "Education"},
-    {"id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07", "name": "Reggae", "emoji": " 💚", "tagCategory": "Musique"},
-    {"id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4", "name": "Squash", "emoji": "🏸", "tagCategory": "Sports"},
-    {"id": "0159ac60-3d0c-11ee-a0b5-a3a6fbdfc7e4", "name": "Aquatics", "emoji": "🏊‍♂️", "tagCategory": "Sports"},
-    {"id": "01785870-4ce5-11ee-931a-073fc9abbdfa", "name": "Karaoke", "emoji": "🎤", "tagCategory": "Leisure"}
-    # Add more tags as needed
-]
-selected_tags = select_related_tags_with_gpt(title, description, tags)
-print(selected_tags)
-
+def scroll_to_bottom(driver, max_scroll=1):
+    for _ in range(max_scroll):
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
 
 
 def scroll_to_bottom(driver, max_scroll=1):
@@ -234,9 +219,11 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=3):
             'EventUrl': event_url,
             'StartTime': start_time,
             'EndTime': end_time,
-            'Tags': tags,
-            'ID_Facebook': event_id_counter
         }
+
+        # Call generate_tags function here passing event title and description
+        event_tags = generate_tags(event_title, description)
+        event_info['Tags'] = event_tags
 
         all_events.append(event_info)
         unique_event_titles.add(event_title)
@@ -244,6 +231,7 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=3):
         driver.back()
 
     return all_events if all_events else None
+
 
 if __name__ == "__main__":
     sources = [
@@ -269,6 +257,7 @@ if __name__ == "__main__":
                         event['Location']['Div'] = str(event['Location']['Div'])
                     if 'Span' in event['Location']:
                         event['Location']['Span'] = str(event['Location']['Span'])
+
                 all_events.extend(events)
             else:
                 print("No events found.")
