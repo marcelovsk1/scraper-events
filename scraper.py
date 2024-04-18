@@ -50,8 +50,8 @@ def generate_tags(title, description):
     return relevant_tags[:5]
 
 # Exemplo de uso:
-title = "Burning Sun - Terrace Party"
-description = "Saturday seclusion, an opportunity to experience the power of a party that creates community. A gathering that celebrates not just the music, but the importance of all that lies before us."
+title = "Inter Miami x Orlando City"
+description = "MLS Cup Final Match"
 
 tags = generate_tags(title, description)
 print("Tags relacionadas encontradas:", tags)
