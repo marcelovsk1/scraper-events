@@ -87,10 +87,11 @@ def generate_tags(title, description):
     if len(relevant_tags) < 5:
         additional_tags = predefined_tags[:5 - len(relevant_tags)]
         relevant_tags.extend(additional_tags)
+    elif len(relevant_tags) > 5:
+        relevant_tags = relevant_tags[:5]
 
-    formatted_tags = [
-        {"id": tag['id'], "name": tag['name'], "emoji": tag['emoji'], "tagCategory": tag['tagCategory']}
-                      for tag in predefined_tags if tag['name'] in relevant_tags]
+    # Converter as tags para o formato desejado
+    formatted_tags = [{"id": tag['id'], "name": tag['name'], "emoji": tag['emoji'], "tagCategory": tag['tagCategory']} for tag in predefined_tags if tag['name'] in relevant_tags]
 
     return formatted_tags
 
