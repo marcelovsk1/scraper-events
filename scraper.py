@@ -9,10 +9,9 @@ import geopy
 from geopy.geocoders import Nominatim
 from unidecode import unidecode
 import datetime
-import re
 import openai
 
-openai.api_key = "sk-proj-qfb99sSu2wS1BsHcizRQT3BlbkFJcbn5Xt0uDcWSSanREaLF"
+client = openai.OpenAI(api_key='sk-proj-qfb99sSu2wS1BsHcizRQT3BlbkFJcbn5Xt0uDcWSSanREaLF') # to do: move it into .env variables
 
 def generate_tags(title, description):
     predefined_tags = [
@@ -67,38 +66,45 @@ def generate_tags(title, description):
     ]
 
     prompt = (
-        f"Based on the event \"{title}\" and its description \"{description}\", choose 5 relevant tags that must be related to the title and description:\n\n"
+        f"You are a meticulous selector, trained on identiying relevant tags for events.\nYour task is to select, from the list below, at most 5 tags that are very relevant for the event \"{title}\" (description: \"{description}\"). Ensure they are directly related to the event content and only output the selected tags separated by comma.\n\n"
         f"{', '.join([tag['name'] for tag in predefined_tags])}"
     )
 
-    response = openai.Completion.create(
-        engine="davinci-002",
-        prompt=prompt,
-        max_tokens=150,
-        n=5,
-        temperature=1,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0
+    print(prompt)
+
+
+    completion = client.chat.completions.create(
+        model="gpt-3.5-turbo-0125",
+        temperature=0,
+        messages=[
+            {"role": "system", "content": prompt}
+        ]
     )
 
-    suggested_tags = [tag.strip() for choice in response.choices for tag in choice.text.strip().split(",")]
+    print(completion.choices[0].message)
+
+    response = completion.choices[0].message
+
+    print('response', response.content)
+
+    suggested_tags = [tag.strip() for choice in response for tag in choice.text.strip().split(",")]
     relevant_tags = [tag for tag in suggested_tags if tag in [t['name'] for t in predefined_tags]]
 
     if len(relevant_tags) < 5:
         additional_tags = predefined_tags[:5 - len(relevant_tags)]
         relevant_tags.extend(additional_tags)
-
     elif len(relevant_tags) > 5:
         relevant_tags = relevant_tags[:5]
 
+    # Converter as tags para o formato desejado
     formatted_tags = [{"id": tag['id'], "name": tag['name'], "emoji": tag['emoji'], "tagCategory": tag['tagCategory']}
                       for tag in predefined_tags if tag['name'] in relevant_tags]
 
     return formatted_tags
 
-title = "Psy Crisis IV: JUNGLE"
-description = "With immense joy and excitement, Wizard Tribe in collaboration with AlpaKa MuziK/Productions present..."
+# Exemplo de uso:
+title = "Inter Miami x Orlando City"
+description = "MLS Cup Final Match"
 
 tags = generate_tags(title, description)
 print("Tags relacionadas encontradas:", tags)
@@ -110,7 +116,7 @@ def generate_event_id():
     now = datetime.datetime.now()
     return f"Id_{now.strftime('%B_%Y')}"
 
-def scroll_to_bottom(driver, max_scroll=20):
+def scroll_to_bottom(driver, max_scroll=2):
     for _ in range(max_scroll):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
@@ -186,7 +192,7 @@ def get_location_details(latitude, longitude):
     return None, None, None
 
 #### FACEBOOK ####
-def scrape_facebook_events(driver, url, selectors, max_scroll=30):
+def scrape_facebook_events(driver, url, selectors, max_scroll=2):
     global event_id_counter
 
     driver.get(url)
