@@ -8,10 +8,11 @@ from selenium.webdriver.chrome.options import Options
 import geopy
 from geopy.geocoders import Nominatim
 from unidecode import unidecode
-import re
+import datetime
 import openai
+import re
 
-openai.api_key = "sk-proj-xx7wrhQa2lP4dRtLwTSvT3BlbkFJkUhhXtAG1ODFnKGSxGVZ"
+client = openai.OpenAI(api_key='sk-proj-qfb99sSu2wS1BsHcizRQT3BlbkFJcbn5Xt0uDcWSSanREaLF') # to do: move it into .env variables
 
 def generate_tags(title, description):
     predefined_tags = [
@@ -66,48 +67,53 @@ def generate_tags(title, description):
     ]
 
     prompt = (
-        f"Based on the event \"{title}\" and its \"{description}\", choose 5 relevant tags from the following predefined tags:\n\n"
-        f"{', '.join([tag['name'] for tag in predefined_tags])}"
+        f"You are a meticulous selector, trained on identifying relevant tags for events.\n" +
+        f"Your task is to select, only from the list below, at most 5 tags that are very relevant for the event \"{title}\" (description: \"{description}\").\n" +
+        f"Here are the exhaustive list of tags to select from:\n" +
+        ''.join([f"{index+1}. {tag['name']} ({tag["tagCategory"]})\n" for index, tag in enumerate(predefined_tags)]) +
+        f"Only output the selected tags from this list, separated by comma.\n" +
+        f"Do not output any other tag.\n" +
+        f"If there is no relevant tag in the list, output 'NO TAG'."
+    )
+    print(prompt)
+
+    completion = client.chat.completions.create(
+        model="gpt-4-turbo",
+        temperature=0,
+        messages=[
+            {"role": "system", "content": prompt}
+        ]
     )
 
-    response = openai.Completion.create(
-        engine="davinci-002",
-        prompt=prompt,
-        max_tokens=150,
-        n=5,
-        temperature=1,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0
-    )
+    response = completion.choices[0].message.content
 
-    suggested_tags = [tag.strip() for choice in response.choices for tag in choice.text.strip().split(",")]
-    relevant_tags = [tag for tag in suggested_tags if tag in [t['name'] for t in predefined_tags]]
+    print('response', response)
 
-    if len(relevant_tags) < 5:
-        additional_tags = predefined_tags[:5 - len(relevant_tags)]
-        relevant_tags.extend(additional_tags)
-    elif len(relevant_tags) > 5:
-        relevant_tags = relevant_tags[:5]
+    relevant_tags = []
 
-    # Converter as tags para o formato desejado
-    formatted_tags = [{"id": tag['id'], "name": tag['name'], "emoji": tag['emoji'], "tagCategory": tag['tagCategory']} for tag in predefined_tags if tag['name'] in relevant_tags]
+    for predefined_tag in predefined_tags:
+        if (predefined_tag["name"] in response):
+            relevant_tags.append(predefined_tag)
 
-    return formatted_tags
+    print(relevant_tags)
+
+    return relevant_tags
 
 # Exemplo de uso:
-title = "Inter Miami x Orlando City"
-description = "MLS Cup Final Match"
+title = "Psy Crisis IV: JUNGLE"
+description = "With immense joy and excitement, Wizard Tribe in collaboration with AlpaKa MuziK/Productions present..."
 
 tags = generate_tags(title, description)
 print("Tags relacionadas encontradas:", tags)
 
-
-
 def calculate_similarity(str1, str2):
     return fuzz.token_sort_ratio(str1, str2)
 
-def scroll_to_bottom(driver, max_scroll=20):
+def generate_event_id():
+    now = datetime.datetime.now()
+    return f"Id_{now.strftime('%B_%Y')}"
+
+def scroll_to_bottom(driver, max_scroll=2):
     for _ in range(max_scroll):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
@@ -183,7 +189,7 @@ def get_location_details(latitude, longitude):
     return None, None, None
 
 #### FACEBOOK ####
-def scrape_facebook_events(driver, url, selectors, max_scroll=20):
+def scrape_facebook_events(driver, url, selectors, max_scroll=2):
     global event_id_counter
 
     driver.get(url)
@@ -234,7 +240,7 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=20):
 
         address_span = event_page.find('span', class_='x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x1f6kntn xvq8zen xo1l8bm xi81zsa x1yc453h')
         address = address_span.text.strip() if address_span else None
-        event_id_counter = 0
+        event_id = generate_event_id()
 
         tags = generate_tags(title, description)
 
@@ -288,7 +294,7 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=20):
             'StartTime': start_time,
             'EndTime': end_time,
             'Tags': tags,
-            'Event_Id': event_id_counter
+            'Event_Id': event_id
         }
 
         all_events.append(event_info)
@@ -461,7 +467,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             location = location_element.text.strip() if location_element else None
             ImageURL = get_previous_page_image_url(driver)
             tags = generate_tags(title, description)
-            event_id_counter = 0
+            event_id = generate_event_id()
 
             # Isolating the number from the price using regular expressions
             price_number = None
@@ -471,17 +477,6 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
                     price_number = float(price_matches[0])
 
             latitude, longitude = get_coordinates(location)
-
-            # tags_elements = event_page.find_all('li', class_='tags-item inline')
-
-            # tags = []
-            # for tag_element in tags_elements:
-            #     tag_link = tag_element.find('a')
-            #     if tag_link:
-            #         tag_text = tag_link.text.strip().replace("#", "")  # Remove the "#"
-            #         tags.append(tag_text)
-
-            # event_info['Tags'] = tags
 
             organizer = event_page.find('a', class_='descriptive-organizer-info__name-link') if event_page.find('a', class_='descriptive-organizer-info__name-link') else None
             image_url_organizer = event_page.find('svg', class_='eds-avatar__background eds-avatar__background--has-border')
@@ -506,7 +501,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             event_info['Organizer'] = organizer.text.strip() if organizer else None
             event_info['EventUrl'] = event_link
             event_info['Tags'] = tags
-            event_info['Event_Id'] = event_id_counter
+            event_info['Event_Id'] = event_id
 
             if latitude is not None and longitude is not None:
                 map_url = open_google_maps(latitude, longitude)
