@@ -11,7 +11,7 @@ from unidecode import unidecode
 import re
 import openai
 
-openai.api_key = "sk-proj-xx7wrhQa2lP4dRtLwTSvT3BlbkFJkUhhXtAG1ODFnKGSxGVZ"
+openai.api_key = "sk-proj-qfb99sSu2wS1BsHcizRQT3BlbkFJcbn5Xt0uDcWSSanREaLF"
 
 def generate_tags(title, description):
     predefined_tags = [
@@ -66,7 +66,7 @@ def generate_tags(title, description):
     ]
 
     prompt = (
-        f"Based on the event \"{title}\" and its \"{description}\", choose 5 relevant tags from the following predefined tags:\n\n"
+        f"Based on the event \"{title}\" and its description \"{description}\", choose 5 relevant tags that must be related to the title and description:\n\n"
         f"{', '.join([tag['name'] for tag in predefined_tags])}"
     )
 
@@ -75,7 +75,7 @@ def generate_tags(title, description):
         prompt=prompt,
         max_tokens=150,
         n=5,
-        temperature=1,
+        temperature=0.5,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0
@@ -87,22 +87,20 @@ def generate_tags(title, description):
     if len(relevant_tags) < 5:
         additional_tags = predefined_tags[:5 - len(relevant_tags)]
         relevant_tags.extend(additional_tags)
+
     elif len(relevant_tags) > 5:
         relevant_tags = relevant_tags[:5]
 
-    # Converter as tags para o formato desejado
-    formatted_tags = [{"id": tag['id'], "name": tag['name'], "emoji": tag['emoji'], "tagCategory": tag['tagCategory']} for tag in predefined_tags if tag['name'] in relevant_tags]
+    formatted_tags = [{"id": tag['id'], "name": tag['name'], "emoji": tag['emoji'], "tagCategory": tag['tagCategory']}
+                      for tag in predefined_tags if tag['name'] in relevant_tags]
 
     return formatted_tags
 
-# Exemplo de uso:
-title = "Inter Miami x Orlando City"
-description = "MLS Cup Final Match"
+title = "Psy Crisis IV: JUNGLE"
+description = "With immense joy and excitement, Wizard Tribe in collaboration with AlpaKa MuziK/Productions present..."
 
 tags = generate_tags(title, description)
 print("Tags relacionadas encontradas:", tags)
-
-
 
 def calculate_similarity(str1, str2):
     return fuzz.token_sort_ratio(str1, str2)
@@ -183,7 +181,7 @@ def get_location_details(latitude, longitude):
     return None, None, None
 
 #### FACEBOOK ####
-def scrape_facebook_events(driver, url, selectors, max_scroll=20):
+def scrape_facebook_events(driver, url, selectors, max_scroll=30):
     global event_id_counter
 
     driver.get(url)
