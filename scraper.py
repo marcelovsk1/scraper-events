@@ -110,7 +110,6 @@ def generate_event_id():
     now = datetime.datetime.now()
     return f"Id_{now.strftime('%B_%Y')}"
 
-
 def scroll_to_bottom(driver, max_scroll=20):
     for _ in range(max_scroll):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
