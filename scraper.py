@@ -76,7 +76,7 @@ def generate_tags(title, description):
         prompt=prompt,
         max_tokens=150,
         n=5,
-        temperature=0.5,
+        temperature=1,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0
