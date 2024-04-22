@@ -25,25 +25,13 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434121764_800760645412646_4762218285799034312_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eTIXVhmjbygAb6n11R9&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAaL3FxEoSudIvvGyqA1Nq8i2vW7LzcLtPGc6OGd93fhQ&oe=662C7955",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434121764_800760645412646_4762218285799034312_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eTIXVhmjbygAb6n11R9&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCj1tqX86o1VU_5XA82Eix0xwzq1p0kGBOlQa6lu7FEdw&oe=662CB195",
         "Organizer": "Boiler Room",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434121764_800760645412646_4762218285799034312_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eTIXVhmjbygAb6n11R9&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAaL3FxEoSudIvvGyqA1Nq8i2vW7LzcLtPGc6OGd93fhQ&oe=662C7955",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434121764_800760645412646_4762218285799034312_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eTIXVhmjbygAb6n11R9&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCj1tqX86o1VU_5XA82Eix0xwzq1p0kGBOlQa6lu7FEdw&oe=662CB195",
         "EventUrl": "https://www.facebook.com/events/2435784916612278/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "9:00\u202fPM",
         "EndTime": "4:00\u202fAM",
         "Tags": [
-            {
-                "id": "01785870-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Karaoke",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
             {
                 "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
                 "name": "Techno",
@@ -60,55 +48,67 @@
         "Location": {
             "Location": "Birra Bar",
             "Address": {
-                "amenity": "Birra",
-                "house_number": "7129",
-                "road": "Boulevard Saint-Laurent",
-                "neighbourhood": "La Petite-Patrie",
-                "suburb": "Rosemont\u2013La Petite-Patrie",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H2S 0B2",
-                "country": "Canada",
-                "country_code": "ca"
+                "amenity": "Birra +",
+                "house_number": "105",
+                "road": "Via del Pigneto",
+                "quarter": "Pigneto",
+                "suburb": "Municipio Roma V",
+                "city": "Rome",
+                "county": "Roma Capitale",
+                "ISO3166-2-lvl6": "IT-RM",
+                "state": "Lazio",
+                "ISO3166-2-lvl4": "IT-62",
+                "postcode": "00176",
+                "country": "Italy",
+                "country_code": "it"
             },
-            "Latitude": 45.5343831,
-            "Longitude": -73.617344,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5343831,-73.617344",
-            "City": "Montreal",
-            "CountryCode": "ca"
+            "Latitude": 41.8888623,
+            "Longitude": 12.5266354,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=41.8888623,12.5266354",
+            "City": "Rome",
+            "CountryCode": "it"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gYAyCtg92nkAb7tCdBx&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAmFVL9rejlZgR9jTaHziO_gBpsKESuct1bn5qurt7kPg&oe=662C8320",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gYAyCtg92nkAb7tCdBx&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCOgB7-c1VywrRSUviwlO2Q7nhO9GtoIFi7xpPN3i8AXA&oe=662CBB60",
         "Organizer": "Make Friends events",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gYAyCtg92nkAb7tCdBx&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAmFVL9rejlZgR9jTaHziO_gBpsKESuct1bn5qurt7kPg&oe=662C8320",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gYAyCtg92nkAb7tCdBx&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCOgB7-c1VywrRSUviwlO2Q7nhO9GtoIFi7xpPN3i8AXA&oe=662CBB60",
         "EventUrl": "https://www.facebook.com/events/248424134920168/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00\u202fPM",
         "EndTime": "10:00\u202fPM",
         "Tags": [
             {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
+                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Jazz",
                 "emoji": " \ud83c\udfb5",
                 "tagCategory": "Musique"
             },
             {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
+                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Pop",
+                "emoji": "\ud83c\udfb6",
+                "tagCategory": "Musique"
+            },
+            {
+                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Dance",
+                "emoji": "\ud83d\udc83",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Jazz",
                 "emoji": " \ud83c\udfb6",
                 "tagCategory": "Musique"
             },
             {
-                "id": "2401c100-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Metal",
-                "emoji": "\ud83e\udd18",
+                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
+                "name": "Techno",
+                "emoji": "\ud83c\udfa7",
                 "tagCategory": "Musique"
             },
             {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
+                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "World Music",
+                "emoji": "\ud83c\udf0d",
                 "tagCategory": "Musique"
             }
         ],
@@ -135,32 +135,7 @@
         "EventUrl": "https://www.facebook.com/events/7384401154939088/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:00\u202fPM",
         "EndTime": null,
-        "Tags": [
-            {
-                "id": "1859e020-6ec5-11ee-839e-4b70ecb92583",
-                "name": "Cycling",
-                "emoji": "\ud83d\udeb4\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1d809850-3c47-11ee-bb59-7f5156da6f07",
-                "name": "R&B",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -182,38 +157,7 @@
         "EventUrl": "https://www.facebook.com/events/380339948052164/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "12:00\u202fPM",
         "EndTime": null,
-        "Tags": [
-            {
-                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Golf",
-                "emoji": "\u26f3",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "15de0a70-45e3-11ee-837b-e184466a9b82",
-                "name": "Hiking",
-                "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1859e020-6ec5-11ee-839e-4b70ecb92583",
-                "name": "Cycling",
-                "emoji": "\ud83d\udeb4\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -242,41 +186,23 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/402104716_666862788925868_6987574921516958122_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9fc_hd47IG8Ab4-5hWt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBPpEXlBHf59MxM71YgwnhuxqbkjhGvdDux-mY2cqZXqg&oe=662C8358",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/402104716_666862788925868_6987574921516958122_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9fc_hd47IG8Ab4-5hWt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBB2Sq5eBbDOEcb7NgJ0WNAVDoqE7ocfzFLx3dv8qr5nw&oe=662CBB98",
         "Organizer": "Fractal Dream Production",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/402104716_666862788925868_6987574921516958122_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9fc_hd47IG8Ab4-5hWt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBPpEXlBHf59MxM71YgwnhuxqbkjhGvdDux-mY2cqZXqg&oe=662C8358",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/402104716_666862788925868_6987574921516958122_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9fc_hd47IG8Ab4-5hWt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBB2Sq5eBbDOEcb7NgJ0WNAVDoqE7ocfzFLx3dv8qr5nw&oe=662CBB98",
         "EventUrl": "https://www.facebook.com/events/2567435790100802/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "9:00\u202fPM",
         "EndTime": null,
         "Tags": [
             {
-                "id": "1453a7c0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Gymnastics",
-                "emoji": "\ud83e\udd38\u200d\u2640\ufe0f",
-                "tagCategory": "Sports"
+                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
+                "name": "Techno",
+                "emoji": "\ud83c\udfa7",
+                "tagCategory": "Musique"
             },
             {
-                "id": "19783bb0-45e3-11ee-837b-e184466a9b82",
-                "name": "Yoga",
-                "emoji": "\ud83e\uddd8\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
+                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "World Music",
+                "emoji": "\ud83c\udf0d",
                 "tagCategory": "Musique"
             }
         ],
@@ -295,38 +221,13 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/426025414_122099959190210593_8897614791394946898_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=FIhlie36qPkAb7t5fpJ&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAkABxy4l7sDg4zAwMLb8YLg5sxyOa9AGEELHeUe1ClNw&oe=662C7FD8",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/426025414_122099959190210593_8897614791394946898_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=FIhlie36qPkAb7t5fpJ&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCEJU753G61eGVUFQO21s2fUHrl06dlgZRpxNw_wUmCFg&oe=662CB818",
         "Organizer": "Second Chance Speed Dating",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/426025414_122099959190210593_8897614791394946898_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=FIhlie36qPkAb7t5fpJ&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAkABxy4l7sDg4zAwMLb8YLg5sxyOa9AGEELHeUe1ClNw&oe=662C7FD8",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/426025414_122099959190210593_8897614791394946898_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=FIhlie36qPkAb7t5fpJ&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCEJU753G61eGVUFQO21s2fUHrl06dlgZRpxNw_wUmCFg&oe=662CB818",
         "EventUrl": "https://www.facebook.com/events/398411912684758/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00\u202fPM",
         "EndTime": "10:00\u202fPM",
-        "Tags": [
-            {
-                "id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Squash",
-                "emoji": "\ud83c\udff8",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -342,2479 +243,13 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430074786_10161603643168641_4348048792996220305_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vEhE4QuUxCYAb4clCnO&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCE3XsDwheIs8lOwXylENDwEkOGqZ-hhCpXck3DUfqWpQ&oe=662C7C52",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430074786_10161603643168641_4348048792996220305_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vEhE4QuUxCYAb4clCnO&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDsZt-ErI2r4fYT8g1LrsrYSyHigweNzbEJl1K6R4sbwQ&oe=662CB492",
         "Organizer": "Nathaniel Rateliff",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430074786_10161603643168641_4348048792996220305_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vEhE4QuUxCYAb4clCnO&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCE3XsDwheIs8lOwXylENDwEkOGqZ-hhCpXck3DUfqWpQ&oe=662C7C52",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430074786_10161603643168641_4348048792996220305_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vEhE4QuUxCYAb4clCnO&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDsZt-ErI2r4fYT8g1LrsrYSyHigweNzbEJl1K6R4sbwQ&oe=662CB492",
         "EventUrl": "https://www.facebook.com/events/393237746773779/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00\u202fPM",
         "EndTime": null,
-        "Tags": [
-            {
-                "id": "09dddaa0-573d-11ee-8b78-9b77053f08ef",
-                "name": "Chess",
-                "emoji": "\u265f",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "201cbff0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Country",
-                "emoji": "\ud83e\udd20",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "27a4a0f0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock and Roll",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Unreal x Klangkuenstler ALL NIGHT LONG (World Tour) - Canada pres. by Avec Courage",
-        "Description": "At the core of the Klangkuenstler x Unreal \u201eAll Night Long - World Tour\u201c is a commitment to creating unforgettable experiences that transcend the ordinary nightlife setting. With i\u2026 See more",
-        "Date": "FRIDAY, MAY 17, 2024 AT 10:00\u202fPM \u2013 3:00\u202fAM CEST",
-        "Location": {
-            "Location": "Soci\u00e9t\u00e9 des arts technologiques [SAT]",
-            "Address": {
-                "amenity": "Society for Arts and Technology",
-                "house_number": "1201",
-                "road": "Boulevard Saint-Laurent",
-                "neighbourhood": "Chinatown",
-                "suburb": "Ville-Marie",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H2X 2S6",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.5096585,
-            "Longitude": -73.56258389428879,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5096585,-73.56258389428879",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433133826_728819209433549_2422740625591847947_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=5OYOr8FvR34Ab4ze5eC&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfB01YEgXu_LHUfuPIR-_cjCmiYSSsD8niSFC00sh1KoEQ&oe=662C89E7",
-        "Organizer": "Unreal Germany",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433133826_728819209433549_2422740625591847947_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=5OYOr8FvR34Ab4ze5eC&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfB01YEgXu_LHUfuPIR-_cjCmiYSSsD8niSFC00sh1KoEQ&oe=662C89E7",
-        "EventUrl": "https://www.facebook.com/events/395164246566020/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00\u202fPM",
-        "EndTime": "3:00\u202fAM",
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "2211e6d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Hip-Hop",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Life Drawing Session - Every Monday and Thursday",
-        "Description": "Join us for an evening of drawing and sketching.",
-        "Date": "MONDAY, APRIL 22, 2024 AT 6:30\u202fPM \u2013 9:00\u202fPM EDT",
-        "Location": {
-            "Location": "Montreal Art Centre (Montreal, Quebec, Canad\u00e1)",
-            "Address": {
-                "amenity": "Montreal Art Center & Museum",
-                "house_number": "1844",
-                "road": "Rue William",
-                "quarter": "Griffintown",
-                "suburb": "Le Sud-Ouest",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H3J 1R5",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.4869953,
-            "Longitude": -73.5671665,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.4869953,-73.5671665",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lqRz34jQJwsAb4W4KgL&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBiPmg9_wRRUNVpUeNZEDOANmPafZ7K7yjRwy79MdrwBg&oe=662CA738",
-        "Organizer": "Montreal Art Center & Museum",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lqRz34jQJwsAb4W4KgL&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBiPmg9_wRRUNVpUeNZEDOANmPafZ7K7yjRwy79MdrwBg&oe=662CA738",
-        "EventUrl": "https://www.facebook.com/events/1239845190305252/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "6:30\u202fPM",
-        "EndTime": "9:00\u202fPM",
-        "Tags": [
-            {
-                "id": "19783bb0-45e3-11ee-837b-e184466a9b82",
-                "name": "Yoga",
-                "emoji": "\ud83e\uddd8\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "24883e40-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Reggaeton",
-                "emoji": "\ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "F2F Tour Montreal Weekend",
-        "Description": "Hall entry is FREE! Just show up and check out the festivities!",
-        "Date": "MAY 3 AT 11:30\u202fAM \u2013 MAY 5 AT 7:00\u202fPM EDT",
-        "Location": {
-            "Location": "Palais des Congres",
-            "Address": {
-                "shop": "Sephora",
-                "road": "Place de la Porte Maillot",
-                "city_block": "Quartier des Ternes",
-                "suburb": "17th Arrondissement",
-                "city_district": "Paris",
-                "city": "Paris",
-                "ISO3166-2-lvl6": "FR-75",
-                "state": "Ile-de-France",
-                "ISO3166-2-lvl4": "FR-IDF",
-                "region": "Metropolitan France",
-                "postcode": "75017",
-                "country": "France",
-                "country_code": "fr"
-            },
-            "Latitude": 48.87922585,
-            "Longitude": 2.2832741639361815,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=48.87922585,2.2832741639361815",
-            "City": "Paris",
-            "CountryCode": "fr"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430842057_439266001789279_5012094997068253696_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=04Wve5v7bi4Ab5axhih&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBRGEiOYLCe3_fRvFq-mOb3tW1U7LHrlacj0wsp4CCaTA&oe=662C8C03",
-        "Organizer": "Face To Face Games",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430842057_439266001789279_5012094997068253696_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=04Wve5v7bi4Ab5axhih&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBRGEiOYLCe3_fRvFq-mOb3tW1U7LHrlacj0wsp4CCaTA&oe=662C8C03",
-        "EventUrl": "https://www.facebook.com/events/692552339743710/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "11:30\u202fAM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Squash",
-                "emoji": "\ud83c\udff8",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "0cafac20-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Surfing",
-                "emoji": "\ud83c\udfc4\u200d\u2640\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "2602b960-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Gospel",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "EXPERIENCE MIMOSA 2024 THE ROOFTOP EDITION",
-        "Description": "THE HYPE IS REAL....JOIN THE PROMOTERS OF CLASSY ENTERTAINMENT AS WE PROCEED TO KICKOFF THE SUMMER DAYTIME BRUNCH SEASON OUTDOORS. PARTY ON ONE OF MONTREAL'S MOST EXQUISTE TERRASSE\u2026 See more",
-        "Date": "MONDAY, MAY 20, 2024 AT 12:00\u202fPM \u2013 6:00\u202fPM EDT",
-        "Location": {
-            "Location": "Terrasse Belvu Hors-piste, 1050 Rue De la Gaucheti\u00e8re O, Montr\u00e9al, Quebec",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437886515_3857363447884358_5693671580919305361_n.png?stp=dst-png_fb50_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=jbLxSiFSmvAAb7hacn9&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCd-QVqo5sSn_mCgxIge6Wk-LF55oVzbwri5m6bk6HzzA&oe=662CA0F8",
-        "Organizer": "Rickey D Events",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437886515_3857363447884358_5693671580919305361_n.png?stp=dst-png_fb50_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=jbLxSiFSmvAAb7hacn9&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCd-QVqo5sSn_mCgxIge6Wk-LF55oVzbwri5m6bk6HzzA&oe=662CA0F8",
-        "EventUrl": "https://www.facebook.com/events/968245884870110/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "12:00\u202fPM",
-        "EndTime": "6:00\u202fPM",
-        "Tags": [
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Golf",
-                "emoji": "\u26f3",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Concerts Du Podium: Pitbull",
-        "Description": "Sale Dates and Times:",
-        "Date": "SATURDAY, JUNE 8, 2024 AT 6:00\u202fPM EDT",
-        "Location": {
-            "Location": "Parc Jean-Drapeau",
-            "Address": {
-                "amenity": "P9",
-                "road": "Chemin du Tour-de-l'Isle",
-                "suburb": "Ville-Marie",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H3C 6A3",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.5138637,
-            "Longitude": -73.53433309471609,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5138637,-73.53433309471609",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429768833_10161608953283641_8023455845995240569_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=z3yvwNELjvcAb4juLKI&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBNrw2gI_3jTAU3gqqMsMSmTKgIjJyDnrM8MereR_llRA&oe=662C9433",
-        "Organizer": "Parc Jean-Drapeau",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429768833_10161608953283641_8023455845995240569_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=z3yvwNELjvcAb4juLKI&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBNrw2gI_3jTAU3gqqMsMSmTKgIjJyDnrM8MereR_llRA&oe=662C9433",
-        "EventUrl": "https://www.facebook.com/events/258602603998796/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "6:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2307f3e0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Indie",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Soulshine",
-        "Description": "Free entrance ! 19 h 30 to 3 H !!!Let s dance on natural groove and down tempo organic progressive nu disco deep house !Ecstatic congas is the fruit of decade of  percussion cir\u2026 See more",
-        "Date": "FRIDAY, APRIL 26, 2024 AT 7:30\u202fPM EDT",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437783360_386697694194795_4323766511620028886_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JA-0lS7ybw8Ab54nmyz&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfA-DQkkeDm3hWsxvE0Ir34ha8MHx-pQFn0hosHYNYBM8A&oe=662C731B",
-        "Organizer": "After-Work Nu-Disco Hot Feeling",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437783360_386697694194795_4323766511620028886_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JA-0lS7ybw8Ab54nmyz&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfA-DQkkeDm3hWsxvE0Ir34ha8MHx-pQFn0hosHYNYBM8A&oe=662C731B",
-        "EventUrl": "https://www.facebook.com/events/1334982517152297/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:30\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "201cbff0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Country",
-                "emoji": "\ud83e\udd20",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Montreal Pop up - Plant Sale",
-        "Description": "Montreal Pop up - Plant Sale",
-        "Date": "MAY 31 AT 11:00\u202fAM \u2013 JUN 1 AT 4:00\u202fPM EDT",
-        "Location": {
-            "Location": "CHATEAU ST-ABROISE, Suite 493, 4030 St Ambroise, St, Montreal, QC H4C 2E1",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432945678_960736892721187_5126855036029808842_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KaW4FzBVARoAb6mGA40&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfC0iN8avuILG_Q24WKCfnRePdZjDj4gKm0eQ7l2w3HKBQ&oe=662C77CB",
-        "Organizer": "Ecuagenera Araceae",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432945678_960736892721187_5126855036029808842_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KaW4FzBVARoAb6mGA40&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfC0iN8avuILG_Q24WKCfnRePdZjDj4gKm0eQ7l2w3HKBQ&oe=662C77CB",
-        "EventUrl": "https://www.facebook.com/events/7580563795320382/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "11:00\u202fAM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "0cafac20-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Surfing",
-                "emoji": "\ud83c\udfc4\u200d\u2640\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "SHREE HANUMAN JANMOTSAV CELEBRATION",
-        "Description": "SHREE HANUMAN JANMOTSAV CELEBRATION: Saturday, April 27th at 9:00AM - Beginning with reciting of 51 Hanuman Chalisa. This event is being collectively sponsored by the group of ladi\u2026 See more",
-        "Date": "SATURDAY, APRIL 27, 2024 AT 9:00\u202fAM \u2013 12:00\u202fPM EDT",
-        "Location": {
-            "Location": "8155 rue Durocher, Montreal, QC, Canada, Quebec H3N 2A8",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434758005_744368771162065_3147896608855513378_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QKCOjivqt7kAb6gAOyw&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAhiJKhD6tIlTAoQxeFjd8__-LAfs0VA5kjMWAAADfAjg&oe=662C7416",
-        "Organizer": "Temple Shree Ramji Mandhata",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434758005_744368771162065_3147896608855513378_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QKCOjivqt7kAb6gAOyw&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAhiJKhD6tIlTAoQxeFjd8__-LAfs0VA5kjMWAAADfAjg&oe=662C7416",
-        "EventUrl": "https://www.facebook.com/events/764157115673944/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00\u202fAM",
-        "EndTime": "12:00\u202fPM",
-        "Tags": [
-            {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d809850-3c47-11ee-bb59-7f5156da6f07",
-                "name": "R&B",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2602b960-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Gospel",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "27fb1d20-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Ska",
-                "emoji": "\ud83c\udfba",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "canada.gov.ca LIVE at Montreal's Legendary Wheel Club",
-        "Description": "canada.gov.ca is proud to come to Montreal's legendary Wheel Club for the first ever live show in Montreal. Come and enjoy what many have called a '75 minute powerpoint presentatio\u2026 See more",
-        "Date": "SATURDAY, APRIL 27, 2024 AT 7:00\u202fPM EDT",
-        "Location": {
-            "Location": "3373 Cavendish, Montreal, QC, Canada, Quebec H4B 2L7",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430216217_799627362185025_3237029892346306488_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dMUooILcIHMAb4XqrtY&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCOCDkvTJIPLh-22yOlvXWn5nq3ws0tKBRcbpop2ojeTg&oe=662CA535",
-        "Organizer": "The Wheel Club",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430216217_799627362185025_3237029892346306488_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dMUooILcIHMAb4XqrtY&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCOCDkvTJIPLh-22yOlvXWn5nq3ws0tKBRcbpop2ojeTg&oe=662CA535",
-        "EventUrl": "https://www.facebook.com/events/759346819475791/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Singing",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "11164b60-4381-11ee-b8b1-a1b868b635cd",
-                "name": "Punk",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Lara Fabian at Salle Wilfrid-Pelletier At Place Des Arts",
-        "Description": "\"Join us for an unforgettable evening with the talented Lara Fabian!  Get ready to be serenaded by the powerful vocals and emotional melodies of this renowned performer. This is a\u2026 See more",
-        "Date": "MONDAY, JUNE 10, 2024 AT 8:00\u202fPM IST",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433136529_752689940336452_3487559378216288809_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bkMfAS2bu8cAb75Uo-8&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfACPsoAHClBKBx0R6FtOGqXOYywFq3QCbVwhlFzSlboCQ&oe=662CA122",
-        "Organizer": "Special Tickets",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433136529_752689940336452_3487559378216288809_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bkMfAS2bu8cAb75Uo-8&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfACPsoAHClBKBx0R6FtOGqXOYywFq3QCbVwhlFzSlboCQ&oe=662CA122",
-        "EventUrl": "https://www.facebook.com/events/1502605046985302/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Squash",
-                "emoji": "\ud83c\udff8",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Artisan Fair & Summerlea Book Sale",
-        "Description": "Save the date!  Artisan Fair & Summerlea Book Sale on Sat, May 11 - 10am-3pm and Summerlea Book Sale on Friday, May 10 - 10am-3pm",
-        "Date": "SATURDAY, MAY 11, 2024 AT 10:00\u202fAM \u2013 3:00\u202fPM EDT",
-        "Location": {
-            "Location": "Summerlea United Church",
-            "Address": {
-                "amenity": "Summerlea United Church",
-                "house_number": "225",
-                "road": "50e Avenue",
-                "suburb": "Lachine",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H8T 1H8",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.43954905,
-            "Longitude": -73.71192107407347,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.43954905,-73.71192107407347",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432347861_744342314467781_5622682598965815106_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hlt1X3mFi-MAb618cr1&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAexmLP58EmNIrMY0FWSaMkwPdrDyCIIeWD8fa1wMP0cQ&oe=662C79F2",
-        "Organizer": "Summerlea United Church",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432347861_744342314467781_5622682598965815106_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hlt1X3mFi-MAb618cr1&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAexmLP58EmNIrMY0FWSaMkwPdrDyCIIeWD8fa1wMP0cQ&oe=662C79F2",
-        "EventUrl": "https://www.facebook.com/events/258821743978663/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00\u202fAM",
-        "EndTime": "3:00\u202fPM",
-        "Tags": [
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "244cfde0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Punk Rock",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Concerts Du Podium: The Chainsmokers",
-        "Description": "Sale Dates and Times:",
-        "Date": "FRIDAY, JUNE 7, 2024 AT 6:00\u202fPM EDT",
-        "Location": {
-            "Location": "Parc Jean-Drapeau",
-            "Address": {
-                "amenity": "P9",
-                "road": "Chemin du Tour-de-l'Isle",
-                "suburb": "Ville-Marie",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H3C 6A3",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.5138637,
-            "Longitude": -73.53433309471609,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5138637,-73.53433309471609",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429850111_10161615606358641_1464857041186703708_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=04j1xbasO4IAb44o25u&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCmneHJN_tgaIXTCiLFRD0-EPiXP448WoE_suzmh_Wzmg&oe=662C91A8",
-        "Organizer": "Parc Jean-Drapeau",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429850111_10161615606358641_1464857041186703708_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=04j1xbasO4IAb44o25u&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCmneHJN_tgaIXTCiLFRD0-EPiXP448WoE_suzmh_Wzmg&oe=662C91A8",
-        "EventUrl": "https://www.facebook.com/events/969133537966327/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "6:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "True North",
-        "Description": "Blue rodeo and more!",
-        "Date": "SATURDAY, APRIL 27, 2024 AT 8:00\u202fPM EDT",
-        "Location": {
-            "Location": "7852 boul. Champlain, La Salle, QC, Canada",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434814336_842149647933565_3764738515366725650_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=U_-5DmrHPmcAb7TU159&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCeSeolDbT1uH-pS00jWu-Asd_-CKufFvy-6gNW1KwOPw&oe=662C81C9",
-        "Organizer": "Brasserie des Rapides",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434814336_842149647933565_3764738515366725650_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=U_-5DmrHPmcAb7TU159&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCeSeolDbT1uH-pS00jWu-Asd_-CKufFvy-6gNW1KwOPw&oe=662C81C9",
-        "EventUrl": "https://www.facebook.com/events/257921480649713/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": null,
         "Tags": [],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "NEW DATE SLICK RICK DA RULER MONTR\u00c9AL",
-        "Description": "GOT TO MAKE SURE THE MAINMAN GETS IN!!! OUR LAWYERS ON WILL HAVE THE PAPERWORK READY BY THE NEW DATE. WE ARE ON IT!!!!",
-        "Date": "TUESDAY, MAY 21, 2024 AT 8:00\u202fPM \u2013 12:00\u202fAM EDT",
-        "Location": {
-            "Location": "Th\u00e9\u00e2tre Paradoxe, 5959 Bd Monk, Montr\u00e9al, Quebec",
-            "Address": {
-                "amenity": "Th\u00e9\u00e2tre Paradoxe",
-                "house_number": "5959",
-                "road": "Boulevard Monk",
-                "neighbourhood": "Ville-\u00c9mard",
-                "suburb": "Le Sud-Ouest",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H4E 3H5",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.45873855,
-            "Longitude": -73.59664484618554,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.45873855,-73.59664484618554",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/420947461_3641262272857657_8938834508789446245_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ctBzj1DJ7AgAb6c-LuX&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfB4MTYdXJCf-0p-Y1nyUoqyMeUcQCqPm2pda7c8lWUpKw&oe=662C92E7",
-        "Organizer": "Rickey D Events",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/420947461_3641262272857657_8938834508789446245_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ctBzj1DJ7AgAb6c-LuX&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfB4MTYdXJCf-0p-Y1nyUoqyMeUcQCqPm2pda7c8lWUpKw&oe=662C92E7",
-        "EventUrl": "https://www.facebook.com/events/917380183140052/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": "12:00\u202fAM",
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "18f44470-6ec6-11ee-839e-4b70ecb92583",
-                "name": "Fencing",
-                "emoji": "\ud83e\udd3a",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "201cbff0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Country",
-                "emoji": "\ud83e\udd20",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "DREA LAKE | DELORCA | ANDREA PROCHAZKA | ODELLINE",
-        "Description": "2024 Jour de la Terre || Earth Day 2024",
-        "Date": "MONDAY, APRIL 22, 2024 AT 7:30\u202fPM EDT",
-        "Location": {
-            "Location": "Casa del Popolo",
-            "Address": {
-                "amenity": "Circolo Arci",
-                "road": "Via Dante Alighieri",
-                "village": "Limite sull'Arno",
-                "municipality": "Unione dei comuni Circondario dell'Empolese Valdelsa",
-                "county": "Florence",
-                "ISO3166-2-lvl6": "IT-FI",
-                "state": "Tuscany",
-                "ISO3166-2-lvl4": "IT-52",
-                "postcode": "50053",
-                "country": "Italy",
-                "country_code": "it"
-            },
-            "Latitude": 43.7414163,
-            "Longitude": 10.9747168,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=43.7414163,10.9747168",
-            "City": null,
-            "CountryCode": "it"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434649563_954386146689890_8024140696488485067_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MFRjvufHjL8Ab6DL766&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAp3wmeJZbZvrtchzPaont9TOib84DrccgairCnqkvf6g&oe=662CA27E",
-        "Organizer": "Delorca",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434649563_954386146689890_8024140696488485067_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MFRjvufHjL8Ab6DL766&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAp3wmeJZbZvrtchzPaont9TOib84DrccgairCnqkvf6g&oe=662CA27E",
-        "EventUrl": "https://www.facebook.com/events/1588990791952112/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:30\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "133a3370-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Religious",
-                "emoji": "\u271d",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "2401c100-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Metal",
-                "emoji": "\ud83e\udd18",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "****More women on stage****",
-        "Description": "More women on stage!",
-        "Date": "SATURDAY, MAY 25, 2024 AT 8:00\u202fPM EDT",
-        "Location": {
-            "Location": "The TraXide",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434778372_929625065829778_6258975540799906557_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iICCugh-OSsAb70u4K5&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfB0ZP6vwtcGVmpkpl5w_lpeHdGlL8WYTs2U_KZ9Nj8zqA&oe=662C8488",
-        "Organizer": "The TraXide",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434778372_929625065829778_6258975540799906557_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iICCugh-OSsAb70u4K5&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfB0ZP6vwtcGVmpkpl5w_lpeHdGlL8WYTs2U_KZ9Nj8zqA&oe=662C8488",
-        "EventUrl": "https://www.facebook.com/events/1333245623840883/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Mundo Lingo Montreal - Plateau Mont Royal",
-        "Description": "A linguistic-cultural exchange bringing together people from all corners of the world!",
-        "Date": "WEDNESDAY, APRIL 24, 2024 AT 7:00\u202fPM \u2013 11:30\u202fPM EDT",
-        "Location": {
-            "Location": "Cl\u00e9bard",
-            "Address": {
-                "amenity": "Cl\u00e9bard",
-                "road": "Rue Saint-Denis",
-                "suburb": "Le Plateau-Mont-Royal",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H2J 2L4",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.5244978,
-            "Longitude": -73.5837062,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5244978,-73.5837062",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430040109_10161762958372704_3967925207451312620_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=A_mTBOATqHwAb6JMzu_&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAk0iz4wfYn91tCweOK_5Ow7_97xxpyTEjxzxt_L2AwhA&oe=662C7683",
-        "Organizer": "Nasri Eric Majdalani",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430040109_10161762958372704_3967925207451312620_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=A_mTBOATqHwAb6JMzu_&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAk0iz4wfYn91tCweOK_5Ow7_97xxpyTEjxzxt_L2AwhA&oe=662C7683",
-        "EventUrl": "https://www.facebook.com/events/387553954026049/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:00\u202fPM",
-        "EndTime": "11:30\u202fPM",
-        "Tags": [
-            {
-                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Golf",
-                "emoji": "\u26f3",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "133a3370-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Religious",
-                "emoji": "\u271d",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "18f44470-6ec6-11ee-839e-4b70ecb92583",
-                "name": "Fencing",
-                "emoji": "\ud83e\udd3a",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "MGC SEASON FINALE 2024",
-        "Description": "Saturday April 272 shows - 4pm & 8pmSalle D\u00e9silets",
-        "Date": "SATURDAY, APRIL 27, 2024 AT 4:00\u202fPM \u2013 5:30\u202fPM EDT",
-        "Location": {
-            "Location": "Salle D\u00e9silets",
-            "Address": {
-                "amenity": "La Salle D\u00e9silets",
-                "house_number": "7000",
-                "road": "Rue Marie-Victorin",
-                "suburb": "Rivi\u00e8re-des-Prairies\u2013Pointe-aux-Trembles",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H1G 2J6",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.6178835,
-            "Longitude": -73.606023,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.6178835,-73.606023",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432451142_1182964786315887_6240739267731738751_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Zx73CPaUkZ0Ab4M7feX&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDSVvWqlciR9ZztmJ7dmiXA8oCRtkTRjHre-VX9qkAjfg&oe=662CA9E6",
-        "Organizer": "Montreal Gospel Choir",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432451142_1182964786315887_6240739267731738751_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Zx73CPaUkZ0Ab4M7feX&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDSVvWqlciR9ZztmJ7dmiXA8oCRtkTRjHre-VX9qkAjfg&oe=662CA9E6",
-        "EventUrl": "https://www.facebook.com/events/411347964884167/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "4:00\u202fPM",
-        "EndTime": "5:30\u202fPM",
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "CCR REBORN - The ultimate CCR Tribute Band Live at Montreal's Legendary Wheel Club",
-        "Description": "Join us for an evening with the Ultimate CCR tribute band - CCR Reborn. Quite simply, no other CCR tribute band comes close in their fidelity to the original band\u2019s sound. Playing \u2026 See more",
-        "Date": "FRIDAY, MAY 3, 2024 AT 8:00\u202fPM EDT",
-        "Location": {
-            "Location": "3373 Cavendish, Montreal, QC, Canada, Quebec H4B 2L7",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/428631912_793268452820916_7796437749594072491_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=V8Ld4XLtsrsAb5iRaW8&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAIBT0r6QbDlj_X2r1VcutyfpbAU4bn689z0BdULaDCrA&oe=662C826F",
-        "Organizer": "The Wheel Club",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/428631912_793268452820916_7796437749594072491_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=V8Ld4XLtsrsAb5iRaW8&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAIBT0r6QbDlj_X2r1VcutyfpbAU4bn689z0BdULaDCrA&oe=662C826F",
-        "EventUrl": "https://www.facebook.com/events/2018331891873155/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "0cafac20-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Surfing",
-                "emoji": "\ud83c\udfc4\u200d\u2640\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "18f44470-6ec6-11ee-839e-4b70ecb92583",
-                "name": "Fencing",
-                "emoji": "\ud83e\udd3a",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "19783bb0-45e3-11ee-837b-e184466a9b82",
-                "name": "Yoga",
-                "emoji": "\ud83e\uddd8\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "SPICE ISLAND CULTURAL FESTIVAL",
-        "Description": "SAVE THESE DATES:  JULY 11 TO JULY 14.SPICE ISLAND CULTURAL FESTIVAL MONTREAL TAKES ON A FULL 4 DAY FESTIVAL IN 2024, WITH 2 DAYS AT VINET PARK, SATURDAY, JULY 13 = FESTIVAL DAY, \u2026 See more",
-        "Date": "JUL 11 AT 6:00\u202fPM \u2013 JUL 14 AT 8:00\u202fPM EDT",
-        "Location": {
-            "Location": "Park Vinet,  Little Burgundy.  550 Vinet Street, Montreal, Qc",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434503891_449666060916115_2670687102558476145_n.jpg?stp=dst-jpg_fb50_p228x119&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZrHjjlkmMYgAb5WgiuW&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBLfCbhNuEmfYOXaztTFqGFu11mGQkt3wFVGvao1cHobw&oe=662C8D03",
-        "Organizer": "Spice Island Cultural Festival-Montreal",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434503891_449666060916115_2670687102558476145_n.jpg?stp=dst-jpg_fb50_p228x119&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZrHjjlkmMYgAb5WgiuW&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBLfCbhNuEmfYOXaztTFqGFu11mGQkt3wFVGvao1cHobw&oe=662C8D03",
-        "EventUrl": "https://www.facebook.com/events/769657381547133/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "6:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24883e40-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Reggaeton",
-                "emoji": "\ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "27a4a0f0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock and Roll",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Charity Event: 'Support Ukraine' at 10 Assiettes",
-        "Description": "Support Ukraine: Drink Donation Date: April 26thDJ Set: Dance for a CauseAdmission: DonationDrink Support: Included",
-        "Date": "FRIDAY, APRIL 26, 2024 AT 8:00\u202fPM EDT",
-        "Location": {
-            "Location": "4830 Jean Talon West, Montreal, QC, Canada, Quebec H4P 1W9",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434166105_302684959513945_680694537819987996_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qXwvJaY5-qEAb59IQLM&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfD0vNPZtaadGTsw1tRNq_7rEPLeYc7-4n4x83nYm1dJrg&oe=662CA03E",
-        "Organizer": "10_assiettes",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434166105_302684959513945_680694537819987996_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qXwvJaY5-qEAb59IQLM&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfD0vNPZtaadGTsw1tRNq_7rEPLeYc7-4n4x83nYm1dJrg&oe=662CA03E",
-        "EventUrl": "https://www.facebook.com/events/1580732479381290/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "1453a7c0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Gymnastics",
-                "emoji": "\ud83e\udd38\u200d\u2640\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Dayglo abortions / Union thugs / Morose",
-        "Description": "Second date for Dayglo abortions at Traxide in the same week end!",
-        "Date": "SUNDAY, JUNE 16, 2024 AT 8:00\u202fPM EDT",
-        "Location": {
-            "Location": "The TraXide",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/435076263_926833726108912_1763918928878655420_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=g7xV3bVuCzUAb4E7YcV&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBdjmL8TlFAyUVKF_b8-scwl1noo0DsbyCUXcuXXh2wyQ&oe=662C7CA4",
-        "Organizer": "The TraXide",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/435076263_926833726108912_1763918928878655420_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=g7xV3bVuCzUAb4E7YcV&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBdjmL8TlFAyUVKF_b8-scwl1noo0DsbyCUXcuXXh2wyQ&oe=662C7CA4",
-        "EventUrl": "https://www.facebook.com/events/1113485016639652/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Singing",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d809850-3c47-11ee-bb59-7f5156da6f07",
-                "name": "R&B",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "27a4a0f0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock and Roll",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Sofa Kings Tribute to Gordon Lightfoot at Porchfest NDG",
-        "Description": "Come see us at Porchfest - Balconf\u00eate May 19 2pm! We are honoring the late great Gordon Lightfoot!",
-        "Date": "SUNDAY, MAY 19, 2024 AT 2:00\u202fPM EDT",
-        "Location": {
-            "Location": "4360 Avenue Hingston, Montr\u00e9al, QC H4A 2J9, Canada",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434130838_826802472808032_5946259377386960424_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Phawy7-SNXEAb5oSBUV&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBZ_5nTvsUBYDb8ntlqwnO8CMEzFv1P8sLpRNF-UwIbZw&oe=662CA3B4",
-        "Organizer": "Sofa Kings Montreal",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434130838_826802472808032_5946259377386960424_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Phawy7-SNXEAb5oSBUV&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBZ_5nTvsUBYDb8ntlqwnO8CMEzFv1P8sLpRNF-UwIbZw&oe=662CA3B4",
-        "EventUrl": "https://www.facebook.com/events/3815069298779978/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "2:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Singing",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "19783bb0-45e3-11ee-837b-e184466a9b82",
-                "name": "Yoga",
-                "emoji": "\ud83e\uddd8\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "24883e40-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Reggaeton",
-                "emoji": "\ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "\ufffd\ufffd Canada International Training Camp - Powered by Arawaza! \ufffd",
-        "Description": "\ufffd\ufffd Canada International Training Camp - Powered by Arawaza! \ufffd",
-        "Date": "APR 26 AT 5:00\u202fPM \u2013 APR 28 AT 1:00\u202fPM CDT",
-        "Location": {
-            "Location": "3333 Cavendish suite 275, Montreal, QC, Canada",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/425774050_1482400612472853_3267403473627435101_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=83-JnpgyRJkAb5gQuBU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfA_RKB2djKfY9sKvi1fwBeUgTK5-w81cz5l0J7_xQ2KPQ&oe=662CA56B",
-        "Organizer": "Acad\u00e9mie de Karat\u00e9",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/425774050_1482400612472853_3267403473627435101_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=83-JnpgyRJkAb5gQuBU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfA_RKB2djKfY9sKvi1fwBeUgTK5-w81cz5l0J7_xQ2KPQ&oe=662CA56B",
-        "EventUrl": "https://www.facebook.com/events/383437677613259/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "5:00\u202fPM",
-        "EndTime": null,
-        "Tags": [],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Fuji|||||||||||ta - The Old Bank, Montr\u00e9al, PQ - 13 mai 2024",
-        "Description": "Heavy Trip & OK L\u00c0 pr\u00e9sentent:",
-        "Date": "MONDAY, MAY 13, 2024 AT 6:00\u202fPM EDT",
-        "Location": {
-            "Location": "1900 wellington, Montr\u00e9al, PQ",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vt44ziXcB68Ab77btth&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCLOVVbem_-xZKQDtg-92zk3m7sS8s7NE7Z7ijwGtsT9A&oe=662C8CCE",
-        "Organizer": "OK L\u00c0",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vt44ziXcB68Ab77btth&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCLOVVbem_-xZKQDtg-92zk3m7sS8s7NE7Z7ijwGtsT9A&oe=662C8CCE",
-        "EventUrl": "https://www.facebook.com/events/1768078497047514/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "6:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Myriam Gendron w/ Jim White & Marisa Anderson - Cabaret Lion d'or, Montr\u00e9al, PQ - 18 mai 2024",
-        "Description": "Heavy Trip et POP Montr\u00e9al pr\u00e9sentent fi\u00e8rement...",
-        "Date": "SATURDAY, MAY 18, 2024 AT 7:00\u202fPM EDT",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432438950_817307743747687_469106703847991220_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WOAMMkRXdg8Ab5kqdyd&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBnACik4ZiWbmljODfWzZmFcnBms1dx2yE5ujPxJkznbQ&oe=662C9937",
-        "Organizer": "Heavy Trip",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432438950_817307743747687_469106703847991220_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WOAMMkRXdg8Ab5kqdyd&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBnACik4ZiWbmljODfWzZmFcnBms1dx2yE5ujPxJkznbQ&oe=662C9937",
-        "EventUrl": "https://www.facebook.com/events/1811096186030394/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Conversations on the Role of EDI at Canadian Universities",
-        "Description": "Join us for a discussion on the role of Equity, Diversity, & Inclusion initiatives in Canadian universities! This April 26th at McGill downtown campus. *Register here:* info@colloquia.ca",
-        "Date": "FRIDAY, APRIL 26, 2024 AT 10:00\u202fAM \u2013 12:45\u202fPM EDT",
-        "Location": {
-            "Location": "McGill University",
-            "Address": {
-                "amenity": "McGill University",
-                "road": "Chemin Olmsted",
-                "suburb": "Ville-Marie",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H2W 1S4",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.50688675,
-            "Longitude": -73.57908551043636,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.50688675,-73.57908551043636",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437755185_720494786963081_5484359983586550520_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_eJoR_1GU_wAb7MyH-X&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCEzq2tQkvkX5vFFCjVHltLH-yppOmgRCk287440Bnkww&oe=662CA96E",
-        "Organizer": "McGill Science and Practice in Psychology Research Lab",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437755185_720494786963081_5484359983586550520_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_eJoR_1GU_wAb7MyH-X&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCEzq2tQkvkX5vFFCjVHltLH-yppOmgRCk287440Bnkww&oe=662CA96E",
-        "EventUrl": "https://www.facebook.com/events/1534733537072325/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00\u202fAM",
-        "EndTime": "12:45\u202fPM",
-        "Tags": [
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Pixel Mingle at LumaLofts",
-        "Description": "Welcome to our first community event! Bringing visual creatives together to network and produce quality content in a studio environment.",
-        "Date": "SUNDAY, APRIL 28, 2024 AT 4:00\u202fPM \u2013 7:00\u202fPM EDT",
-        "Location": {
-            "Location": "LUMA lofts studio space",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434581710_122124390836230007_8358517619596112441_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=svjyEbNeuvEAb4Gx91g&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDYTCDeV7y28-Cu_-IM6NC2zLTpsrONZJCjBbbQ_eKOfQ&oe=662C7390",
-        "Organizer": "PixelMingle.MTL",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434581710_122124390836230007_8358517619596112441_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=svjyEbNeuvEAb4Gx91g&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDYTCDeV7y28-Cu_-IM6NC2zLTpsrONZJCjBbbQ_eKOfQ&oe=662C7390",
-        "EventUrl": "https://www.facebook.com/events/401159076066674/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "4:00\u202fPM",
-        "EndTime": "7:00\u202fPM",
-        "Tags": [],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Lambada Reunion - May the 4th be with you",
-        "Description": "-Dancers : Hey Smoothee, why not get everyone together for a chill day of lambada training and dancing?",
-        "Date": "SATURDAY, MAY 4, 2024 AT 5:00\u202fPM EDT",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/436732634_843583021118492_3058908234560109218_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lyaUF0Ha5LcAb4cx3Ag&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCqCCBlWBSZTxplYtVQ-Tgjl1mwtv8wcRqfp6QGSQDyBQ&oe=662C955D",
-        "Organizer": "Ilha Lambada",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/436732634_843583021118492_3058908234560109218_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lyaUF0Ha5LcAb4cx3Ag&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCqCCBlWBSZTxplYtVQ-Tgjl1mwtv8wcRqfp6QGSQDyBQ&oe=662C955D",
-        "EventUrl": "https://www.facebook.com/events/983027723425359/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "5:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1453a7c0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Gymnastics",
-                "emoji": "\ud83e\udd38\u200d\u2640\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "19783bb0-45e3-11ee-837b-e184466a9b82",
-                "name": "Yoga",
-                "emoji": "\ud83e\uddd8\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "201cbff0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Country",
-                "emoji": "\ud83e\udd20",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Mushroom Education Course",
-        "Description": "Have you wanted to try your hand at growing gourmet mushrooms, inoculate wooden logs to produce delicious perennial mushroom yields for years to come, or simply improve your garden\u2026 See more",
-        "Date": "SATURDAY, MAY 18, 2024 AT 12:00\u202fPM EDT",
-        "Location": {
-            "Location": "Concordia University Loyola Campus",
-            "Address": {
-                "amenity": "Concordia University - Loyola Campus",
-                "house_number": "7141",
-                "road": "Sherbrooke Street West",
-                "suburb": "C\u00f4te-des-Neiges\u2013Notre-Dame-de-Gr\u00e2ce",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H4B 1R6",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.458259549999994,
-            "Longitude": -73.6393553521491,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.458259549999994,-73.6393553521491",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433344271_426535183224537_6974908937594197348_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9jTd_bkdbkEAb773_VN&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCouuabklWDKB5wUqvReJ1dJrzpEPnvo4ylZ98QIfukcw&oe=662C837D",
-        "Organizer": "Coop CultivAction",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433344271_426535183224537_6974908937594197348_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9jTd_bkdbkEAb773_VN&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCouuabklWDKB5wUqvReJ1dJrzpEPnvo4ylZ98QIfukcw&oe=662C837D",
-        "EventUrl": "https://www.facebook.com/events/1883680425417380/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "12:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Squash",
-                "emoji": "\ud83c\udff8",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Singing",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "19783bb0-45e3-11ee-837b-e184466a9b82",
-                "name": "Yoga",
-                "emoji": "\ud83e\uddd8\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "24883e40-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Reggaeton",
-                "emoji": "\ud83c\udfb5",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "All-You-Can-Play Fridays at the Montreal Pinball Arcade",
-        "Description": "Roll up your sleeves, slap on that Groovy Cologne, and grab those Bell Bottom Jeans! The Montreal Pinball Arcade is bringing back the Swing and Sizzle of the 70\u2019s & 80\u2019s with Crazy\u2026 See more",
-        "Date": "FRIDAY, APRIL 26, 2024 AT 5:00\u202fPM \u2013 10:00\u202fPM EDT",
-        "Location": {
-            "Location": "923 Avenue Girouard, Montr\u00e9al, QC H4A 3B9, Canada",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/420895862_291799287222220_6381538424338241872_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-JXXlfdYIQ0Ab7I8Bmc&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAQW0NkPT7xJqpjxH8E2cqOSa_6KuDgY-LhVKFt1htm9w&oe=662CAA41",
-        "Organizer": "The Montr\u00e9al Pinball Arcade",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/420895862_291799287222220_6381538424338241872_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-JXXlfdYIQ0Ab7I8Bmc&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAQW0NkPT7xJqpjxH8E2cqOSa_6KuDgY-LhVKFt1htm9w&oe=662CAA41",
-        "EventUrl": "https://www.facebook.com/events/621145816709088/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "5:00\u202fPM",
-        "EndTime": "10:00\u202fPM",
-        "Tags": [
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Rethinking Gramsci | Repenser Gramsci",
-        "Description": "rethinkinggramsci.com",
-        "Date": "MAY 8 AT 11:00\u202fAM \u2013 MAY 10 AT 10:00\u202fPM EDT",
-        "Location": {
-            "Location": "Istituto Italiano di Cultura - Montr\u00e9al",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/401354980_10161211427430516_6363099749716394991_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_OiVAoG4UzkAb7onhmd&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfD_YhBqx1258lHvoCwiiHc2_7ZsZybC-gBs_mXIuWhixw&oe=662C9125",
-        "Organizer": "Joshua Harold Wiebe",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/401354980_10161211427430516_6363099749716394991_n.jpg?stp=cp6_dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_OiVAoG4UzkAb7onhmd&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfD_YhBqx1258lHvoCwiiHc2_7ZsZybC-gBs_mXIuWhixw&oe=662C9125",
-        "EventUrl": "https://www.facebook.com/events/1022664875655438/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "11:00\u202fAM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "201cbff0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Country",
-                "emoji": "\ud83e\udd20",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "2401c100-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Metal",
-                "emoji": "\ud83e\udd18",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "World Music",
-                "emoji": "\ud83c\udf0d",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Family Funday Sundays \u2013 Unlimited Play @ The Montr\u00e9al Pinball Arcade!",
-        "Description": "Family Funday Sundays aim to connect and resonate with Families. We understand the joys of bonding over games, so we\u2019ve launched this weekly event priced at just $15.00 for those a\u2026 See more",
-        "Date": "SUNDAY, APRIL 28, 2024 AT 11:00\u202fAM \u2013 4:00\u202fPM EDT",
-        "Location": {
-            "Location": "923 Avenue Girouard, Montr\u00e9al, QC H4A 3B9, Canada",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/417117502_284524207949728_6952823090632643695_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K_hXZafshJAAb4yEOro&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfD1WUG5HPcBREFfbemAPJbO21szOL58TmHBrhaKkiOLIg&oe=662C8A5A",
-        "Organizer": "The Montr\u00e9al Pinball Arcade",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/417117502_284524207949728_6952823090632643695_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K_hXZafshJAAb4yEOro&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfD1WUG5HPcBREFfbemAPJbO21szOL58TmHBrhaKkiOLIg&oe=662C8A5A",
-        "EventUrl": "https://www.facebook.com/events/1080828059993473/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "11:00\u202fAM",
-        "EndTime": "4:00\u202fPM",
-        "Tags": [
-            {
-                "id": "005a4420-88c3-11ee-ab49-69be32c19a11",
-                "name": "Startup",
-                "emoji": "\ud83d\ude80",
-                "tagCategory": "Education"
-            },
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2602b960-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Gospel",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Bunny Party by OtakuRave",
-        "Description": "Get ready to hop into the ultimate Bunny Party by OtakuRave, where cute bunnies, awesome music, and epic fun collide!",
-        "Date": "SATURDAY, JULY 13, 2024 AT 10:00\u202fPM \u2013 3:00\u202fAM EDT",
-        "Location": {
-            "Location": "917 Rue Ste-Catherine E, Montr\u00e9al, QC H2L 2E5, Canada",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432860811_273867142473455_3807248124759981145_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yHiw37vWTYYAb46G4Rt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCtFWnf_7w90wcjwraYtWrTqmtc-KOloAxwg5BFTWGr_Q&oe=662C7BAB",
-        "Organizer": "OtakuRave Mtl",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432860811_273867142473455_3807248124759981145_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yHiw37vWTYYAb46G4Rt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCtFWnf_7w90wcjwraYtWrTqmtc-KOloAxwg5BFTWGr_Q&oe=662C7BAB",
-        "EventUrl": "https://www.facebook.com/events/923438212603724/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00\u202fPM",
-        "EndTime": "3:00\u202fAM",
-        "Tags": [
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "THE WORLD'S SMALLEST COMEDY NIGHT - Hosted by Vance Michel & Zak KiK",
-        "Description": "The World's Comedy Night is Stand-Up Comedy ALL NIGHT in Hurley's IRISH PUB. The fun will begin with our Flagship comedy show hosted by Vance Michel And Zak Kik which begins at 8pm\u2026 See more",
-        "Date": "MONDAY, APRIL 22, 2024 AT 8:00\u202fPM \u2013 9:30\u202fPM EDT",
-        "Location": {
-            "Location": "Hurleys Irish Pub",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/376410819_775742771227212_8122662496383776594_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=V4MnrflgHJIAb4kX5ja&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDhmRyCaowCH_5_ogjGYdLKsNbikEIXdoxxco0DmAghhA&oe=662C8F7E",
-        "Organizer": "The World's Smallest Comedy Night",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/376410819_775742771227212_8122662496383776594_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=V4MnrflgHJIAb4kX5ja&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDhmRyCaowCH_5_ogjGYdLKsNbikEIXdoxxco0DmAghhA&oe=662C8F7E",
-        "EventUrl": "https://www.facebook.com/events/3023366384473464/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": "9:30\u202fPM",
-        "Tags": [
-            {
-                "id": "1d809850-3c47-11ee-bb59-7f5156da6f07",
-                "name": "R&B",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1e2c0d80-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Soul",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "28ab7800-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Soul",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "MONDAY NIGHT DIRTY MIC (Comedy Show)",
-        "Description": "Get ready for a hilarious night packed with huge laughs at The World's Smallest Comedy Night Dirty Mic\u2014guaranteed to leave you in stitches",
-        "Date": "MONDAY, APRIL 22, 2024 AT 10:30\u202fPM \u2013 12:00\u202fAM EDT",
-        "Location": {
-            "Location": "1225 Rue Crescent,Montr\u00e9al,H3G 2B1,CA",
-            "Address": {
-                "house_number": "1225",
-                "road": "Crescent Street",
-                "suburb": "Ville-Marie",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H3G 2B1",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.4967246,
-            "Longitude": -73.5746529,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.4967246,-73.5746529",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/406501144_829330685868420_4584974330401621170_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=R6e57tXrCyEAb7i4KE7&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAWvAeM1zpkQfTzC7jMuq6Qnrianobh687kYkq0tvhIog&oe=662C7583",
-        "Organizer": null,
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/406501144_829330685868420_4584974330401621170_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=R6e57tXrCyEAb7i4KE7&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAWvAeM1zpkQfTzC7jMuq6Qnrianobh687kYkq0tvhIog&oe=662C7583",
-        "EventUrl": "https://www.facebook.com/events/413112924700834/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:30\u202fPM",
-        "EndTime": "12:00\u202fAM",
-        "Tags": [
-            {
-                "id": "09dddaa0-573d-11ee-8b78-9b77053f08ef",
-                "name": "Chess",
-                "emoji": "\u265f",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "11164b60-4381-11ee-b8b1-a1b868b635cd",
-                "name": "Punk",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Trans Masc Choir Showcase",
-        "Description": "What if a choir and a glee club had a baby, and that baby was a trans masc?",
-        "Date": "THURSDAY, MAY 2, 2024 AT 9:00\u202fPM \u2013 11:00\u202fPM EDT",
-        "Location": {
-            "Location": "Quai des Brumes",
-            "Address": {
-                "road": "Ceci n'est pas une rue",
-                "commercial": "Tour & Taxis",
-                "city": "Brussels",
-                "municipality": "Brussels",
-                "county": "Brussels-Capital",
-                "region": "Brussels-Capital",
-                "ISO3166-2-lvl4": "BE-BRU",
-                "postcode": "1000",
-                "country": "Belgium",
-                "country_code": "be"
-            },
-            "Latitude": 50.86691665,
-            "Longitude": 4.3458208684159665,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=50.86691665,4.3458208684159665",
-            "City": "Brussels",
-            "CountryCode": "be"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434139187_798008462354465_4938220356144289916_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Sx5kd5HpzmIAb4lDoPV&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCOsvWVS8m1JUkk2tAU7UrmoThkfs65P7Hi8MgUsQRUQA&oe=662C7FAB",
-        "Organizer": "Trans Trenderz",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434139187_798008462354465_4938220356144289916_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Sx5kd5HpzmIAb4lDoPV&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCOsvWVS8m1JUkk2tAU7UrmoThkfs65P7Hi8MgUsQRUQA&oe=662C7FAB",
-        "EventUrl": "https://www.facebook.com/events/1102058711113512/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00\u202fPM",
-        "EndTime": "11:00\u202fPM",
-        "Tags": [
-            {
-                "id": "1d809850-3c47-11ee-bb59-7f5156da6f07",
-                "name": "R&B",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "244cfde0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Punk Rock",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Daniel Champagne (Australia) LIVE at Le Verre Bouteille | Montreal",
-        "Description": "The young Australian virtuoso returns to Canada for 56 intimate and one of a kind performances across the country!",
-        "Date": "SUNDAY, MAY 26, 2024 AT 8:00\u202fPM CDT",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/377571713_869587537858692_3400551803752773084_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=fxvih_Q6QZcAb6M9GKI&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDeWlsRp2_Yv1kuEMPQm5DZSBSjBlSKf1DXrVF9iYceKA&oe=662C865D",
-        "Organizer": "Daniel Champagne",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/377571713_869587537858692_3400551803752773084_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=fxvih_Q6QZcAb6M9GKI&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDeWlsRp2_Yv1kuEMPQm5DZSBSjBlSKf1DXrVF9iYceKA&oe=662C865D",
-        "EventUrl": "https://www.facebook.com/events/1096256521347267/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "2401c100-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Metal",
-                "emoji": "\ud83e\udd18",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Foire Artisanale de Printemps St Michael's Spring FUNdraiser & Craft Fair",
-        "Description": "SAVE THE DATE!June 1st 202410am to 3pm",
-        "Date": "SATURDAY, JUNE 1, 2024 AT 10:00\u202fAM \u2013 3:00\u202fPM EDT",
-        "Location": {
-            "Location": "15556 Rue Cabot, Pierrefonds, QC H9H 1R5, Canada",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429662788_379435864838525_5483772554433628346_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=r1VjwLgqe1EAb7BUe5t&_nc_oc=Adh5PhxbkFWvnzE8dQ7oN19Lbw5CVE06W87s59EvxEJY5VVTS_2_cTemDDOXvx7VfkYxqKPEN_gBRlox5bK6gJXy&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBGzvDFvr2O1wvOKlKKGwEqppFCk2teZ5_XkoPCPLZXUA&oe=662C7DE8",
-        "Organizer": "Craft Fairs - West Island Montreal & Surrounding Areas",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429662788_379435864838525_5483772554433628346_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=r1VjwLgqe1EAb7BUe5t&_nc_oc=Adh5PhxbkFWvnzE8dQ7oN19Lbw5CVE06W87s59EvxEJY5VVTS_2_cTemDDOXvx7VfkYxqKPEN_gBRlox5bK6gJXy&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBGzvDFvr2O1wvOKlKKGwEqppFCk2teZ5_XkoPCPLZXUA&oe=662C7DE8",
-        "EventUrl": "https://www.facebook.com/events/945577107234895/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00\u202fAM",
-        "EndTime": "3:00\u202fPM",
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d809850-3c47-11ee-bb59-7f5156da6f07",
-                "name": "R&B",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Summer of Solo: Montreal's Jazz Dance Masterclass - Heechang (Andante) Jang",
-        "Description": "(Fran\u00e7ais \u00e0 suivre)",
-        "Date": "MAY 4 AT 1:00\u202fPM \u2013 MAY 5 AT 6:00\u202fPM EDT",
-        "Location": {
-            "Location": "Studios Accento",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432936334_270527916144863_6626332157181153174_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=aSnUPi_p8W0Ab7JGDbZ&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDJkPs5XUxyym2W3dNTm63F-8FP_bCXI8xTVp3VIPmV3w&oe=662C892D",
-        "Organizer": "Swing Lapin",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432936334_270527916144863_6626332157181153174_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=aSnUPi_p8W0Ab7JGDbZ&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDJkPs5XUxyym2W3dNTm63F-8FP_bCXI8xTVp3VIPmV3w&oe=662C892D",
-        "EventUrl": "https://www.facebook.com/events/403041662482635/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "1:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Squash",
-                "emoji": "\ud83c\udff8",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1859e020-6ec5-11ee-839e-4b70ecb92583",
-                "name": "Cycling",
-                "emoji": "\ud83d\udeb4\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Canadian Independent Bookstore Day",
-        "Description": "Join us in store for 15% off everything, freebies, author visits, and a chance to win 1000$ in gift certificates at indiebookstores.ca/cibd-contest-for-book-lovers!",
-        "Date": "SATURDAY, APRIL 27, 2024 AT 12:00\u202fPM \u2013 6:00\u202fPM EDT",
-        "Location": {
-            "Location": "1841-A rue Sainte. Catherine Ouest, Montreal, QC, Canada, Quebec H3H 1M2",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/435399857_810481781111664_4627841384957232909_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Jbz0-SlJFjsAb4UO_f0&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBTvyNATDRk4z1u1Cm2_4RfFRRoJ6fuYxfajQmkKUG9fA&oe=662C900C",
-        "Organizer": "Argo Bookshop",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/435399857_810481781111664_4627841384957232909_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Jbz0-SlJFjsAb4UO_f0&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfBTvyNATDRk4z1u1Cm2_4RfFRRoJ6fuYxfajQmkKUG9fA&oe=662C900C",
-        "EventUrl": "https://www.facebook.com/events/708556277883001/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "12:00\u202fPM",
-        "EndTime": "6:00\u202fPM",
-        "Tags": [
-            {
-                "id": "005a4420-88c3-11ee-ab49-69be32c19a11",
-                "name": "Startup",
-                "emoji": "\ud83d\ude80",
-                "tagCategory": "Education"
-            },
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Squash",
-                "emoji": "\ud83c\udff8",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "244cfde0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Punk Rock",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Benefit punk show for Gaza at Traxide!",
-        "Description": "Benefit show for Gaza!",
-        "Date": "SATURDAY, MAY 18, 2024 AT 9:00\u202fPM EDT",
-        "Location": {
-            "Location": "The TraXide",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/435994983_929634585828826_1036383081289079600_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lL26rDMfu-QAb5TOtTU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfACumFfhqYe_4e8Gk7JBdj-ICJ4qD_noSh4dkSaouNw0Q&oe=662CA5FE",
-        "Organizer": "The TraXide",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/435994983_929634585828826_1036383081289079600_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lL26rDMfu-QAb5TOtTU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfACumFfhqYe_4e8Gk7JBdj-ICJ4qD_noSh4dkSaouNw0Q&oe=662CA5FE",
-        "EventUrl": "https://www.facebook.com/events/404493625654197/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "27a4a0f0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock and Roll",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Groove & Bass 2024 Teaser / Fundraiser ft. Evil Oil Man + Luis M | May 25",
-        "Description": "Francais en bas...",
-        "Date": "MAY 25 AT 9:00\u202fPM \u2013 MAY 26 AT 8:00\u202fAM EDT",
-        "Location": {
-            "Location": "Montreal - Location TBA",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/436334160_736989681968549_4647581382535378529_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xAnyaiORfwAAb65hAz4&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCkq77wOELrAPi-yzspLs3B8L4QuvoLEjcQcuM5lfsCVw&oe=662CABC0",
-        "Organizer": "Groove & Bass Festival",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/436334160_736989681968549_4647581382535378529_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xAnyaiORfwAAb65hAz4&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCkq77wOELrAPi-yzspLs3B8L4QuvoLEjcQcuM5lfsCVw&oe=662CABC0",
-        "EventUrl": "https://www.facebook.com/events/6531451670288377/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "GUJARAT DAY",
-        "Description": "GUJARAT DAY - In collaboration with Gujarati Samaj of Montreal of Montreal, we will be celebrating Gujarat Day with a cultural show and dinner at Vanier College on Saturday, May 4t\u2026 See more",
-        "Date": "SATURDAY, MAY 4, 2024 AT 5:00\u202fPM \u2013 9:00\u202fPM EDT",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434873988_749941990604743_313997014249956886_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RVfcCat6dyMAb7dfi7F&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCppPOiI6P3h2Y2Z96XN9FY-rhIL0c80KG9GcwLp9JGTQ&oe=662C8F36",
-        "Organizer": "Temple Shree Ramji Mandhata",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434873988_749941990604743_313997014249956886_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RVfcCat6dyMAb7dfi7F&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCppPOiI6P3h2Y2Z96XN9FY-rhIL0c80KG9GcwLp9JGTQ&oe=662C8F36",
-        "EventUrl": "https://www.facebook.com/events/1687562622074557/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "5:00\u202fPM",
-        "EndTime": "9:00\u202fPM",
-        "Tags": [
-            {
-                "id": "18f44470-6ec6-11ee-839e-4b70ecb92583",
-                "name": "Fencing",
-                "emoji": "\ud83e\udd3a",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Xavier Rudd",
-        "Description": "Xavier Rudd - Montreal, Canada",
-        "Date": "MONDAY, JUNE 17, 2024 AT 8:00\u202fPM CDT",
-        "Location": {
-            "Location": "MTELUS",
-            "Address": {
-                "amenity": "MTELUS",
-                "house_number": "59",
-                "road": "Rue Sainte-Catherine Est",
-                "neighbourhood": "Quartier des Spectacles",
-                "suburb": "Ville-Marie",
-                "city": "Montreal",
-                "county": "Urban agglomeration of Montreal",
-                "region": "Montreal (administrative region)",
-                "state": "Quebec",
-                "ISO3166-2-lvl4": "CA-QC",
-                "postcode": "H2X 1K5",
-                "country": "Canada",
-                "country_code": "ca"
-            },
-            "Latitude": 45.5106101,
-            "Longitude": -73.5633963,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5106101,-73.5633963",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/431883795_718877240438890_1544887375438725927_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zBgdVMQIm_MAb5ROwIU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCXe2KUqN_6IPkkjhdj-MFpzK1X8m4wYh2FwrxQ8iGeUg&oe=662C9697",
-        "Organizer": "Seat Jewel 247",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/431883795_718877240438890_1544887375438725927_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zBgdVMQIm_MAb5ROwIU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfCXe2KUqN_6IPkkjhdj-MFpzK1X8m4wYh2FwrxQ8iGeUg&oe=662C9697",
-        "EventUrl": "https://www.facebook.com/events/780459363555713/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "8:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "06759f60-5c8d-11ee-8ae0-fb963ffbedc0",
-                "name": "Holiday",
-                "emoji": "\ud83c\udf1e",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "244cfde0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Punk Rock",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "Hidden Garden Presents: Oasis Sonore part 3",
-        "Description": "Hidden Garden is back and excited to launch part 3 of it's innovative event series, offering a fresh concept to sprinkle some magic on your late Saturday afternoons and early eveni\u2026 See more",
-        "Date": "MAY 11 AT 5:00\u202fPM \u2013 MAY 12 AT 3:00\u202fAM EDT",
-        "Location": {
-            "Location": "Resto-pub 100 g\u00e9nies",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/435122854_841925501265734_6755893325967491952_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZLpx4YfsRaQAb6b_V0L&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAOVdHPNnrPHH1hpPYoySiUQEA--p2Tn2WGIcuedaVLOQ&oe=662C806C",
-        "Organizer": "Hidden Garden",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/435122854_841925501265734_6755893325967491952_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZLpx4YfsRaQAb6b_V0L&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAOVdHPNnrPHH1hpPYoySiUQEA--p2Tn2WGIcuedaVLOQ&oe=662C806C",
-        "EventUrl": "https://www.facebook.com/events/1115417389785373/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "5:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "01785870-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Karaoke",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Golf",
-                "emoji": "\u26f3",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "CLEARANCE SALE BUY 1 GET 1 FREE",
-        "Description": "Our store is closing and moving to another city so everything is being sold at lowest cost ever.",
-        "Date": "TUESDAY, APRIL 23, 2024 AT 9:00\u202fAM \u2013 9:00\u202fPM EDT",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434852568_122165282498033035_8483237159529239322_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wzc-oqUP_l8Ab5dzuVR&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAoco8PjN5MGgnLYinFbmIDeCxnobBzrDri6V_zKpoWqg&oe=662CA73F",
-        "Organizer": "Imperial V",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434852568_122165282498033035_8483237159529239322_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wzc-oqUP_l8Ab5dzuVR&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfAoco8PjN5MGgnLYinFbmIDeCxnobBzrDri6V_zKpoWqg&oe=662CA73F",
-        "EventUrl": "https://www.facebook.com/events/1095503568385157/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00\u202fAM",
-        "EndTime": "9:00\u202fPM",
-        "Tags": [
-            {
-                "id": "24883e40-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Reggaeton",
-                "emoji": "\ud83c\udfb5",
-                "tagCategory": "Musique"
-            }
-        ],
-        "Event_Id": "Id_April_2024"
-    },
-    {
-        "Title": "CADENCE WEAPON - Montr\u00e9al",
-        "Description": "ROLLERCOASTER Album Release Party",
-        "Date": "THURSDAY, MAY 2, 2024 AT 10:00\u202fPM EDT",
-        "Location": {
-            "Location": "See more",
-            "Address": null,
-            "Latitude": 35.0000035,
-            "Longitude": 19.9999957,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=35.0000035,19.9999957",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434684847_870873474842947_438336112500129734_n.jpg?stp=cp6_dst-jpg_fb50_p320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EaT6ol4RwXMAb7LHsXw&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDkTLFNAxFH7a1SAKyyQxrKLI-1u1BIN-Z61zqee02LQw&oe=662C7C11",
-        "Organizer": "Blue Skies Turn Black",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434684847_870873474842947_438336112500129734_n.jpg?stp=cp6_dst-jpg_fb50_p320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EaT6ol4RwXMAb7LHsXw&_nc_ht=scontent.fmgf1-1.fna&oh=00_AfDkTLFNAxFH7a1SAKyyQxrKLI-1u1BIN-Z61zqee02LQw&oe=662C7C11",
-        "EventUrl": "https://www.facebook.com/events/1123182342374551/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Golf",
-                "emoji": "\u26f3",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "201cbff0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Country",
-                "emoji": "\ud83e\udd20",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2401c100-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Metal",
-                "emoji": "\ud83e\udd18",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "World Music",
-                "emoji": "\ud83c\udf0d",
-                "tagCategory": "Musique"
-            }
-        ],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -2832,26 +267,7 @@
         "Latitude": 45.50479315,
         "Longitude": -73.56011829252336,
         "EventUrl": "https://www.eventbrite.ca/e/billets-cyberconference-2024-4e-edition-851808471067?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "2211e6d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Hip-Hop",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024",
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.50479315,-73.56011829252336"
     },
@@ -2860,7 +276,7 @@
         "Description": "How can Canada's research community earn public trust in using health data to improve health outcomes? Join the conversation!",
         "Date": "Tue, Apr 23, 2024 8:00 AM - 4:30 PM EDT",
         "Location": "Le Westin Montreal + Online",
-        "Price": null,
+        "Price": 0.0,
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F725243719%2F621548735973%2F1%2Foriginal.20240321-171528?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=20264e0a924385240018ff21a8ad8944",
         "Organizer": null,
         "Organizer_IMG": null,
@@ -2870,38 +286,7 @@
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/health-data-for-all-of-us-earning-trust-through-transparency-tickets-807404828577?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "0cafac20-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Surfing",
-                "emoji": "\ud83c\udfc4\u200d\u2640\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "0dc9b310-45df-11ee-837b-e184466a9b82",
-                "name": "Book",
-                "emoji": "\ud83d\udcd6",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "24883e40-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Reggaeton",
-                "emoji": "\ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -2919,38 +304,7 @@
         "Latitude": 45.51189735,
         "Longitude": -73.57008169586781,
         "EventUrl": "https://www.eventbrite.com/e/women-in-tech-montreal-outgeekwomen-tickets-861061045767?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Singing",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "09dddaa0-573d-11ee-8b78-9b77053f08ef",
-                "name": "Chess",
-                "emoji": "\u265f",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1d809850-3c47-11ee-bb59-7f5156da6f07",
-                "name": "R&B",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024",
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.51189735,-73.57008169586781"
     },
@@ -2969,20 +323,7 @@
         "Latitude": 33.5943859,
         "Longitude": -7.614541,
         "EventUrl": "https://www.eventbrite.ca/e/sofia-nino-de-rivera-montreal-tickets-782217943927?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "005a4420-88c3-11ee-ab49-69be32c19a11",
-                "name": "Startup",
-                "emoji": "\ud83d\ude80",
-                "tagCategory": "Education"
-            },
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024",
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=33.5943859,-7.614541"
     },
@@ -3001,38 +342,7 @@
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.com/e/open-hardware-summit-2024-tickets-795537884227?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Fashion",
-                "emoji": "\ud83e\udd7b",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2211e6d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Hip-Hop",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -3052,28 +362,34 @@
         "EventUrl": "https://www.eventbrite.co.uk/e/billets-rsko-en-concert-a-montreal-763244202957?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "09dddaa0-573d-11ee-8b78-9b77053f08ef",
-                "name": "Chess",
-                "emoji": "\u265f",
+                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
+                "name": "Singing",
+                "emoji": "\ud83c\udfa4",
                 "tagCategory": "Leisure"
             },
             {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
+                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Pop",
+                "emoji": "\ud83c\udfb6",
                 "tagCategory": "Musique"
             },
             {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
+                "id": "2211e6d0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Hip-Hop",
+                "emoji": "\ud83c\udfa4",
+                "tagCategory": "Musique"
             },
             {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
+                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Dance",
+                "emoji": "\ud83d\udc83",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "World Music",
+                "emoji": "\ud83c\udf0d",
+                "tagCategory": "Musique"
             }
         ],
         "Event_Id": "Id_April_2024",
@@ -3094,14 +410,7 @@
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/inscription-seance-dexamen-professionnel-de-montreal-840293920737?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Singing",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -3121,34 +430,10 @@
         "EventUrl": "https://www.eventbrite.ca/e/billets-gala-influencecreation-2024-2e-edition-840799653397?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "005a4420-88c3-11ee-ab49-69be32c19a11",
-                "name": "Startup",
-                "emoji": "\ud83d\ude80",
-                "tagCategory": "Education"
-            },
-            {
-                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Reggae",
-                "emoji": " \ud83d\udc9a",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "24883e40-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Reggaeton",
-                "emoji": "\ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
+                "id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Fashion",
+                "emoji": "\ud83e\udd7b",
+                "tagCategory": "Leisure"
             }
         ],
         "Event_Id": "Id_April_2024"
@@ -3170,28 +455,16 @@
         "EventUrl": "https://www.eventbrite.com/e/montreal-salsa-convention-2024-19th-edition-tickets-640264015907?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Golf",
-                "emoji": "\u26f3",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
+                "id": "06759f60-5c8d-11ee-8ae0-fb963ffbedc0",
+                "name": "Holiday",
+                "emoji": "\ud83c\udf1e",
+                "tagCategory": "Musique"
             },
             {
                 "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
                 "name": "Dance",
                 "emoji": "\ud83d\udc83",
                 "tagCategory": "Leisure"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
             }
         ],
         "Event_Id": "Id_April_2024"
@@ -3213,33 +486,15 @@
         "EventUrl": "https://www.eventbrite.fr/e/montreal-rythmes-et-humour-dounia-boutazout-et-zakaria-ghafouli-tickets-851690638627?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2211e6d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Hip-Hop",
+                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
+                "name": "Singing",
                 "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
+                "tagCategory": "Leisure"
             },
             {
-                "id": "244cfde0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Punk Rock",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
+                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "World Music",
+                "emoji": "\ud83c\udf0d",
                 "tagCategory": "Musique"
             }
         ],
@@ -3260,32 +515,7 @@
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.com/e/canadian-women-in-aviation-conference-tickets-733714789687?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "18f44470-6ec6-11ee-839e-4b70ecb92583",
-                "name": "Fencing",
-                "emoji": "\ud83e\udd3a",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -3305,9 +535,21 @@
         "EventUrl": "https://www.eventbrite.ca/e/carrivibes-tickets-879152668297?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
+                "id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07",
+                "name": "Reggae",
+                "emoji": " \ud83d\udc9a",
+                "tagCategory": "Musique"
+            },
+            {
+                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Dance",
+                "emoji": "\ud83d\udc83",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "World Music",
+                "emoji": "\ud83c\udf0d",
                 "tagCategory": "Musique"
             }
         ],
@@ -3330,33 +572,15 @@
         "EventUrl": "https://www.eventbrite.ca/e/sommet-influence-technologie-et-creativite-responsables-tickets-857203467647?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
+                "id": "005a4420-88c3-11ee-ab49-69be32c19a11",
+                "name": "Startup",
+                "emoji": "\ud83d\ude80",
+                "tagCategory": "Education"
             },
             {
-                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Golf",
-                "emoji": "\u26f3",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1859e020-6ec5-11ee-839e-4b70ecb92583",
-                "name": "Cycling",
-                "emoji": "\ud83d\udeb4\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "244cfde0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Punk Rock",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
+                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
+                "name": "Techno",
+                "emoji": "\ud83c\udfa7",
                 "tagCategory": "Musique"
             }
         ],
@@ -3377,38 +601,7 @@
         "Latitude": 45.5045875,
         "Longitude": -73.612996,
         "EventUrl": "https://www.eventbrite.ca/e/semla-llmops-day-tickets-816995835537?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Blues",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1859e020-6ec5-11ee-839e-4b70ecb92583",
-                "name": "Cycling",
-                "emoji": "\ud83d\udeb4\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024",
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5045875,-73.612996"
     },
@@ -3429,34 +622,10 @@
         "EventUrl": "https://www.eventbrite.ca/e/montreal-tech-finance-networking-event-at-lounge-h3-tickets-872719707137?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Squash",
-                "emoji": "\ud83c\udff8",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Fashion",
-                "emoji": "\ud83e\udd7b",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1859e020-6ec5-11ee-839e-4b70ecb92583",
-                "name": "Cycling",
-                "emoji": "\ud83d\udeb4\u200d\u2642\ufe0f",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Tennis",
-                "emoji": "\ud83c\udfbe",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
+                "id": "005a4420-88c3-11ee-ab49-69be32c19a11",
+                "name": "Startup",
+                "emoji": "\ud83d\ude80",
+                "tagCategory": "Education"
             }
         ],
         "Event_Id": "Id_April_2024",
@@ -3479,34 +648,28 @@
         "EventUrl": "https://www.eventbrite.ca/e/festival-college-lasalle-tickets-871976293567?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "1e2c0d80-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Soul",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
+                "id": "0dc9b310-45df-11ee-837b-e184466a9b82",
+                "name": "Book",
+                "emoji": "\ud83d\udcd6",
+                "tagCategory": "Leisure"
             },
             {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
+                "id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Fashion",
+                "emoji": "\ud83e\udd7b",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Photography",
+                "emoji": "\ud83d\udcf8",
+                "tagCategory": "Leisure"
             },
             {
                 "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
                 "name": "Dance",
                 "emoji": "\ud83d\udc83",
                 "tagCategory": "Leisure"
-            },
-            {
-                "id": "28ab7800-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Soul",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
             },
             {
                 "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
@@ -3532,44 +695,7 @@
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.com/e/billets-boucherville-julien-lacroix-le-temps-au-temps-9-mai-2024-supplemen-719756770877?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Fashion",
-                "emoji": "\ud83e\udd7b",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2401c100-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Metal",
-                "emoji": "\ud83e\udd18",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "274d8200-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Rap",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Musique"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024"
     },
     {
@@ -3589,9 +715,9 @@
         "EventUrl": "https://www.eventbrite.ca/e/jeito-moleque-montreal-tickets-876235061657?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
+                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "World Music",
+                "emoji": "\ud83c\udf0d",
                 "tagCategory": "Musique"
             }
         ],
@@ -3613,77 +739,26 @@
         "Latitude": 45.5758185,
         "Longitude": -73.53600437276707,
         "EventUrl": "https://www.eventbrite.com/e/gala-des-marquis-tickets-871759876257?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Golf",
-                "emoji": "\u26f3",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
+        "Tags": [],
         "Event_Id": "Id_April_2024",
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5758185,-73.53600437276707"
     },
     {
-        "Title": "Soir\u00e9e de la rel\u00e8ve",
-        "Description": "Soir\u00e9e de la rel\u00e8ve",
-        "Date": "jeu. 25 avr. 2024 16:00 - 19:00 UTC\u22124",
-        "Location": "Pavillon Roger-Gaudry",
+        "Title": null,
+        "Description": null,
+        "Date": null,
+        "Location": null,
         "Price": null,
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F725243719%2F621548735973%2F1%2Foriginal.20240321-171528?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=20264e0a924385240018ff21a8ad8944",
         "Organizer": null,
         "Organizer_IMG": null,
         "Image URL Organizer": null,
-        "StartTime": "16:00",
-        "EndTime": "19:00",
-        "Latitude": 45.502916049999996,
-        "Longitude": -73.61484836333733,
+        "StartTime": null,
+        "EndTime": null,
+        "Latitude": null,
+        "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/billets-soiree-de-la-releve-837784856057?aff=ebdssbdestsearch",
-        "Tags": [
-            {
-                "id": "09dddaa0-573d-11ee-8b78-9b77053f08ef",
-                "name": "Chess",
-                "emoji": "\u265f",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "0dc9b310-45df-11ee-837b-e184466a9b82",
-                "name": "Book",
-                "emoji": "\ud83d\udcd6",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Baseball",
-                "emoji": "\u26be",
-                "tagCategory": "Sports"
-            },
-            {
-                "id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Basketball",
-                "emoji": "\ud83c\udfc0",
-                "tagCategory": "Sports"
-            }
-        ],
-        "Event_Id": "Id_April_2024",
-        "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.502916049999996,-73.61484836333733"
+        "Tags": [],
+        "Event_Id": "Id_April_2024"
     }
 ]
