@@ -10,6 +10,7 @@ from geopy.geocoders import Nominatim
 from unidecode import unidecode
 import datetime
 import openai
+import re
 
 client = openai.OpenAI(api_key='sk-proj-qfb99sSu2wS1BsHcizRQT3BlbkFJcbn5Xt0uDcWSSanREaLF') # to do: move it into .env variables
 
@@ -66,45 +67,41 @@ def generate_tags(title, description):
     ]
 
     prompt = (
-        f"You are a meticulous selector, trained on identiying relevant tags for events.\nYour task is to select, from the list below, at most 5 tags that are very relevant for the event \"{title}\" (description: \"{description}\"). Ensure they are directly related to the event content and only output the selected tags separated by comma.\n\n"
-        f"{', '.join([tag['name'] for tag in predefined_tags])}"
+        f"You are a meticulous selector, trained on identifying relevant tags for events.\n" +
+        f"Your task is to select, only from the list below, at most 5 tags that are very relevant for the event \"{title}\" (description: \"{description}\").\n" +
+        f"Here are the exhaustive list of tags to select from:\n" +
+        ''.join([f"{index+1}. {tag['name']} \n" for index, tag in enumerate(predefined_tags)]) +
+        f"Only output the selected tags from this list, separated by comma.\n" +
+        f"Do not output any other tag.\n" +
+        f"If there is no relevant tag in the list, output 'NO TAG'."
     )
-
     print(prompt)
 
-
     completion = client.chat.completions.create(
-        model="gpt-3.5-turbo-0125",
+        model="gpt-4-turbo",
         temperature=0,
         messages=[
             {"role": "system", "content": prompt}
         ]
     )
 
-    print(completion.choices[0].message)
+    response = completion.choices[0].message.content
 
-    response = completion.choices[0].message
+    print('response', response)
 
-    print('response', response.content)
+    relevant_tags = []
 
-    suggested_tags = [tag.strip() for choice in response for tag in choice.text.strip().split(",")]
-    relevant_tags = [tag for tag in suggested_tags if tag in [t['name'] for t in predefined_tags]]
+    for predefined_tag in predefined_tags:
+        if (predefined_tag["name"] in response):
+            relevant_tags.append(predefined_tag)
 
-    if len(relevant_tags) < 5:
-        additional_tags = predefined_tags[:5 - len(relevant_tags)]
-        relevant_tags.extend(additional_tags)
-    elif len(relevant_tags) > 5:
-        relevant_tags = relevant_tags[:5]
+    print(relevant_tags)
 
-    # Converter as tags para o formato desejado
-    formatted_tags = [{"id": tag['id'], "name": tag['name'], "emoji": tag['emoji'], "tagCategory": tag['tagCategory']}
-                      for tag in predefined_tags if tag['name'] in relevant_tags]
-
-    return formatted_tags
+    return relevant_tags
 
 # Exemplo de uso:
-title = "Inter Miami x Orlando City"
-description = "MLS Cup Final Match"
+title = "Psy Crisis IV: JUNGLE"
+description = "With immense joy and excitement, Wizard Tribe in collaboration with AlpaKa MuziK/Productions present..."
 
 tags = generate_tags(title, description)
 print("Tags relacionadas encontradas:", tags)
