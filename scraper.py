@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 import geopy
 from geopy.geocoders import Nominatim
 from unidecode import unidecode
+import datetime
 import re
 import openai
 
@@ -104,6 +105,11 @@ print("Tags relacionadas encontradas:", tags)
 
 def calculate_similarity(str1, str2):
     return fuzz.token_sort_ratio(str1, str2)
+
+def generate_event_id():
+    now = datetime.datetime.now()
+    return f"Id_{now.strftime('%B_%Y')}"
+
 
 def scroll_to_bottom(driver, max_scroll=20):
     for _ in range(max_scroll):
@@ -232,7 +238,7 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=30):
 
         address_span = event_page.find('span', class_='x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x1f6kntn xvq8zen xo1l8bm xi81zsa x1yc453h')
         address = address_span.text.strip() if address_span else None
-        event_id_counter = 0
+        event_id = generate_event_id()
 
         tags = generate_tags(title, description)
 
@@ -286,7 +292,7 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=30):
             'StartTime': start_time,
             'EndTime': end_time,
             'Tags': tags,
-            'Event_Id': event_id_counter
+            'Event_Id': event_id
         }
 
         all_events.append(event_info)
@@ -459,7 +465,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             location = location_element.text.strip() if location_element else None
             ImageURL = get_previous_page_image_url(driver)
             tags = generate_tags(title, description)
-            event_id_counter = 0
+            event_id = generate_event_id()
 
             # Isolating the number from the price using regular expressions
             price_number = None
@@ -469,17 +475,6 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
                     price_number = float(price_matches[0])
 
             latitude, longitude = get_coordinates(location)
-
-            # tags_elements = event_page.find_all('li', class_='tags-item inline')
-
-            # tags = []
-            # for tag_element in tags_elements:
-            #     tag_link = tag_element.find('a')
-            #     if tag_link:
-            #         tag_text = tag_link.text.strip().replace("#", "")  # Remove the "#"
-            #         tags.append(tag_text)
-
-            # event_info['Tags'] = tags
 
             organizer = event_page.find('a', class_='descriptive-organizer-info__name-link') if event_page.find('a', class_='descriptive-organizer-info__name-link') else None
             image_url_organizer = event_page.find('svg', class_='eds-avatar__background eds-avatar__background--has-border')
@@ -504,7 +499,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             event_info['Organizer'] = organizer.text.strip() if organizer else None
             event_info['EventUrl'] = event_link
             event_info['Tags'] = tags
-            event_info['Event_Id'] = event_id_counter
+            event_info['Event_Id'] = event_id
 
             if latitude is not None and longitude is not None:
                 map_url = open_google_maps(latitude, longitude)
