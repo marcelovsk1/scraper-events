@@ -12,7 +12,7 @@ import datetime
 import openai
 import re
 
-client = openai.OpenAI(api_key='sk-proj-qfb99sSu2wS1BsHcizRQT3BlbkFJcbn5Xt0uDcWSSanREaLF') # to do: move it into .env variables
+client = openai.OpenAI(api_key='sk-proj-3vyfeWPQGSE0aPc9nomET3BlbkFJI9Wa1ILMboX2kBBP1HBM') # to do: move it into .env variables
 
 def generate_tags(title, description):
     predefined_tags = [
@@ -70,7 +70,7 @@ def generate_tags(title, description):
         f"You are a meticulous selector, trained on identifying relevant tags for events.\n" +
         f"Your task is to select, only from the list below, at most 5 tags that are very relevant for the event \"{title}\" (description: \"{description}\").\n" +
         f"Here are the exhaustive list of tags to select from:\n" +
-        ''.join([f"{index+1}. {tag['name']} ({tag["tagCategory"]})\n" for index, tag in enumerate(predefined_tags)]) +
+        ''.join([f"{index+1}. {tag['name']} ({tag['tagCategory']})\n" for index, tag in enumerate(predefined_tags)]) +
         f"Only output the selected tags from this list, separated by comma.\n" +
         f"Do not output any other tag.\n" +
         f"If there is no relevant tag in the list, output 'NO TAG'."
@@ -108,10 +108,6 @@ print("Tags relacionadas encontradas:", tags)
 
 def calculate_similarity(str1, str2):
     return fuzz.token_sort_ratio(str1, str2)
-
-def generate_event_id():
-    now = datetime.datetime.now()
-    return f"Id_{now.strftime('%B_%Y')}"
 
 def scroll_to_bottom(driver, max_scroll=2):
     for _ in range(max_scroll):
@@ -189,7 +185,7 @@ def get_location_details(latitude, longitude):
     return None, None, None
 
 #### FACEBOOK ####
-def scrape_facebook_events(driver, url, selectors, max_scroll=2):
+def scrape_facebook_events(driver, url, selectors, max_scroll=30):
     global event_id_counter
 
     driver.get(url)
@@ -240,7 +236,6 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=2):
 
         address_span = event_page.find('span', class_='x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x1f6kntn xvq8zen xo1l8bm xi81zsa x1yc453h')
         address = address_span.text.strip() if address_span else None
-        event_id = generate_event_id()
 
         tags = generate_tags(title, description)
 
@@ -294,7 +289,6 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=2):
             'StartTime': start_time,
             'EndTime': end_time,
             'Tags': tags,
-            'Event_Id': event_id
         }
 
         all_events.append(event_info)
@@ -467,7 +461,6 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             location = location_element.text.strip() if location_element else None
             ImageURL = get_previous_page_image_url(driver)
             tags = generate_tags(title, description)
-            event_id = generate_event_id()
 
             # Isolating the number from the price using regular expressions
             price_number = None
@@ -501,7 +494,6 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
             event_info['Organizer'] = organizer.text.strip() if organizer else None
             event_info['EventUrl'] = event_link
             event_info['Tags'] = tags
-            event_info['Event_Id'] = event_id
 
             if latitude is not None and longitude is not None:
                 map_url = open_google_maps(latitude, longitude)
