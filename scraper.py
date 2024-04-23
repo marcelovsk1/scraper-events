@@ -12,7 +12,7 @@ import datetime
 import openai
 import re
 
-client = openai.OpenAI(api_key='sk-proj-qfb99sSu2wS1BsHcizRQT3BlbkFJcbn5Xt0uDcWSSanREaLF') # to do: move it into .env variables
+client = openai.OpenAI(api_key='sk-proj-3vyfeWPQGSE0aPc9nomET3BlbkFJI9Wa1ILMboX2kBBP1HBM') # to do: move it into .env variables
 
 def generate_tags(title, description):
     predefined_tags = [
@@ -70,7 +70,7 @@ def generate_tags(title, description):
         f"You are a meticulous selector, trained on identifying relevant tags for events.\n" +
         f"Your task is to select, only from the list below, at most 5 tags that are very relevant for the event \"{title}\" (description: \"{description}\").\n" +
         f"Here are the exhaustive list of tags to select from:\n" +
-        ''.join([f"{index+1}. {tag['name']} ({tag["tagCategory"]})\n" for index, tag in enumerate(predefined_tags)]) +
+        ''.join([f"{index+1}. {tag['name']} ({tag['tagCategory']})\n" for index, tag in enumerate(predefined_tags)]) +
         f"Only output the selected tags from this list, separated by comma.\n" +
         f"Do not output any other tag.\n" +
         f"If there is no relevant tag in the list, output 'NO TAG'."
@@ -189,7 +189,7 @@ def get_location_details(latitude, longitude):
     return None, None, None
 
 #### FACEBOOK ####
-def scrape_facebook_events(driver, url, selectors, max_scroll=2):
+def scrape_facebook_events(driver, url, selectors, max_scroll=30):
     global event_id_counter
 
     driver.get(url)
