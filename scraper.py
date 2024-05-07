@@ -12,7 +12,7 @@ import datetime
 import openai
 import re
 
-client = openai.OpenAI(api_key='sk-proj-3vyfeWPQGSE0aPc9nomET3BlbkFJI9Wa1ILMboX2kBBP1HBM') # to do: move it into .env variables
+
 
 def generate_tags(title, description):
     predefined_tags = [
@@ -114,21 +114,35 @@ def scroll_to_bottom(driver, max_scroll=2):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
 
-def format_date(date_str, source):
-    if date_str is None:
+def format_date(date_str):
+    print("Original date string:", date_str)
+
+    # Verificar se a string da data está vazia
+    if not date_str:
+        print("Erro: String de data vazia.")
         return None
 
-    date_str_lower = date_str.lower()
-    source_lower = source.lower()
-    # Facebook: SUNDAY, MARCH 3, 2024
-    if source_lower == 'facebook':
-        formatted_date = datetime.strptime(date_str, '%A, %B %d, %Y')
-        return formatted_date
-    # Eventbrite: Sunday, March 3
-    elif source_lower == 'eventbrite':
-        formatted_date = datetime.strptime(date_str, '%a, %b %d, %Y %I:%M %p - %a, %b %d, %Y %I:%M %p %Z')
-        return formatted_date
+    # Usar expressões regulares para extrair os componentes da data
+    match = re.match(r"(\w+), (\w+ \d{1,2}, \d{4}) AT (\d{1,2}:\d{2}\s*(?:AM|PM)) – (\d{1,2}:\d{2}\s*(?:AM|PM))", date_str)
+    if match:
+        day_of_week, date, start_time, end_time = match.groups()
+
+        # Extrair o nome abreviado do mês
+        start_month = date.split()[0]
+
+        # Converter o nome do mês para seu equivalente numérico
+        start_month_num = datetime.datetime.strptime(start_month, '%B').month
+
+        # Extrair o dia do mês e o ano
+        start_day, year = re.search(r"(\d{1,2}), (\d{4})", date).groups()
+
+        # Formatando a data de início com dia, mês e ano
+        formatted_start_date = f"{start_day}/{start_month_num:02d}/{year}"
+        print("Formatted start date:", formatted_start_date)
+
+        return formatted_start_date
     else:
+        print("Erro: Formato de data inválido.")
         return None
 
 def get_coordinates(location):
@@ -280,7 +294,7 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=30):
         event_info = {
             'Title': title,
             'Description': description,
-            'Date': date_text,
+            'Date': format_date(date_text),  # Aqui está a chamada corrigida da função format_date
             **location_details,
             'ImageURL': event_page.find('img', class_='xz74otr x1ey2m1c x9f619 xds687c x5yr21d x10l6tqk x17qophe x13vifvy xh8yej3')['src'] if event_page.find('img', class_='xz74otr x1ey2m1c x9f619 xds687c x5yr21d x10l6tqk x17qophe x13vifvy xh8yej3') else None,
             'Organizer': event_page.find('span', class_='xt0psk2').text.strip() if event_page.find('span', class_='xt0psk2') else None,
@@ -293,7 +307,6 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=30):
 
         all_events.append(event_info)
         unique_event_titles.add(title)
-
 
         driver.back()
 
@@ -433,80 +446,91 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
     all_events = []
 
     for _ in range(max_pages):
-        page_content = driver.page_source
-        webpage = BeautifulSoup(page_content, 'html.parser')
-        events = webpage.find_all(selectors['event']['tag'], class_=selectors['event'].get('class'))
-
-        for event in events:
-            event_info = {}
-            for key, selector in selectors.items():
-                if key != 'event':
-                    element = event.find(selector['tag'], class_=selector.get('class'))
-                    event_info[key] = element.text.strip() if element else None
-                    if key == 'ImageURL':
-                        img_element = event.find('img', class_='event-card__image')
-                        event_info[key] = img_element['src'] if img_element and 'src' in img_element.attrs else None
-
-            event_link = event.find('a', href=True)['href']
-            driver.get(event_link)
-
-            event_page_content = driver.page_source
-            event_page = BeautifulSoup(event_page_content, 'html.parser')
-
-            title = event_page.find('h1', class_='event-title css-0').text.strip() if event_page.find('h1', class_='event-title css-0') else None
-            description = event_page.find('p', class_='summary').text.strip() if event_page.find('p', class_='summary') else None
-            price = event_page.find('div', class_='conversion-bar__panel-info').text.strip() if event_page.find('div', class_='conversion-bar__panel-info') else None
-            date = event_page.find('span', class_='date-info__full-datetime').text.strip() if event_page.find('span', class_='date-info__full-datetime') else None
-            location_element = event_page.find('p', class_='location-info__address-text')
-            location = location_element.text.strip() if location_element else None
-            ImageURL = get_previous_page_image_url(driver)
-            tags = generate_tags(title, description)
-
-            # Isolating the number from the price using regular expressions
-            price_number = None
-            if price:
-                price_matches = re.findall(r'\d+\.?\d*', price)
-                if price_matches:
-                    price_number = float(price_matches[0])
-
-            latitude, longitude = get_coordinates(location)
-
-            organizer = event_page.find('a', class_='descriptive-organizer-info__name-link') if event_page.find('a', class_='descriptive-organizer-info__name-link') else None
-            image_url_organizer = event_page.find('svg', class_='eds-avatar__background eds-avatar__background--has-border')
-            if image_url_organizer:
-                image_tag = image_url_organizer.find('image')
-                if image_tag:
-                    event_info['Image URL Organizer'] = image_tag.get('xlink:href')
-                else:
-                    event_info['Image URL Organizer'] = None
-            else:
-                event_info['Image URL Organizer'] = None
-
-            event_info['Title'] = title
-            event_info['Description'] = description
-            event_info['Price'] = price_number
-            event_info['Date'] = date
-            event_info['StartTime'], event_info['EndTime'] = extract_start_end_time(date)
-            event_info['Location'] = location
-            event_info['ImageURL'] = ImageURL
-            event_info['Latitude'] = latitude
-            event_info['Longitude'] = longitude
-            event_info['Organizer'] = organizer.text.strip() if organizer else None
-            event_info['EventUrl'] = event_link
-            event_info['Tags'] = tags
-
-            if latitude is not None and longitude is not None:
-                map_url = open_google_maps(latitude, longitude)
-                event_info['GoogleMaps_URL'] = map_url
-
-            all_events.append(event_info)
-
-            driver.back()
-
         try:
-            next_button = driver.find_element_by_link_text('Next')
-            next_button.click()
-        except:
+            page_content = driver.page_source
+            webpage = BeautifulSoup(page_content, 'html.parser')
+            events = webpage.find_all(selectors['event']['tag'], class_=selectors['event'].get('class'))
+
+            for event in events:
+                event_info = {}
+                for key, selector in selectors.items():
+                    if key != 'event':
+                        element = event.find(selector['tag'], class_=selector.get('class'))
+                        event_info[key] = element.text.strip() if element else None
+                        if key == 'ImageURL':
+                            img_element = event.find('img', class_='event-card__image')
+                            event_info[key] = img_element['src'] if img_element and 'src' in img_element.attrs else None
+
+                event_link = event.find('a', href=True)['href']
+                driver.get(event_link)
+
+                try:
+                    event_page_content = driver.page_source
+                    event_page = BeautifulSoup(event_page_content, 'html.parser')
+
+                    title = event_page.find('h1', class_='event-title css-0').text.strip() if event_page.find('h1', class_='event-title css-0') else None
+                    description = event_page.find('p', class_='summary').text.strip() if event_page.find('p', class_='summary') else None
+                    price = event_page.find('div', class_='conversion-bar__panel-info').text.strip() if event_page.find('div', class_='conversion-bar__panel-info') else None
+                    date = event_page.find('span', class_='date-info__full-datetime').text.strip() if event_page.find('span', class_='date-info__full-datetime') else None
+                    location_element = event_page.find('p', class_='location-info__address-text')
+                    location = location_element.text.strip() if location_element else None
+                    ImageURL = get_previous_page_image_url(driver)
+                    tags = generate_tags(title, description)
+
+                    # Isolating the number from the price using regular expressions
+                    price_number = None
+                    if price:
+                        price_matches = re.findall(r'\d+\.?\d*', price)
+                        if price_matches:
+                            price_number = float(price_matches[0])
+
+                    latitude, longitude = get_coordinates(location)
+
+                    organizer = event_page.find('a', class_='descriptive-organizer-info__name-link') if event_page.find('a', class_='descriptive-organizer-info__name-link') else None
+                    image_url_organizer = event_page.find('svg', class_='eds-avatar__background eds-avatar__background--has-border')
+                    if image_url_organizer:
+                        image_tag = image_url_organizer.find('image')
+                        if image_tag:
+                            event_info['Image URL Organizer'] = image_tag.get('xlink:href')
+                        else:
+                            event_info['Image URL Organizer'] = None
+                    else:
+                        event_info['Image URL Organizer'] = None
+
+                    event_info['Title'] = title
+                    event_info['Description'] = description
+                    event_info['Price'] = price_number
+                    event_info['Date'] = date
+                    event_info['StartTime'], event_info['EndTime'] = extract_start_end_time(date)
+                    event_info['Location'] = location
+                    event_info['ImageURL'] = ImageURL
+                    event_info['Latitude'] = latitude
+                    event_info['Longitude'] = longitude
+                    event_info['Organizer'] = organizer.text.strip() if organizer else None
+                    event_info['EventUrl'] = event_link
+                    event_info['Tags'] = tags
+
+                    if latitude is not None and longitude is not None:
+                        map_url = open_google_maps(latitude, longitude)
+                        event_info['GoogleMaps_URL'] = map_url
+
+                    all_events.append(event_info)
+
+                except Exception as e:
+                    print("Error scraping event page:", e)
+
+                finally:
+                    driver.back()
+
+            try:
+                next_button = driver.find_element_by_link_text('Next')
+                next_button.click()
+            except Exception as e:
+                print("Error clicking next button:", e)
+                break
+
+        except Exception as e:
+            print("Error scraping events page:", e)
             break
 
     return all_events
