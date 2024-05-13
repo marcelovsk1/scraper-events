@@ -12,7 +12,7 @@ import datetime
 import openai
 import re
 
-
+client = openai.OpenAI(api_key='sk-proj-p93lb3OwglZVnCCnz29ET3BlbkFJVgFoCTdqNsyESJ5gJriL')
 
 def generate_tags(title, description):
     predefined_tags = [
@@ -199,7 +199,7 @@ def get_location_details(latitude, longitude):
     return None, None, None
 
 #### FACEBOOK ####
-def scrape_facebook_events(driver, url, selectors, max_scroll=30):
+def scrape_facebook_events(driver, url, selectors, max_scroll=3):
     global event_id_counter
 
     driver.get(url)
@@ -437,7 +437,7 @@ def get_previous_page_image_url(driver):
 
     return None
 
-def scrape_eventbrite_events(driver, url, selectors, max_pages=30):
+def scrape_eventbrite_events(driver, url, selectors, max_pages=3):
     global event_id_counter
 
     driver.get(url)

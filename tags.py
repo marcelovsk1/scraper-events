@@ -48,3 +48,6 @@ tags = [
     {"id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07", "name": "Techno", "emoji": "🎧", "tagCategory": "Musique"},
     {"id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07", "name": "World Music", "emoji": "🌍", "tagCategory": "Musique"}
 ]
+
+
+client = openai.OpenAI(api_key='sk-proj-p93lb3OwglZVnCCnz29ET3BlbkFJVgFoCTdqNsyESJ5gJriL') # to do: move it into .env variables
