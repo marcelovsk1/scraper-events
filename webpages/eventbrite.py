@@ -12,7 +12,6 @@ from unidecode import unidecode
 import requests
 import re
 
-
 def scroll_to_bottom(driver, max_clicks=5):
     for _ in range(max_clicks):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -20,8 +19,6 @@ def scroll_to_bottom(driver, max_clicks=5):
 
 def calculate_similarity(str1, str2):
     return fuzz.token_sort_ratio(str1, str2)
-
-
 
 def format_date(date_str, source):
     if date_str is None:
@@ -36,8 +33,19 @@ def format_date(date_str, source):
         patterns = [
             r'(\w{3})\s*(\d{1,2})\s*·',  # 'May 19 · 10pm'
             r'(?:débute le\s+)?(\w{3})[.,]\s*(\d{1,2})\s*(\w{3,})\s*(\d{4})',  # 'Débute le lun., 27 mai 2024'
+            r'Débute le \w{3}\., (\d{1,2}) (\w{3}) (\d{4})',
+            r'(\w+), (\w+) (\d{1,2})',
+            r'(\w+) (\d{1,2})',
+            r'\w+, (\d{1,2}) (\w{3}) \d{4}',
+            r'Débute le \w{3}\., (\d{1,2}) (\w{3}) (\d{4})',
+            r'Débute le \w{3}\., (\d{1,2}) (\w{3}) (\d{4})',
+            r'Débute le \w{3}\., (\d{1,2}) (\w{3,}) (\d{4})',
+            r'(?:\w{3,9}, )?(\w+) (\d{1,2})',  # Saturday, June 1
             r'(\w{3}), (\w{3}) (\d{1,2}), (\d{4})',  # 'Thu, May 23, 2024'
-            r'(\w{3})\s*(\d{1,2}), (\d{4})'  # 'May 15, 2024'
+            r'(\w{3}), (\w{3}) (\d{1,2}), (\d{4}) \d{1,2}:\d{2} [AP]M',  # 'Thu, May 16, 2024 8:00 PM'
+            r'(\w{3})\s*(\d{1,2}), (\d{4})',  # 'May 15, 2024'
+            r'(\w{3})[.,]\s*(\d{1,2})\s*(\w{3})\s*(\d{4})\s*(\d{2}:\d{2})',  # 'mer. 29 mai 2024 08:00'
+            r'(\w{3})[.,]\s*(\d{1,2})\s*(\w{3})\s*(\d{4})'  # General pattern for day abbreviation, date, month, year
         ]
 
         for pattern in patterns:
@@ -48,10 +56,18 @@ def format_date(date_str, source):
                     if len(date_match.groups()) == 2:
                         month, day = date_match.groups()
                         year = datetime.now().year  # Assumir ano atual se não fornecido
-                    elif len(date_match.groups()) == 4:
-                        day_of_week, month, day, year = date_match.groups()
+                    elif len(date_match.groups()) == 3:
+                        if pattern == r'(\w+), (\w+) (\d{1,2})':
+                            _, month, day = date_match.groups()
+                            year = datetime.now().year  # Assumir ano atual se não fornecido
+                        else:
+                            day_of_week, month, day, year = date_match.groups()
                     else:
-                        month_map = {'jan': 'Jan', 'fév': 'Feb', 'mar': 'Mar', 'avr': 'Apr', 'mai': 'May', 'juin': 'Jun', 'juil': 'Jul', 'août': 'Aug', 'sept': 'Sep', 'oct': 'Oct', 'nov': 'Nov', 'déc': 'Dec'}
+                        month_map = {
+                            'jan': 'Jan', 'feb': 'Feb', 'mar': 'Mar', 'apr': 'Apr', 'may': 'May', 'jun': 'Jun', 'jul': 'Jul', 'aug': 'Aug', 'sep': 'Sep', 'oct': 'Oct', 'nov': 'Nov', 'dec': 'Dec',
+                            'janv': 'Jan', 'févr': 'Feb', 'mars': 'Mar', 'avr': 'Apr', 'mai': 'May', 'juin': 'Jun', 'juil': 'Jul', 'août': 'Aug', 'sept': 'Sep', 'oct': 'Oct', 'nov': 'Nov', 'déc': 'Dec',
+                            'ene': 'Jan', 'feb': 'Feb', 'mar': 'Mar', 'abr': 'Apr', 'mayo': 'May', 'jun': 'Jun', 'jul': 'Jul', 'ago': 'Aug', 'sep': 'Sep', 'oct': 'Oct', 'nov': 'Nov', 'dic': 'Dec'
+                        }
                         day_of_week, day, month, year = date_match.groups()
                         month = month_map[month[:3].lower()]
 
@@ -60,30 +76,13 @@ def format_date(date_str, source):
                     start_date = datetime.strptime(date_str_formatted, '%d %b %Y')
                     return start_date.strftime('%d/%m/%Y')
                 except ValueError as e:
-                    print(f"Erro ao converter a data '{date_str_formatted}': {e}")
+                    print(f"Erro ao converter a data: {e}")
                     continue
         print("Nenhuma correspondência encontrada na string de data")
         return None
     else:
         print("Fonte não suportada")
         return None
-
-# Exemplos de uso:
-date_examples = [
-    "May 19 · 10pm - May 20 · 3am EDT",
-    "Débute le lun., 27 mai 2024 17:00 UTC−4",
-    "mar. 21 mai 2024 17:00 - 20:00 UTC−4",
-    "Débute le mar., 14 mai 2024 13:00 UTC−4",
-    "sam. 25 mai 2024 17:30 - 20:00 MST",
-    "mer. 22 mai 2024 20:00 - 22:00 UTC−4",
-    "mer. 29 mai 2024 08:00 - ven. 31 mai 2024 17:00 UTC−4",
-    "Thursday, May 23 · 1 - 5pm EDT",
-    "May 15 · 8:30am - May 17 · 5pm EDT"
-]
-for date_example in date_examples:
-    print(format_date(date_example, 'Eventbrite'))
-
-
 
 
 def format_location(location_str, source):
@@ -128,7 +127,6 @@ def format_location(location_str, source):
             'City': 'Montreal',
             'CountryCode': 'ca'
         }
-
 
 def extract_start_end_time(date_str):
     if date_str is None:
@@ -235,7 +233,6 @@ def get_coordinates(location):
             time.sleep(delay)
 
     return None, None
-
 
 def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
