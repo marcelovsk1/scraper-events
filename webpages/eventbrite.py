@@ -252,87 +252,100 @@ def get_previous_page_image_url(driver):
 
     return None
 
-def scrape_eventbrite_events(driver, url, selectors, max_pages=10):
+def scrape_eventbrite_events(driver, url, selectors, max_pages=3):
+    global event_id_counter
+
     driver.get(url)
     driver.implicitly_wait(20)
 
     all_events = []
 
     for _ in range(max_pages):
-        page_content = driver.page_source
-        webpage = BeautifulSoup(page_content, 'html.parser')
-        events = webpage.find_all(selectors['event']['tag'], class_=selectors['event'].get('class'))
-
-        for event in events:
-            event_info = {}
-            for key, selector in selectors.items():
-                if key != 'event':
-                    element = event.find(selector['tag'], class_=selector.get('class'))
-                    event_info[key] = element.text.strip() if element else None
-                    if key == 'ImageURL':
-                        img_element = event.find('img', class_='event-card__image')
-                        event_info[key] = img_element['src'] if img_element and 'src' in img_element.attrs else None
-
-            event_link = event.find('a', href=True)['href']
-            driver.get(event_link)
-
-            event_page_content = driver.page_source
-            event_page = BeautifulSoup(event_page_content, 'html.parser')
-
-            title = event_page.find('h1', class_='event-title css-0').text.strip() if event_page.find('h1', class_='event-title css-0') else None
-            description = event_page.find('p', class_='summary').text.strip() if event_page.find('p', class_='summary') else None
-            price = event_page.find('div', class_='conversion-bar__panel-info').text.strip() if event_page.find('div', class_='conversion-bar__panel-info') else None
-            date = event_page.find('span', class_='date-info__full-datetime').text.strip() if event_page.find('span', class_='date-info__full-datetime') else None
-            location_element = event_page.find('p', class_='location-info__address-text')
-            location = location_element.text.strip() if location_element else None
-            ImageURL = get_previous_page_image_url(driver)
-            # tags = generate_tags("Event Title", "Event Description", ticketmaster_tags)
-
-
-            # Obtenha as coordenadas de latitude e longitude
-            latitude, longitude = get_coordinates(location)
-
-
-            # Ao invés de buscar dinamicamente o nome do organizador, atribua diretamente o elemento HTML com o nome fixo.
-            organizer_html = '<strong class="organizer-listing-info-variant-b__name-link">Canadian Salsa Dance Corp</strong>'
-            soup = BeautifulSoup(organizer_html, 'html.parser')
-            organizer = soup.find('strong', class_='organizer-listing-info-variant-b__name-link')
-            image_url_organizer = event_page.find('svg', class_='eds-avatar__background eds-avatar__background--has-border')
-            if image_url_organizer:
-                image_tag = image_url_organizer.find('image')
-                if image_tag:
-                    event_info['Image URL Organizer'] = image_tag.get('xlink:href')
-                else:
-                    event_info['Image URL Organizer'] = None
-            else:
-                event_info['Image URL Organizer'] = None
-
-            event_info['Title'] = title
-            event_info['Description'] = description
-            event_info['Price'] = price
-            event_info['Date'] = format_date(date, 'Eventbrite')
-            event_info['StartTime'], event_info['EndTime'] = extract_start_end_time(date)
-            event_info.update(format_location(location, 'Eventbrite'))
-            event_info['ImageURL'] = ImageURL
-            event_info['Latitude'] = latitude  # Adiciona latitude
-            event_info['Longitude'] = longitude  # Adiciona longitude
-            # event_info['GPTtags'] = tags
-            event_info['Organizer'] = organizer.text.strip() if organizer else None
-            event_info['EventUrl'] = event_link  # Adiciona o EventUrl ao dicionário
-
-            # Adicione a URL do Google Maps para o evento
-            if latitude is not None and longitude is not None:
-                map_url = open_google_maps(latitude, longitude)
-                event_info['MapURL'] = map_url
-
-            all_events.append(event_info)
-
-            driver.back()
-
         try:
-            next_button = driver.find_element_by_link_text('Next')
-            next_button.click()
-        except:
+            page_content = driver.page_source
+            webpage = BeautifulSoup(page_content, 'html.parser')
+            events = webpage.find_all(selectors['event']['tag'], class_=selectors['event'].get('class'))
+
+            for event in events:
+                event_info = {}
+                for key, selector in selectors.items():
+                    if key != 'event':
+                        element = event.find(selector['tag'], class_=selector.get('class'))
+                        event_info[key] = element.text.strip() if element else None
+                        if key == 'ImageURL':
+                            img_element = event.find('img', class_='event-card__image')
+                            event_info[key] = img_element['src'] if img_element and 'src' in img_element.attrs else None
+
+                event_link = event.find('a', href=True)['href']
+                driver.get(event_link)
+
+                try:
+                    event_page_content = driver.page_source
+                    event_page = BeautifulSoup(event_page_content, 'html.parser')
+
+                    title = event_page.find('h1', class_='event-title css-0').text.strip() if event_page.find('h1', class_='event-title css-0') else None
+                    description = event_page.find('p', class_='summary').text.strip() if event_page.find('p', class_='summary') else None
+                    price = event_page.find('div', class_='conversion-bar__panel-info').text.strip() if event_page.find('div', class_='conversion-bar__panel-info') else None
+                    date = event_page.find('span', class_='date-info__full-datetime').text.strip() if event_page.find('span', class_='date-info__full-datetime') else None
+                    location_element = event_page.find('p', class_='location-info__address-text')
+                    location = location_element.text.strip() if location_element else None
+                    ImageURL = get_previous_page_image_url(driver)
+                    # tags = generate_tags(title, description)
+
+                    # Isolating the number from the price using regular expressions
+                    price_number = None
+                    if price:
+                        price_matches = re.findall(r'\d+\.?\d*', price)
+                        if price_matches:
+                            price_number = float(price_matches[0])
+
+                    latitude, longitude = get_coordinates(location)
+
+                    organizer = event_page.find('div', class_='descriptive-organizer-info-mobile__name') if event_page.find('div', class_='descriptive-organizer-info-mobile__name') else None
+                    image_url_organizer = event_page.find('svg', class_='eds-avatar__background eds-avatar__background--has-border')
+                    if image_url_organizer:
+                        image_tag = image_url_organizer.find('image')
+                        if image_tag:
+                            event_info['Image URL Organizer'] = image_tag.get('xlink:href')
+                        else:
+                            event_info['Image URL Organizer'] = None
+                    else:
+                        event_info['Image URL Organizer'] = None
+
+                    event_info['Title'] = title
+                    event_info['Description'] = description
+                    event_info['Price'] = price_number
+                    event_info['Date'] = format_date(date, 'Eventbrite')
+                    event_info['StartTime'], event_info['EndTime'] = extract_start_end_time(date)
+                    event_info['Location'] = location
+                    event_info['ImageURL'] = ImageURL
+                    event_info['Latitude'] = latitude
+                    event_info['Longitude'] = longitude
+                    event_info['Organizer'] = organizer.text.strip() if organizer else None
+                    event_info['EventUrl'] = event_link
+                    # event_info['Tags'] = tags
+
+                    if latitude is not None and longitude is not None:
+                        map_url = open_google_maps(latitude, longitude)
+                        event_info['GoogleMaps_URL'] = map_url
+
+                    all_events.append(event_info)
+
+                except Exception as e:
+                    print("Error scraping event page:", e)
+
+                finally:
+                    driver.back()
+
+            try:
+                next_button = driver.find_element_by_link_text('Next')
+                next_button.click()
+            except Exception as e:
+                print("Error clicking next button:", e)
+                break
+
+        except Exception as e:
+            print("Error scraping events page:", e)
             break
 
     return all_events
