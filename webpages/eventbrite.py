@@ -384,6 +384,7 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=3):
 
     return all_events
 
+
 def main():
     sources = [
         {

@@ -12,7 +12,7 @@ import datetime
 import openai
 import re
 
-client = openai.OpenAI(api_key='sk-proj-p93lb3OwglZVnCCnz29ET3BlbkFJVgFoCTdqNsyESJ5gJriL')
+client = openai.OpenAI(api_key='sk-proj-JNSUEMh35dZHqRNvSMDtT3BlbkFJ0oDuLNFKF81zreH50YPM')
 
 def generate_tags(title, description):
     predefined_tags = [
