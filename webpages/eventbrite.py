@@ -364,8 +364,7 @@ def main():
                 'Price': {'tag': 'p', 'class': 'event-card__price'},
                 'ImageURL': {'tag': 'img', 'class': 'event-card__image'},
                 # 'Tags': {'tag': 'ul', 'class': 'event-card__tags'},
-                'Organizer': {'tag': 'a', 'class': 'event-card__organizer'},
-                'Organizer_IMG': {'tag': 'svg', 'class': 'eds-avatar__background eds-avatar__background--has-border'}
+                'Organizer': {'tag': 'a', 'class': 'event-card__organizer'}
             },
             'max_pages': 30
         }
