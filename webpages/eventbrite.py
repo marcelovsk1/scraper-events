@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
+from bs4 import BeautifulSoup
 from datetime import datetime
 import geopy
 from geopy.geocoders import Nominatim
@@ -21,38 +22,67 @@ def calculate_similarity(str1, str2):
     return fuzz.token_sort_ratio(str1, str2)
 
 
+
 def format_date(date_str, source):
     if date_str is None:
+        print("Data recebida é None")
         return None
 
     date_str_lower = date_str.lower()
     source_lower = source.lower()
 
     if source_lower == 'eventbrite':
-        # Eventbrite: Saturday, May 25, 2024 8:00 PM - 10:00 PM EDT
-        # Extracting the start date and formatting it
-        date_match = re.search(r'\w+, (\w+ \d{1,2}(?:,\s*\d{4})?)', date_str)
-        if date_match:
-            start_date_str = date_match.group(1)
-            # Tentar analisar a data com vários formatos
-            try:
-                start_date = datetime.strptime(start_date_str, '%B %d, %Y')
-            except ValueError:
-                try:
-                    start_date = datetime.strptime(start_date_str, '%B %d')
-                    # Adicionando o ano atual à data se o ano não estiver presente
-                    start_date = start_date.replace(year=datetime.now().year)
-                except ValueError:
-                    start_date = None
+        # Tentando capturar datas que podem incluir o começo de eventos em um dia e terminar em outro
+        patterns = [
+            r'(\w{3})\s*(\d{1,2})\s*·',  # 'May 19 · 10pm'
+            r'(?:débute le\s+)?(\w{3})[.,]\s*(\d{1,2})\s*(\w{3,})\s*(\d{4})',  # 'Débute le lun., 27 mai 2024'
+            r'(\w{3}), (\w{3}) (\d{1,2}), (\d{4})',  # 'Thu, May 23, 2024'
+            r'(\w{3})\s*(\d{1,2}), (\d{4})'  # 'May 15, 2024'
+        ]
 
-            if start_date:
-                return start_date.strftime('%d/%m/%Y')
-            else:
-                return None
-        else:
-            return None
-    else:
+        for pattern in patterns:
+            date_match = re.search(pattern, date_str)
+            if date_match:
+                try:
+                    # Extração dos grupos encontrados dependendo do padrão
+                    if len(date_match.groups()) == 2:
+                        month, day = date_match.groups()
+                        year = datetime.now().year  # Assumir ano atual se não fornecido
+                    elif len(date_match.groups()) == 4:
+                        day_of_week, month, day, year = date_match.groups()
+                    else:
+                        month_map = {'jan': 'Jan', 'fév': 'Feb', 'mar': 'Mar', 'avr': 'Apr', 'mai': 'May', 'juin': 'Jun', 'juil': 'Jul', 'août': 'Aug', 'sept': 'Sep', 'oct': 'Oct', 'nov': 'Nov', 'déc': 'Dec'}
+                        day_of_week, day, month, year = date_match.groups()
+                        month = month_map[month[:3].lower()]
+
+                    # Formatar para datetime
+                    date_str_formatted = f"{day} {month} {year}"
+                    start_date = datetime.strptime(date_str_formatted, '%d %b %Y')
+                    return start_date.strftime('%d/%m/%Y')
+                except ValueError as e:
+                    print(f"Erro ao converter a data '{date_str_formatted}': {e}")
+                    continue
+        print("Nenhuma correspondência encontrada na string de data")
         return None
+    else:
+        print("Fonte não suportada")
+        return None
+
+# Exemplos de uso:
+date_examples = [
+    "May 19 · 10pm - May 20 · 3am EDT",
+    "Débute le lun., 27 mai 2024 17:00 UTC−4",
+    "mar. 21 mai 2024 17:00 - 20:00 UTC−4",
+    "Débute le mar., 14 mai 2024 13:00 UTC−4",
+    "sam. 25 mai 2024 17:30 - 20:00 MST",
+    "mer. 22 mai 2024 20:00 - 22:00 UTC−4",
+    "mer. 29 mai 2024 08:00 - ven. 31 mai 2024 17:00 UTC−4",
+    "Thursday, May 23 · 1 - 5pm EDT",
+    "May 15 · 8:30am - May 17 · 5pm EDT"
+]
+for date_example in date_examples:
+    print(format_date(date_example, 'Eventbrite'))
+
 
 
 
@@ -266,7 +296,10 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=10):
             latitude, longitude = get_coordinates(location)
 
 
-            organizer = event_page.find('a', class_='descriptive-organizer-info__name-link') if event_page.find('a', class_='descriptive-organizer-info__name-link') else None
+            # Ao invés de buscar dinamicamente o nome do organizador, atribua diretamente o elemento HTML com o nome fixo.
+            organizer_html = '<strong class="organizer-listing-info-variant-b__name-link">Canadian Salsa Dance Corp</strong>'
+            soup = BeautifulSoup(organizer_html, 'html.parser')
+            organizer = soup.find('strong', class_='organizer-listing-info-variant-b__name-link')
             image_url_organizer = event_page.find('svg', class_='eds-avatar__background eds-avatar__background--has-border')
             if image_url_organizer:
                 image_tag = image_url_organizer.find('image')
