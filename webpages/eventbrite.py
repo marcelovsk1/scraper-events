@@ -89,33 +89,45 @@ def format_location(location_str, source):
     if location_str is None:
         return {
             'Location': None,
+            'Street': None,
             'City': None,
+            'Province': None,
+            'PostalCode': None,
             'CountryCode': None
         }
 
     if source == 'Facebook' or source == 'Eventbrite':
         return {
             'Location': location_str.strip(),
-            'City': 'Montreal',
+            'City': 'Montreal',  # Como Montreal é a cidade padrão
             'CountryCode': 'ca'
         }
     elif source == 'Google':
-        # Use Google Places API to get formatted location and additional information
-        api_key = 'AIzaSyD4K3294QGT9YUSquGZ_G82YMI856E0BzA'
-        url = f'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={location_str}&inputtype=textquery&fields=address_components,geometry&key={api_key}'
+        api_key = 'YOUR_GOOGLE_API_KEY'
+        url = f'https://maps.googleapis.com/maps/api/geocode/json?address={location_str}&key={api_key}'
         response = requests.get(url)
         if response.status_code == 200:
             data = response.json()
-            if data['status'] == 'OK' and len(data['candidates']) > 0:
-                address_components = data['candidates'][0]['address_components']
+            if data['status'] == 'OK' and len(data['results']) > 0:
+                result = data['results'][0]
+                address_components = result['address_components']
+                formatted_address = result['formatted_address']
+                street = next((component['long_name'] for component in address_components if 'route' in component['types']), None)
                 city = next((component['long_name'] for component in address_components if 'locality' in component['types']), None)
+                province = next((component['short_name'] for component in address_components if 'administrative_area_level_1' in component['types']), None)
+                postal_code = next((component['long_name'] for component in address_components if 'postal_code' in component['types']), None)
                 country_code = next((component['short_name'] for component in address_components if 'country' in component['types']), None)
+
                 return {
-                    'Location': location_str.strip(),
+                    'Location': formatted_address.strip(),
+                    'Street': street,
                     'City': city,
+                    'Province': province,
+                    'PostalCode': postal_code,
                     'CountryCode': country_code
                 }
-        # If unable to fetch data from Google Places API, return default values
+
+        # If unable to fetch data from Google Geocoding API, return default values
         return {
             'Location': location_str.strip(),
             'City': 'Montreal',
@@ -222,7 +234,9 @@ def get_coordinates(location):
 
     for _ in range(retries):
         try:
-            location = geolocator.geocode(location, addressdetails=True)
+            # Construa uma string de consulta específica para Montreal ou Quebec
+            query_string = f"{location}, Montreal, Quebec, Canada"
+            location = geolocator.geocode(query_string, addressdetails=True)
             if location:
                 latitude = location.latitude
                 longitude = location.longitude
@@ -234,9 +248,11 @@ def get_coordinates(location):
 
     return None, None
 
+
 def open_google_maps(latitude, longitude):
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={latitude},{longitude}"
     return google_maps_url
+
 
 def get_previous_page_image_url(driver):
     url = 'https://www.eventbrite.com/d/canada--montreal/all-events/?page=1'
@@ -283,21 +299,38 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=3):
                     event_page_content = driver.page_source
                     event_page = BeautifulSoup(event_page_content, 'html.parser')
 
-                    title = event_page.find('h1', class_='event-title css-0').text.strip() if event_page.find('h1', class_='event-title css-0') else None
-                    description = event_page.find('p', class_='summary').text.strip() if event_page.find('p', class_='summary') else None
-                    price = event_page.find('div', class_='conversion-bar__panel-info').text.strip() if event_page.find('div', class_='conversion-bar__panel-info') else None
-                    date = event_page.find('span', class_='date-info__full-datetime').text.strip() if event_page.find('span', class_='date-info__full-datetime') else None
+                    title_element = event_page.find('h1', class_='event-title css-0')
+                    title = title_element.text.strip() if title_element else None
+
+                    description_element = event_page.find('p', class_='summary')
+                    description = description_element.text.strip() if description_element else None
+
+                    price_default_element = event_page.find('div', class_='conversion-bar__panel-info')
+                    if price_default_element:
+                        price_default = price_default_element.text.strip()
+                    else:
+                        price_default = "undisclosed price"  # Modificação aqui
+
+                    price_element = event_page.find('span', class_='eds-text-bm eds-text-weight--heavy')
+                    price = price_element.text.strip() if price_element else price_default
+                    price_element = event_page.find('span', class_='eds-text-bm eds-text-weight--heavy')
+                    price = price_element.text.strip() if price_element else price_default
+
+                    date_element = event_page.find('span', class_='date-info__full-datetime')
+                    date = date_element.text.strip() if date_element else None
+
                     location_element = event_page.find('p', class_='location-info__address-text')
                     location = location_element.text.strip() if location_element else None
-                    ImageURL = get_previous_page_image_url(driver)
-                    # tags = generate_tags(title, description)
 
-                    # Isolating the number from the price using regular expressions
+                    ImageURL = get_previous_page_image_url(driver)
+
+                    # Isolando o número do preço usando expressões regulares
                     price_number = None
                     if price:
                         price_matches = re.findall(r'\d+\.?\d*', price)
                         if price_matches:
                             price_number = float(price_matches[0])
+
 
                     latitude, longitude = get_coordinates(location)
 
@@ -317,13 +350,14 @@ def scrape_eventbrite_events(driver, url, selectors, max_pages=3):
                     event_info['Price'] = price_number
                     event_info['Date'] = format_date(date, 'Eventbrite')
                     event_info['StartTime'], event_info['EndTime'] = extract_start_end_time(date)
-                    event_info['Location'] = location
+                    event_info.update(format_location(location, 'Eventbrite'))  # Atualiza com os detalhes de localização
                     event_info['ImageURL'] = ImageURL
                     event_info['Latitude'] = latitude
                     event_info['Longitude'] = longitude
                     event_info['Organizer'] = organizer.text.strip() if organizer else None
                     event_info['EventUrl'] = event_link
                     # event_info['Tags'] = tags
+
 
                     if latitude is not None and longitude is not None:
                         map_url = open_google_maps(latitude, longitude)
@@ -382,10 +416,12 @@ def main():
         print(f"Scraping events from: {source['name']}")
         if source['name'] == 'Eventbrite':
             events = scrape_eventbrite_events(driver, source['url'], source['selectors'])
+            # Filtrar eventos com a maioria das tags em null
+            events_with_data = [event for event in events if sum(1 for value in event.values() if value is not None) > 10]  # Defina o número mínimo de tags não nulas aqui
+            all_events.extend(events_with_data)
         else:
             print(f"Unsupported source: {source['name']}")
             continue
-        all_events.extend(events)
 
     # JSON File
     with open('eventbrite.json', 'w') as f:

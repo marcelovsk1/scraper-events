@@ -10,6 +10,8 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745931559%2F2025139735093%2F1%2Foriginal.20240417-162931?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=416%2C0%2C1044%2C1044&s=9cc4b37517b288602fbbafa8d84fcdb4",
         "StartTime": "Tue, May 14, 2024 5:00 PM",
         "EndTime": "Sat, May 18, 2024 8:00 PM",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/festival-college-lasalle-tickets-871976293567?aff=ebdssbdestsearch"
@@ -25,9 +27,28 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F703485089%2F939980473443%2F1%2Foriginal.20240223-015853?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1500%2C1500&s=f626343aa3813d19c68bafd6844cc723",
         "StartTime": "Thu, May 16, 2024 8:00 PM",
         "EndTime": "Mon, May 20, 2024 4:00 AM",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.com/e/montreal-salsa-convention-2024-19th-edition-tickets-640264015907?aff=ebdssbdestsearch"
+    },
+    {
+        "Title": "2024 Gala les Prix M&A / M&A Awards Gala (Qu\u00e9bec)",
+        "Description": "Le Gala les Prix M&A rassemble 400 professionnels dans le domaine des fusions et acquisitions et du financement.",
+        "Date": "15/05/2024",
+        "Location": "The Windsor Ballrooms",
+        "Price": 774.94,
+        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
+        "Organizer": "M&A Club",
+        "Image URL Organizer": null,
+        "StartTime": "Wednesday, May 15, 2024 5:30 PM",
+        "EndTime": "9:00 PM",
+        "City": "Montreal",
+        "CountryCode": "ca",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.ca/e/2024-gala-les-prix-ma-ma-awards-gala-quebec-tickets-807226685747?aff=ebdssbdestsearch"
     },
     {
         "Title": "Canadian Annual Derivatives Conference 2024",
@@ -40,6 +61,8 @@
         "Image URL Organizer": null,
         "StartTime": "Wed, May 22, 2024 7:30 AM",
         "EndTime": "Thu, May 23, 2024 12:00 PM",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/canadian-annual-derivatives-conference-2024-tickets-807278841747?aff=ebdssbdestsearch"
@@ -55,10 +78,11 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F140366225%2F341796303527%2F1%2Foriginal.20210630-230230?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C5996%2C5996&s=77b9a2b092032b127074b41e668be127",
         "StartTime": "Saturday, May 25, 2024 8:00 PM",
         "EndTime": "10:00 PM",
-        "Latitude": 42.8489583,
-        "Longitude": -106.3249906,
-        "EventUrl": "https://www.eventbrite.com/e/omid-djalili-presents-namaste-live-in-montreal-tickets-815640170707?aff=ebdssbdestsearch",
-        "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=42.8489583,-106.3249906"
+        "City": "Montreal",
+        "CountryCode": "ca",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.com/e/omid-djalili-presents-namaste-live-in-montreal-tickets-815640170707?aff=ebdssbdestsearch"
     },
     {
         "Title": "CARRIVIBES",
@@ -71,6 +95,8 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F737942819%2F1576121043223%2F1%2Foriginal.20240407-225008?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=63%2C0%2C1033%2C1033&s=963e54b3967e45adee1005fec10be696",
         "StartTime": "22:00",
         "EndTime": "12:00",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/carrivibes-tickets-879152668297?aff=ebdssbdestsearch"
@@ -86,6 +112,8 @@
         "Image URL Organizer": null,
         "StartTime": "17:00",
         "EndTime": null,
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": 45.4951527,
         "Longitude": -73.55777079800217,
         "EventUrl": "https://www.eventbrite.ca/e/billets-gala-des-lauriers-2024-867684386357?aff=ebdssbdestsearch",
@@ -102,6 +130,8 @@
         "Image URL Organizer": null,
         "StartTime": "Mon, May 27, 2024 8:30 AM",
         "EndTime": "Tue, May 28, 2024 5:00 PM",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/devopsdays-montreal-2024-mai-2728-confirme-may-2728-confirmed-tickets-643838146227?aff=ebdssbdestsearch"
@@ -117,25 +147,12 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F101466964%2F131853078661%2F2%2Foriginal.jpg?w=150&auto=format%2Ccompress&q=75&sharp=10&s=33aaa797a04945993438164da00426d6",
         "StartTime": "17:00",
         "EndTime": "20:00",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": 45.5027839,
         "Longitude": -73.56451445014896,
         "EventUrl": "https://www.eventbrite.ca/e/billets-58-inspiration-sports-876231089777?aff=ebdssbdestsearch",
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5027839,-73.56451445014896"
-    },
-    {
-        "Title": "A Night for Life Benefit Gala 2024 | An Evening in Casablanca",
-        "Description": "Join us for an epic night dedicated to celebrating life in 2024, filled with unforgettable moments and endless fun!",
-        "Date": "24/05/2024",
-        "Location": "Salle de R\u00e9ception Le Ch\u00e2teau Classique, Boulevard des Grandes-Prairies, Montr\u00e9al, Saint-Leonard, QC, Canada",
-        "Price": null,
-        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
-        "Organizer": "The Vita Children's Foundation",
-        "Image URL Organizer": null,
-        "StartTime": "6:30 PM",
-        "EndTime": null,
-        "Latitude": null,
-        "Longitude": null,
-        "EventUrl": "https://www.eventbrite.ca/e/a-night-for-life-benefit-gala-2024-an-evening-in-casablanca-tickets-789148724077?aff=ebdssbdestsearch"
     },
     {
         "Title": "Forum excellence industrielle 2024",
@@ -148,6 +165,8 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F234892129%2F387771420223%2F1%2Foriginal.20220222-234955?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C563%2C563&s=4cc872a5ea9dc924878972e1981cf298",
         "StartTime": "13:00",
         "EndTime": null,
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": 45.5025614,
         "Longitude": -73.7217862,
         "EventUrl": "https://www.eventbrite.ca/e/billets-forum-excellence-industrielle-2024-861163712847?aff=ebdssbdestsearch",
@@ -164,10 +183,11 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F24048835%2F167759424904%2F2%2Foriginal.jpg?w=225&auto=format%2Ccompress&q=75&sharp=10&s=fa2770f8e72a4daab22896ebbfae03b3",
         "StartTime": "17:30",
         "EndTime": "20:00",
-        "Latitude": 45.501927699999996,
-        "Longitude": -73.57595387072334,
-        "EventUrl": "https://www.eventbrite.ca/e/billets-caftan-du-maroc-2024-montreal-850077463577?aff=ebdssbdestsearch",
-        "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.501927699999996,-73.57595387072334"
+        "City": "Montreal",
+        "CountryCode": "ca",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.ca/e/billets-caftan-du-maroc-2024-montreal-850077463577?aff=ebdssbdestsearch"
     },
     {
         "Title": "Spectacle de Fin d'Ann\u00e9e Danse-\u00c9tudes DMA 2024",
@@ -180,10 +200,11 @@
         "Image URL Organizer": null,
         "StartTime": "Sunday, May 19, 2024 7:00 PM",
         "EndTime": "8:45 PM",
-        "Latitude": 45.496263072,
-        "Longitude": -73.58478336,
-        "EventUrl": "https://www.eventbrite.ca/e/spectacle-de-fin-dannee-danse-etudes-dma-2024-tickets-885985876607?aff=ebdssbdestsearch",
-        "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.496263072,-73.58478336"
+        "City": "Montreal",
+        "CountryCode": "ca",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.ca/e/spectacle-de-fin-dannee-danse-etudes-dma-2024-tickets-885985876607?aff=ebdssbdestsearch"
     },
     {
         "Title": "Los Cafres I Montreal",
@@ -196,10 +217,11 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F95283933%2F287464467428%2F2%2Foriginal.png?w=225&auto=format%2Ccompress&q=75&sharp=10&s=bfa680f5e80c61f7e1f5ea28a7d67662",
         "StartTime": "20:00",
         "EndTime": "22:00",
-        "Latitude": 33.5943859,
-        "Longitude": -7.614541,
-        "EventUrl": "https://www.eventbrite.ca/e/billets-los-cafres-i-montreal-848438250647?aff=ebdssbdestsearch",
-        "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=33.5943859,-7.614541"
+        "City": "Montreal",
+        "CountryCode": "ca",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.ca/e/billets-los-cafres-i-montreal-848438250647?aff=ebdssbdestsearch"
     },
     {
         "Title": "Despierta tus Sentidos edici\u00f3n: Salud Mental  - Montreal, CA",
@@ -212,6 +234,8 @@
         "Image URL Organizer": null,
         "StartTime": "10:00",
         "EndTime": "16:00",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": 45.5052895,
         "Longitude": -73.5640756,
         "EventUrl": "https://www.eventbrite.com/e/despierta-tus-sentidos-edicion-salud-mental-montreal-ca-tickets-808544828347?aff=ebdssbdestsearch",
@@ -228,24 +252,11 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F438269029%2F910742884%2F1%2Foriginal.20230203-012225?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=491%2C0%2C1252%2C1252&s=d533072229deccb2a4ff75fda9a3dabb",
         "StartTime": "17:30",
         "EndTime": "22:00",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/billets-fan-souper-de-reseautage-tournant-886602260227?aff=ebdssbdestsearch"
-    },
-    {
-        "Title": "Journ\u00e9es scientifiques du CRIUGM et de la SNLF - \u00c9dition 2024",
-        "Description": "Journ\u00e9es scientifiques du CRIUGM - La neuropsychologie du vieillissement \u00e0 l\u2019\u00e8re num\u00e9rique",
-        "Date": "29/05/2024",
-        "Location": "Amphitheatre Le Groupe Maurice (CRIUGM)",
-        "Price": 0.0,
-        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
-        "Organizer": "CRIUGM/CAREC",
-        "Image URL Organizer": null,
-        "StartTime": null,
-        "EndTime": null,
-        "Latitude": null,
-        "Longitude": null,
-        "EventUrl": "https://www.eventbrite.ca/e/inscription-journees-scientifiques-du-criugm-et-de-la-snlf-edition-2024-878507207707?aff=ebdssbdestsearch"
     },
     {
         "Title": "Portes Ouvertes - Startup Open House Montreal 2024",
@@ -258,6 +269,8 @@
         "Image URL Organizer": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F31001229%2F107077410553%2F2%2Foriginal.png?w=225&auto=format%2Ccompress&q=75&sharp=10&s=b67c78699950c6c851daf36dc65c8f78",
         "StartTime": "17:00",
         "EndTime": "19:00",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": 45.5031824,
         "Longitude": -73.5698065,
         "EventUrl": "https://www.eventbrite.ca/e/portes-ouvertes-startup-open-house-montreal-2024-tickets-875517776237?aff=ebdssbdestsearch",
@@ -274,10 +287,11 @@
         "Image URL Organizer": null,
         "StartTime": "17:00",
         "EndTime": "19:00",
-        "Latitude": 45.4975716,
-        "Longitude": -73.56736801515892,
-        "EventUrl": "https://www.eventbrite.com/e/cities-initiative-2024-annual-conference-registration-767871784177?aff=ebdssbdestsearch",
-        "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.4975716,-73.56736801515892"
+        "City": "Montreal",
+        "CountryCode": "ca",
+        "Latitude": null,
+        "Longitude": null,
+        "EventUrl": "https://www.eventbrite.com/e/cities-initiative-2024-annual-conference-registration-767871784177?aff=ebdssbdestsearch"
     },
     {
         "Title": "KIZO Fest Montreal 5th edition 2024",
@@ -290,24 +304,10 @@
         "Image URL Organizer": null,
         "StartTime": "Wed, Jun 19, 2024 7:30 PM",
         "EndTime": "Mon, Jun 24, 2024 11:30 PM",
+        "City": "Montreal",
+        "CountryCode": "ca",
         "Latitude": null,
         "Longitude": null,
         "EventUrl": "https://www.eventbrite.ca/e/kizo-fest-montreal-5th-edition-2024-tickets-645516456097?aff=ebdssbdestsearch"
-    },
-    {
-        "Title": "G Major in Magic Happens - Night 1",
-        "Description": "St. George's Glee Club members past and present combine to celebrate 15 years of G Major!",
-        "Date": "15/05/2024",
-        "Location": "Heritage Regional High School",
-        "Price": 27.96,
-        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
-        "Organizer": "St. George's School of Montreal",
-        "Image URL Organizer": null,
-        "StartTime": "8:00 PM",
-        "EndTime": null,
-        "Latitude": 45.4896444,
-        "Longitude": -73.39125585510574,
-        "EventUrl": "https://www.eventbrite.ca/e/g-major-in-magic-happens-night-1-tickets-841449687667?aff=ebdssbdestsearch",
-        "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.4896444,-73.39125585510574"
     }
 ]
