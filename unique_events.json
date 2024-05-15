@@ -14,40 +14,40 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=m543qyLEd3gQ7kNvgE9AZNb&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAwWQn6gIJDrRZH5dqp2CHdk4wlOlT3bdgAsCFAXmC8Xw&oe=6647C220",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=m543qyLEd3gQ7kNvgE9AZNb&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCSNlx_twjDZZoenW6nAEVE09QI2v0PBNhVZTzhoqb3Sg&oe=664832A0",
         "Organizer": "Make Friends events",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=m543qyLEd3gQ7kNvgE9AZNb&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAwWQn6gIJDrRZH5dqp2CHdk4wlOlT3bdgAsCFAXmC8Xw&oe=6647C220",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/403599164_731504205667975_304727111953160691_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=m543qyLEd3gQ7kNvgE9AZNb&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCSNlx_twjDZZoenW6nAEVE09QI2v0PBNhVZTzhoqb3Sg&oe=664832A0",
         "EventUrl": "https://www.facebook.com/events/248424134920168/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00\u202fPM",
         "EndTime": "10:00\u202fPM",
         "Tags": []
     },
     {
-        "Title": "Fuji|||||||||||ta - The Old Bank, Montr\u00e9al, PQ - 13 mai 2024",
+        "Title": "CE SOIR! Fuji|||||||||||ta - The Old Bank, Montr\u00e9al, PQ - 13 mai 2024",
         "Description": "Heavy Trip & OK L\u00c0 pr\u00e9sentent:",
         "Date": null,
         "Location": {
             "Location": "OK L\u00c0",
             "Address": {
-                "house_number": "17251",
+                "house_number": "2501",
                 "road": "Ok Lane",
-                "municipality": "Town of Lincoln",
-                "county": "Trempealeau County",
-                "state": "Wisconsin",
-                "ISO3166-2-lvl4": "US-WI",
-                "postcode": "54773",
+                "city": "Vineland",
+                "county": "Cumberland County",
+                "state": "New Jersey",
+                "ISO3166-2-lvl4": "US-NJ",
+                "postcode": "08361",
                 "country": "United States",
                 "country_code": "us"
             },
-            "Latitude": 44.375849,
-            "Longitude": -91.294952,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=44.375849,-91.294952",
-            "City": null,
+            "Latitude": 39.482844,
+            "Longitude": -74.978067,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=39.482844,-74.978067",
+            "City": "Vineland",
             "CountryCode": "us"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VRw9orsjSoEQ7kNvgEjSHuU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAKmRCwLV6Gfa2HJ-WCsq8GGt1IeiwEvpUII86kYGY2ww&oe=6647CBCE",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VRw9orsjSoEQ7kNvgEjSHuU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAPlGFZNkiQ9YDnm7GxcRIjXvym8ebZ1T__Egc1s-yY5g&oe=66483C4E",
         "Organizer": "OK L\u00c0",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VRw9orsjSoEQ7kNvgEjSHuU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAKmRCwLV6Gfa2HJ-WCsq8GGt1IeiwEvpUII86kYGY2ww&oe=6647CBCE",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/427624732_886701916579884_2932505894224410222_n.jpg?stp=dst-jpg_fb50_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VRw9orsjSoEQ7kNvgEjSHuU&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAPlGFZNkiQ9YDnm7GxcRIjXvym8ebZ1T__Egc1s-yY5g&oe=66483C4E",
         "EventUrl": "https://www.facebook.com/events/1768078497047514/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:00\u202fPM",
         "EndTime": null,
@@ -68,9 +68,9 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432945678_960736892721187_5126855036029808842_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=McL3kBRYtREQ7kNvgHB8nld&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYC-yai20afvyPNmbvuF-KysEU952b7-qoGGZW-P81Om0w&oe=6647EF0B",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432945678_960736892721187_5126855036029808842_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=McL3kBRYtREQ7kNvgHB8nld&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAWCqtr5aTZoIMJrc-wfVvnihln_hOT1-CitaiiQ6KHdw&oe=6648274B",
         "Organizer": "Ecuagenera Araceae",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432945678_960736892721187_5126855036029808842_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=McL3kBRYtREQ7kNvgHB8nld&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYC-yai20afvyPNmbvuF-KysEU952b7-qoGGZW-P81Om0w&oe=6647EF0B",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432945678_960736892721187_5126855036029808842_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=McL3kBRYtREQ7kNvgHB8nld&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAWCqtr5aTZoIMJrc-wfVvnihln_hOT1-CitaiiQ6KHdw&oe=6648274B",
         "EventUrl": "https://www.facebook.com/events/7580563795320382/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "11:00\u202fAM",
         "EndTime": null,
@@ -91,9 +91,9 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433133826_728819209433549_2422740625591847947_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=j7Mza3pDIL0Q7kNvgHHyiEK&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBCe1YXVCdvbLI90bYMl0RT2UnHmUcExH7hTrjEs3ARGw&oe=6647C8E7",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433133826_728819209433549_2422740625591847947_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KZ1J7tNjnyMQ7kNvgHqra_h&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBrwD3SnTQRQE3VtdRLL6Nmkq2fraporuW_alcmWIapCQ&oe=66483967",
         "Organizer": "Unreal Germany",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433133826_728819209433549_2422740625591847947_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=j7Mza3pDIL0Q7kNvgHHyiEK&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBCe1YXVCdvbLI90bYMl0RT2UnHmUcExH7hTrjEs3ARGw&oe=6647C8E7",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433133826_728819209433549_2422740625591847947_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KZ1J7tNjnyMQ7kNvgHqra_h&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBrwD3SnTQRQE3VtdRLL6Nmkq2fraporuW_alcmWIapCQ&oe=66483967",
         "EventUrl": "https://www.facebook.com/events/395164246566020/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00\u202fPM",
         "EndTime": "3:00\u202fAM",
@@ -121,35 +121,12 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440582361_957340849520547_3087796295899067166_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=llpq0wC4rIMQ7kNvgEtQU0B&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBwbVraX3taBamGQbqLW3DqFspMFY4hr97uoW4adycKAA&oe=6647D78C",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440582361_957340849520547_3087796295899067166_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=llpq0wC4rIMQ7kNvgEtQU0B&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDeEoo_zDWr_PdkPKJD00nmW5WgSjKrunLDMAEBU9zchg&oe=6648480C",
         "Organizer": "Epicure Classics",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440582361_957340849520547_3087796295899067166_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=llpq0wC4rIMQ7kNvgEtQU0B&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBwbVraX3taBamGQbqLW3DqFspMFY4hr97uoW4adycKAA&oe=6647D78C",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440582361_957340849520547_3087796295899067166_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=llpq0wC4rIMQ7kNvgEtQU0B&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDeEoo_zDWr_PdkPKJD00nmW5WgSjKrunLDMAEBU9zchg&oe=6648480C",
         "EventUrl": "https://www.facebook.com/events/1015432863510970/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "9:00\u202fAM",
         "EndTime": "12:00\u202fPM",
-        "Tags": []
-    },
-    {
-        "Title": "Montreal Highland games",
-        "Description": "Our Commissioner Steven Logan acts once more as Clans and Communities Director at the Montreal Highland Games held at the Douglas Institute grounds in Verdun!",
-        "Date": "4/08/2024",
-        "Location": {
-            "Location": "Clan Logan Society of Canada",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429966981_428785989711016_7649607373651966370_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lgk2St7FsgUQ7kNvgEOMR1m&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYD7coIpXWRUmy0qmgh5MpToRA2fNphtieH0xYrsXxPzZw&oe=6647EC5D",
-        "Organizer": "Clan Logan Society of Canada",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429966981_428785989711016_7649607373651966370_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lgk2St7FsgUQ7kNvgEOMR1m&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYD7coIpXWRUmy0qmgh5MpToRA2fNphtieH0xYrsXxPzZw&oe=6647EC5D",
-        "EventUrl": "https://www.facebook.com/events/746386194129101/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "10:00\u202fAM",
-        "EndTime": "5:00\u202fPM",
         "Tags": []
     },
     {
@@ -167,12 +144,35 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430040109_10161762958372704_3967925207451312620_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ecCTeCrehBkQ7kNvgGcAH71&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCn61ksXhkYJKbGqHgAw9sFZEic1RT3N7P--0NRhBCoJQ&oe=6647EDC3",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430040109_10161762958372704_3967925207451312620_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ecCTeCrehBkQ7kNvgGcAH71&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBo2YVJ-H09kpFL5tAKR8c1iIbpyA6FUCrqgU1kEAyR3A&oe=66482603",
         "Organizer": "Nasri Eric Majdalani",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430040109_10161762958372704_3967925207451312620_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ecCTeCrehBkQ7kNvgGcAH71&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCn61ksXhkYJKbGqHgAw9sFZEic1RT3N7P--0NRhBCoJQ&oe=6647EDC3",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/430040109_10161762958372704_3967925207451312620_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ecCTeCrehBkQ7kNvgGcAH71&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBo2YVJ-H09kpFL5tAKR8c1iIbpyA6FUCrqgU1kEAyR3A&oe=66482603",
         "EventUrl": "https://www.facebook.com/events/429891429792301/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00\u202fPM",
         "EndTime": "11:30\u202fPM",
+        "Tags": []
+    },
+    {
+        "Title": "Montreal Highland games",
+        "Description": "Our Commissioner Steven Logan acts once more as Clans and Communities Director at the Montreal Highland Games held at the Douglas Institute grounds in Verdun!",
+        "Date": "4/08/2024",
+        "Location": {
+            "Location": "Clan Logan Society of Canada",
+            "Address": {
+                "man_made": "Soul Buoy"
+            },
+            "Latitude": null,
+            "Longitude": null,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429966981_428785989711016_7649607373651966370_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lgk2St7FsgUQ7kNvgEOMR1m&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCTwEGZGQqjLGZ_GTUugMD4hbs_dj-UgfNV3wosn8RalQ&oe=6648249D",
+        "Organizer": "Clan Logan Society of Canada",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429966981_428785989711016_7649607373651966370_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lgk2St7FsgUQ7kNvgEOMR1m&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCTwEGZGQqjLGZ_GTUugMD4hbs_dj-UgfNV3wosn8RalQ&oe=6648249D",
+        "EventUrl": "https://www.facebook.com/events/746386194129101/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "10:00\u202fAM",
+        "EndTime": "5:00\u202fPM",
         "Tags": []
     },
     {
@@ -190,35 +190,12 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438711509_942405131218438_1352720987190263400_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uikGGgTcidwQ7kNvgHLvyFH&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDL-kapDL3aCmKlzcxlWR6IAljUcwrkWsh2VbHW7LoKhw&oe=6647EE0F",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438711509_942405131218438_1352720987190263400_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uikGGgTcidwQ7kNvgHLvyFH&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYA0crsQCqSQt9Y3Dw-r5nDLc9cXn7P4_pboJzXQam67gg&oe=6648264F",
         "Organizer": "The TraXide",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438711509_942405131218438_1352720987190263400_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uikGGgTcidwQ7kNvgHLvyFH&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDL-kapDL3aCmKlzcxlWR6IAljUcwrkWsh2VbHW7LoKhw&oe=6647EE0F",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438711509_942405131218438_1352720987190263400_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uikGGgTcidwQ7kNvgHLvyFH&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYA0crsQCqSQt9Y3Dw-r5nDLc9cXn7P4_pboJzXQam67gg&oe=6648264F",
         "EventUrl": "https://www.facebook.com/events/1333245623840883/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00\u202fPM",
         "EndTime": null,
-        "Tags": []
-    },
-    {
-        "Title": "EXPERIENCE MIMOSA 2024 THE ROOFTOP EDITION",
-        "Description": "THE HYPE IS REAL....JOIN THE PROMOTERS OF CLASSY ENTERTAINMENT AS WE PROCEED TO KICKOFF THE SUMMER DAYTIME BRUNCH SEASON OUTDOORS. PARTY ON ONE OF MONTREAL'S MOST EXQUISTE TERRASSE\u2026 See more",
-        "Date": "20/05/2024",
-        "Location": {
-            "Location": "Rickey D Events",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437886515_3857363447884358_5693671580919305361_n.png?stp=dst-png_fb50_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vDN1Mi28ldkQ7kNvgFd6q2u&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAjuKXGrtmfYRkZkhxT7-bYJKH4IWKSWv6TAEAh8Oo_4g&oe=6647DFF8",
-        "Organizer": "Rickey D Events",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437886515_3857363447884358_5693671580919305361_n.png?stp=dst-png_fb50_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vDN1Mi28ldkQ7kNvgFd6q2u&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAjuKXGrtmfYRkZkhxT7-bYJKH4IWKSWv6TAEAh8Oo_4g&oe=6647DFF8",
-        "EventUrl": "https://www.facebook.com/events/968245884870110/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "12:00\u202fPM",
-        "EndTime": "6:00\u202fPM",
         "Tags": []
     },
     {
@@ -246,9 +223,9 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429768833_10161608953283641_8023455845995240569_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XscNs-v0xJkQ7kNvgHQuM7F&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBTmKLcw-cpxoFX9LRWQu8U8skGdoZ3o6AKBtLgsffSnQ&oe=6647D333",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429768833_10161608953283641_8023455845995240569_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XscNs-v0xJkQ7kNvgHQuM7F&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBiJWgVtyMJRIkQwwI2Rwu9sdrP9U1PpEhfe3LktqTGcA&oe=664843B3",
         "Organizer": "Parc Jean-Drapeau",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429768833_10161608953283641_8023455845995240569_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XscNs-v0xJkQ7kNvgHQuM7F&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBTmKLcw-cpxoFX9LRWQu8U8skGdoZ3o6AKBtLgsffSnQ&oe=6647D333",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429768833_10161608953283641_8023455845995240569_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XscNs-v0xJkQ7kNvgHQuM7F&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBiJWgVtyMJRIkQwwI2Rwu9sdrP9U1PpEhfe3LktqTGcA&oe=664843B3",
         "EventUrl": "https://www.facebook.com/events/258602603998796/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:00\u202fPM",
         "EndTime": null,
@@ -300,13 +277,168 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XcM0-BtA8dQQ7kNvgEaguh0&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCGs5CynEAe5zQdw8GCSQZj9lHTsZDxaEJYqB2X1nJ8mA&oe=6647E638",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XcM0-BtA8dQQ7kNvgEaguh0&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYC5-GkbRrUKAnAvjeh4X2oxOitDUTBvhRCNbZa-V9l2FQ&oe=664856B8",
         "Organizer": "Montreal Art Center & Museum",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XcM0-BtA8dQQ7kNvgEaguh0&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCGs5CynEAe5zQdw8GCSQZj9lHTsZDxaEJYqB2X1nJ8mA&oe=6647E638",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/422871487_800648872103906_4036780719038378028_n.jpg?stp=cp6_dst-jpg_fb50_p240x240&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XcM0-BtA8dQQ7kNvgEaguh0&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYC5-GkbRrUKAnAvjeh4X2oxOitDUTBvhRCNbZa-V9l2FQ&oe=664856B8",
         "EventUrl": "https://www.facebook.com/events/1239845176971920/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:30\u202fPM",
         "EndTime": "9:00\u202fPM",
         "Tags": []
+    },
+    {
+        "Title": "EXPERIENCE MIMOSA 2024 THE ROOFTOP EDITION",
+        "Description": "THE HYPE IS REAL....JOIN THE PROMOTERS OF CLASSY ENTERTAINMENT AS WE PROCEED TO KICKOFF THE SUMMER DAYTIME BRUNCH SEASON OUTDOORS. PARTY ON ONE OF MONTREAL'S MOST EXQUISTE TERRASSE\u2026 See more",
+        "Date": "20/05/2024",
+        "Location": {
+            "Location": "Rickey D Events",
+            "Address": {
+                "man_made": "Soul Buoy"
+            },
+            "Latitude": null,
+            "Longitude": null,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437886515_3857363447884358_5693671580919305361_n.png?stp=dst-png_fb50_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vDN1Mi28ldkQ7kNvgFd6q2u&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAbLfkq6ev2nqur_4zCV-bmbPKTcfVDEp7p-bktsrHp4Q&oe=66485078",
+        "Organizer": "Rickey D Events",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437886515_3857363447884358_5693671580919305361_n.png?stp=dst-png_fb50_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vDN1Mi28ldkQ7kNvgFd6q2u&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAbLfkq6ev2nqur_4zCV-bmbPKTcfVDEp7p-bktsrHp4Q&oe=66485078",
+        "EventUrl": "https://www.facebook.com/events/968245884870110/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "12:00\u202fPM",
+        "EndTime": "6:00\u202fPM",
+        "Tags": [
+            {
+                "id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Fashion",
+                "emoji": "\ud83e\udd7b",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Photography",
+                "emoji": "\ud83d\udcf8",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Jazz",
+                "emoji": " \ud83c\udfb5",
+                "tagCategory": "Musique"
+            },
+            {
+                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Pop",
+                "emoji": "\ud83c\udfb6",
+                "tagCategory": "Musique"
+            },
+            {
+                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Dance",
+                "emoji": "\ud83d\udc83",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Jazz",
+                "emoji": " \ud83c\udfb6",
+                "tagCategory": "Musique"
+            }
+        ]
+    },
+    {
+        "Title": "Sofa Kings Tribute to Gordon Lightfoot at Porchfest NDG",
+        "Description": "Come see us at Porchfest - Balconf\u00eate May 19 2pm! We are honoring the late great Gordon Lightfoot!",
+        "Date": null,
+        "Location": {
+            "Location": "Sofa Kings Montreal",
+            "Address": {
+                "man_made": "Soul Buoy"
+            },
+            "Latitude": null,
+            "Longitude": null,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434130838_826802472808032_5946259377386960424_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QgUoQ73_NusQ7kNvgHA-Z-B&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYA0PodNQmCqbgrk3GzdeOO2feQ1Uesl6PGejjIO4zRK5Q&oe=66485334",
+        "Organizer": "Sofa Kings Montreal",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434130838_826802472808032_5946259377386960424_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QgUoQ73_NusQ7kNvgHA-Z-B&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYA0PodNQmCqbgrk3GzdeOO2feQ1Uesl6PGejjIO4zRK5Q&oe=66485334",
+        "EventUrl": "https://www.facebook.com/events/3815069298779978/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "2:00\u202fPM",
+        "EndTime": null,
+        "Tags": [
+            {
+                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
+                "name": "Singing",
+                "emoji": "\ud83c\udfa4",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Folk",
+                "emoji": "\ud83c\udfbb",
+                "tagCategory": "Musique"
+            }
+        ]
+    },
+    {
+        "Title": "Israel 76th Celebration",
+        "Description": "Celebrate the founding of Israel with friends and family",
+        "Date": null,
+        "Location": {
+            "Location": "Israel Day Celebration in Montreal",
+            "Address": {
+                "man_made": "Soul Buoy"
+            },
+            "Latitude": null,
+            "Longitude": null,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440755354_735845222095508_5398727948206924912_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=h-lfN-4k7AAQ7kNvgF0PP3J&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAbAlxLboAq3yxz2xuuzLpMILDomqs0CkqqbC7nJTjnvw&oe=66485761",
+        "Organizer": "Israel Day Celebration in Montreal",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440755354_735845222095508_5398727948206924912_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=h-lfN-4k7AAQ7kNvgF0PP3J&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAbAlxLboAq3yxz2xuuzLpMILDomqs0CkqqbC7nJTjnvw&oe=66485761",
+        "EventUrl": "https://www.facebook.com/events/430220412943562/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "11:00\u202fAM",
+        "EndTime": null,
+        "Tags": []
+    },
+    {
+        "Title": "Groove & Bass Montreal Pre-Party ft. Evil Oil Man + Luis M | May 25",
+        "Description": "Francais en bas...",
+        "Date": null,
+        "Location": {
+            "Location": "Groove & Bass Festival",
+            "Address": {
+                "man_made": "Soul Buoy"
+            },
+            "Latitude": null,
+            "Longitude": null,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/436334160_736989681968549_4647581382535378529_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=c0BBcLokGbMQ7kNvgFY9bEL&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBCd7apM3fcev6JUZITxCcGAt4SyclOKwo78IT8jlqN5w&oe=66482300",
+        "Organizer": "Groove & Bass Festival",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/436334160_736989681968549_4647581382535378529_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=c0BBcLokGbMQ7kNvgFY9bEL&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBCd7apM3fcev6JUZITxCcGAt4SyclOKwo78IT8jlqN5w&oe=66482300",
+        "EventUrl": "https://www.facebook.com/events/6531451670288377/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "9:00\u202fPM",
+        "EndTime": null,
+        "Tags": [
+            {
+                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Dance",
+                "emoji": "\ud83d\udc83",
+                "tagCategory": "Leisure"
+            },
+            {
+                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
+                "name": "Techno",
+                "emoji": "\ud83c\udfa7",
+                "tagCategory": "Musique"
+            }
+        ]
     },
     {
         "Title": "Lara Fabian at Salle Wilfrid-Pelletier At Place Des Arts",
@@ -315,28 +447,26 @@
         "Location": {
             "Location": "Special Tickets",
             "Address": {
-                "tourism": "Tickets",
-                "road": "Jalan Keluar Kebun",
-                "village": "Mangunan",
-                "municipality": "Dlingo",
-                "county": "Bantul Regency",
-                "state": "Special Region of Yogyakarta",
-                "ISO3166-2-lvl4": "ID-YO",
-                "region": "Java",
-                "ISO3166-2-lvl3": "ID-JW",
-                "postcode": "55783",
-                "country": "Indonesia",
-                "country_code": "id"
+                "shop": "Tickets",
+                "road": "\u5f20\u6396 - \u8083\u5357",
+                "town": "Kangle",
+                "county": "Sunan Yugur Autonomous County",
+                "region": "Zhangye",
+                "state": "Gansu",
+                "ISO3166-2-lvl4": "CN-GS",
+                "postcode": "734400",
+                "country": "China",
+                "country_code": "cn"
             },
-            "Latitude": -7.9377814,
-            "Longitude": 110.4281261,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=-7.9377814,110.4281261",
+            "Latitude": 38.9665484,
+            "Longitude": 99.908141,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=38.9665484,99.908141",
             "City": null,
-            "CountryCode": "id"
+            "CountryCode": "cn"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433172870_752690683669711_3528927944389964270_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=B3sM_NTSYqoQ7kNvgE7A-xX&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAIzE4-tyIocKatNtqBStY94e4YtR2j7InOf4iJeK5KVw&oe=6647D757",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433172870_752690683669711_3528927944389964270_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kVG9-H6mo-wQ7kNvgG16qFm&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDsotrmT5h4aeiIEqo3sZUh-RlAiPn9ck_DLPFQ3cTGSQ&oe=664847D7",
         "Organizer": "Special Tickets",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433172870_752690683669711_3528927944389964270_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=B3sM_NTSYqoQ7kNvgE7A-xX&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAIzE4-tyIocKatNtqBStY94e4YtR2j7InOf4iJeK5KVw&oe=6647D757",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/433172870_752690683669711_3528927944389964270_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kVG9-H6mo-wQ7kNvgG16qFm&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDsotrmT5h4aeiIEqo3sZUh-RlAiPn9ck_DLPFQ3cTGSQ&oe=664847D7",
         "EventUrl": "https://www.facebook.com/events/339140309138081/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00\u202fPM",
         "EndTime": null,
@@ -382,9 +512,9 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438299073_10161694555668641_8465149518653765313_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=M2XsVXH6Ad0Q7kNvgGsgMu5&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDl6oAFC9JGCn2lPgSxn6wvfsxNRxoBFTCcSaoJ9rAaWQ&oe=6647BEE0",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438299073_10161694555668641_8465149518653765313_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=M2XsVXH6Ad0Q7kNvgGsgMu5&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDIi3p7cvsVMB_9Wz8P2wRyxUGyxaPcZiqvtX9TcU7okw&oe=66482F60",
         "Organizer": "MTELUS",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438299073_10161694555668641_8465149518653765313_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=M2XsVXH6Ad0Q7kNvgGsgMu5&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDl6oAFC9JGCn2lPgSxn6wvfsxNRxoBFTCcSaoJ9rAaWQ&oe=6647BEE0",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438299073_10161694555668641_8465149518653765313_n.jpg?stp=dst-jpg_fb50_p118x118&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=M2XsVXH6Ad0Q7kNvgGsgMu5&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDIi3p7cvsVMB_9Wz8P2wRyxUGyxaPcZiqvtX9TcU7okw&oe=66482F60",
         "EventUrl": "https://www.facebook.com/events/961011808662984/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:30\u202fPM",
         "EndTime": null,
@@ -406,15 +536,21 @@
                 "name": "Punk Rock",
                 "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
                 "tagCategory": "Musique"
+            },
+            {
+                "id": "27fb1d20-3c47-11ee-bb59-7f5156da6f07",
+                "name": "Ska",
+                "emoji": "\ud83c\udfba",
+                "tagCategory": "Musique"
             }
         ]
     },
     {
-        "Title": "Sofa Kings Tribute to Gordon Lightfoot at Porchfest NDG",
-        "Description": "Come see us at Porchfest - Balconf\u00eate May 19 2pm! We are honoring the late great Gordon Lightfoot!",
-        "Date": null,
+        "Title": "QDF x Shopdogs Production Hang",
+        "Description": "It's back! QDF is so excited to be once again partnering with Shopdogs for our annual Production Hang.",
+        "Date": "13/05/2024",
         "Location": {
-            "Location": "Sofa Kings Montreal",
+            "Location": "Quebec Drama Federation",
             "Address": {
                 "man_made": "Soul Buoy"
             },
@@ -424,26 +560,36 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434130838_826802472808032_5946259377386960424_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QgUoQ73_NusQ7kNvgHA-Z-B&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAry95yQCvBx5IP_cV_d3IQmox7uvhzQDjlGBXwf3nNaQ&oe=6647E2B4",
-        "Organizer": "Sofa Kings Montreal",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434130838_826802472808032_5946259377386960424_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QgUoQ73_NusQ7kNvgHA-Z-B&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAry95yQCvBx5IP_cV_d3IQmox7uvhzQDjlGBXwf3nNaQ&oe=6647E2B4",
-        "EventUrl": "https://www.facebook.com/events/3815069298779978/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "2:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Singing",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440167174_832289792276086_5928021825679986918_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WmWi5NkMx_QQ7kNvgFaO0eC&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDRR87zw6VCanW1Xe0kQ2cwC-yzypKaazv6YaVNpk7WFA&oe=664830E4",
+        "Organizer": "Quebec Drama Federation",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440167174_832289792276086_5928021825679986918_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WmWi5NkMx_QQ7kNvgFaO0eC&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDRR87zw6VCanW1Xe0kQ2cwC-yzypKaazv6YaVNpk7WFA&oe=664830E4",
+        "EventUrl": "https://www.facebook.com/events/962960958387123/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "6:00\u202fPM",
+        "EndTime": "9:00\u202fPM",
+        "Tags": []
+    },
+    {
+        "Title": "PAXTON PUZZLES",
+        "Description": "Version fran\u00e7aise \u00e0 suivre",
+        "Date": "13/05/2024",
+        "Location": {
+            "Location": "Moment Collectives",
+            "Address": {
+                "man_made": "Soul Buoy"
             },
-            {
-                "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Folk",
-                "emoji": "\ud83c\udfbb",
-                "tagCategory": "Musique"
-            }
-        ]
+            "Latitude": null,
+            "Longitude": null,
+            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
+            "City": "Montreal",
+            "CountryCode": "ca"
+        },
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437094322_122145669716137420_6419211759641192000_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HRlE6-vOsh0Q7kNvgHNkyCl&_nc_oc=AdgfG6WwZe0Xuz4HCZkxrcfaOYi_32meNsQVRJxPC74pHGshFG5SozDcDzBs-WyH_ShCOGfcJDrm4aUH0iGR1rSA&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDFz7yIRZTdqr5azeHSPx4MaCBZo3vbqEX7i4KkKvuvtA&oe=66484C0F",
+        "Organizer": "Moment Collectives",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437094322_122145669716137420_6419211759641192000_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HRlE6-vOsh0Q7kNvgHNkyCl&_nc_oc=AdgfG6WwZe0Xuz4HCZkxrcfaOYi_32meNsQVRJxPC74pHGshFG5SozDcDzBs-WyH_ShCOGfcJDrm4aUH0iGR1rSA&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDFz7yIRZTdqr5azeHSPx4MaCBZo3vbqEX7i4KkKvuvtA&oe=66484C0F",
+        "EventUrl": "https://www.facebook.com/events/289084857575554/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "5:00\u202fPM",
+        "EndTime": "7:15\u202fPM",
+        "Tags": []
     },
     {
         "Title": "NEW DATE SLICK RICK DA RULER MONTR\u00c9AL",
@@ -460,9 +606,9 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/420947461_3641262272857657_8938834508789446245_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QOvBcYMYTVcQ7kNvgGoALRa&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBnAKNU4up83VqqQ8k-5cyaXaEF2ohFKjbBpLIRQ0HfaA&oe=6647D1E7",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/420947461_3641262272857657_8938834508789446245_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QOvBcYMYTVcQ7kNvgGoALRa&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAGrBh1MEBotYkGv5PLDn2OYbhSgrxZ_DjICULG1Byisw&oe=66484267",
         "Organizer": "Rickey D Events",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/420947461_3641262272857657_8938834508789446245_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QOvBcYMYTVcQ7kNvgGoALRa&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYBnAKNU4up83VqqQ8k-5cyaXaEF2ohFKjbBpLIRQ0HfaA&oe=6647D1E7",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/420947461_3641262272857657_8938834508789446245_n.jpg?stp=dst-jpg_fb50_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QOvBcYMYTVcQ7kNvgGoALRa&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAGrBh1MEBotYkGv5PLDn2OYbhSgrxZ_DjICULG1Byisw&oe=66484267",
         "EventUrl": "https://www.facebook.com/events/917380183140052/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "8:00\u202fPM",
         "EndTime": "12:00\u202fAM",
@@ -482,113 +628,6 @@
         ]
     },
     {
-        "Title": "PAXTON PUZZLES",
-        "Description": "Version fran\u00e7aise \u00e0 suivre",
-        "Date": "13/05/2024",
-        "Location": {
-            "Location": "Moment Collectives",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437094322_122145669716137420_6419211759641192000_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HRlE6-vOsh0Q7kNvgHNkyCl&_nc_oc=AdgfG6WwZe0Xuz4HCZkxrcfaOYi_32meNsQVRJxPC74pHGshFG5SozDcDzBs-WyH_ShCOGfcJDrm4aUH0iGR1rSA&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCTbFo__2f4-HCrPnxbVoINpyfvOabl73uqT5plAIp2DQ&oe=6647DB8F",
-        "Organizer": "Moment Collectives",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437094322_122145669716137420_6419211759641192000_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HRlE6-vOsh0Q7kNvgHNkyCl&_nc_oc=AdgfG6WwZe0Xuz4HCZkxrcfaOYi_32meNsQVRJxPC74pHGshFG5SozDcDzBs-WyH_ShCOGfcJDrm4aUH0iGR1rSA&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCTbFo__2f4-HCrPnxbVoINpyfvOabl73uqT5plAIp2DQ&oe=6647DB8F",
-        "EventUrl": "https://www.facebook.com/events/289084857575554/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "5:00\u202fPM",
-        "EndTime": "7:15\u202fPM",
-        "Tags": []
-    },
-    {
-        "Title": "EduGenAI: Shaping Tomorrow's Learning with Generative AI",
-        "Description": "In this 2-day symposium, we will explore the impacts and applications of generative AI (GenAI) in higher education from academic and industry perspectives, focusing on both the th\u2026 See more",
-        "Date": null,
-        "Location": {
-            "Location": "McGill University School of Continuing Studies",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438801691_743828841269362_7153890851000894728_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=U7WJ6pIDdl8Q7kNvgFjMj_Q&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYB6uThQfIHuVqsHmS70s2icoAhwqh1lougxeEJpG3Napw&oe=6647D7A1",
-        "Organizer": "McGill University School of Continuing Studies",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438801691_743828841269362_7153890851000894728_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=U7WJ6pIDdl8Q7kNvgFjMj_Q&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYB6uThQfIHuVqsHmS70s2icoAhwqh1lougxeEJpG3Napw&oe=6647D7A1",
-        "EventUrl": "https://www.facebook.com/events/1173014317194015/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00\u202fAM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "005a4420-88c3-11ee-ab49-69be32c19a11",
-                "name": "Startup",
-                "emoji": "\ud83d\ude80",
-                "tagCategory": "Education"
-            }
-        ]
-    },
-    {
-        "Title": "Israel 76th Celebration",
-        "Description": "Celebrate the founding of Israel with friends and family",
-        "Date": null,
-        "Location": {
-            "Location": "Israel Day Celebration in Montreal",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440755354_735845222095508_5398727948206924912_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=h-lfN-4k7AAQ7kNvgF0PP3J&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYD9ex36gH677r_unYqLjco1PNGPK7ymDwHkxEDlH7bOjA&oe=6647E6E1",
-        "Organizer": "Israel Day Celebration in Montreal",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/440755354_735845222095508_5398727948206924912_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=h-lfN-4k7AAQ7kNvgF0PP3J&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYD9ex36gH677r_unYqLjco1PNGPK7ymDwHkxEDlH7bOjA&oe=6647E6E1",
-        "EventUrl": "https://www.facebook.com/events/430220412943562/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "11:00\u202fAM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
-                "name": "Singing",
-                "emoji": "\ud83c\udfa4",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "133a3370-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Religious",
-                "emoji": "\u271d",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Dance",
-                "emoji": "\ud83d\udc83",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "2602b960-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Gospel",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ]
-    },
-    {
         "Title": "Pika Pika by OtakuRave",
         "Description": "Pok\u00e9mon-themed Cosplay Rave",
         "Date": "7/06/2024",
@@ -603,13 +642,19 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437777945_122135516774108473_6378500223015218860_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OmA4RmkzhkMQ7kNvgF54iEN&_nc_oc=Adjx2h7SvjGXOo7iEovCrmL0P_e8FDPRDZ3eFanbBpQa2VwdjGg4Z7VGEbOBOqaH0XA21CRTHsGCIs06UYp7xwXv&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYB7_ekKU4CfHTqe96PsawJg47vLznzd_FMRL59FRdxSgQ&oe=6647D0F0",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437777945_122135516774108473_6378500223015218860_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OmA4RmkzhkMQ7kNvgF54iEN&_nc_oc=Adjx2h7SvjGXOo7iEovCrmL0P_e8FDPRDZ3eFanbBpQa2VwdjGg4Z7VGEbOBOqaH0XA21CRTHsGCIs06UYp7xwXv&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCqTGxB72J-Cl7lCh3pemKMZeOqPA9pBmrScuNgXxkeDQ&oe=66484170",
         "Organizer": "Kik Cosplay & Events",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437777945_122135516774108473_6378500223015218860_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OmA4RmkzhkMQ7kNvgF54iEN&_nc_oc=Adjx2h7SvjGXOo7iEovCrmL0P_e8FDPRDZ3eFanbBpQa2VwdjGg4Z7VGEbOBOqaH0XA21CRTHsGCIs06UYp7xwXv&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYB7_ekKU4CfHTqe96PsawJg47vLznzd_FMRL59FRdxSgQ&oe=6647D0F0",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/437777945_122135516774108473_6378500223015218860_n.jpg?stp=dst-jpg_fb50_p160x160&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=OmA4RmkzhkMQ7kNvgF54iEN&_nc_oc=Adjx2h7SvjGXOo7iEovCrmL0P_e8FDPRDZ3eFanbBpQa2VwdjGg4Z7VGEbOBOqaH0XA21CRTHsGCIs06UYp7xwXv&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCqTGxB72J-Cl7lCh3pemKMZeOqPA9pBmrScuNgXxkeDQ&oe=66484170",
         "EventUrl": "https://www.facebook.com/events/235876386214714/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "10:00\u202fPM",
         "EndTime": "3:00\u202fAM",
         "Tags": [
+            {
+                "id": "01785870-4ce5-11ee-931a-073fc9abbdfa",
+                "name": "Karaoke",
+                "emoji": "\ud83c\udfa4",
+                "tagCategory": "Leisure"
+            },
             {
                 "id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
                 "name": "Fashion",
@@ -621,12 +666,6 @@
                 "name": "Photography",
                 "emoji": "\ud83d\udcf8",
                 "tagCategory": "Leisure"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
             },
             {
                 "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
@@ -657,36 +696,18 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434503891_449666060916115_2670687102558476145_n.jpg?stp=dst-jpg_fb50_p228x119&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Iu51dpbouyMQ7kNvgF2ZG4W&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDgVXVGFW0dmOcXN_UmEossyyAao9JTStVh3UK8y7P77Q&oe=6647CC03",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434503891_449666060916115_2670687102558476145_n.jpg?stp=dst-jpg_fb50_p228x119&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Iu51dpbouyMQ7kNvgF2ZG4W&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYD0pNTJ79jW2fsfWGI8X5m7JbA8b3rIXjSTZ87XTrF5Kg&oe=66483C83",
         "Organizer": "Spice Island Cultural Festival-Montreal",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434503891_449666060916115_2670687102558476145_n.jpg?stp=dst-jpg_fb50_p228x119&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Iu51dpbouyMQ7kNvgF2ZG4W&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYDgVXVGFW0dmOcXN_UmEossyyAao9JTStVh3UK8y7P77Q&oe=6647CC03",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/434503891_449666060916115_2670687102558476145_n.jpg?stp=dst-jpg_fb50_p228x119&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Iu51dpbouyMQ7kNvgF2ZG4W&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYD0pNTJ79jW2fsfWGI8X5m7JbA8b3rIXjSTZ87XTrF5Kg&oe=66483C83",
         "EventUrl": "https://www.facebook.com/events/769657381547133/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:00\u202fPM",
         "EndTime": null,
         "Tags": [
             {
-                "id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4",
-                "name": "Photography",
-                "emoji": "\ud83d\udcf8",
-                "tagCategory": "Leisure"
-            },
-            {
-                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
                 "id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
                 "name": "Dance",
                 "emoji": "\ud83d\udc83",
                 "tagCategory": "Leisure"
-            },
-            {
-                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
             },
             {
                 "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
@@ -697,11 +718,11 @@
         ]
     },
     {
-        "Title": "Groove & Bass Montreal Pre-Party ft. Evil Oil Man + Luis M | May 25",
-        "Description": "Francais en bas...",
+        "Title": "EduGenAI: Shaping Tomorrow's Learning with Generative AI",
+        "Description": "In this 2-day symposium, we will explore the impacts and applications of generative AI (GenAI) in higher education from academic and industry perspectives, focusing on both the th\u2026 See more",
         "Date": null,
         "Location": {
-            "Location": "Groove & Bass Festival",
+            "Location": "McGill University School of Continuing Studies",
             "Address": {
                 "man_made": "Soul Buoy"
             },
@@ -711,18 +732,18 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/436334160_736989681968549_4647581382535378529_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=c75FbDt12tUQ7kNvgHUrvn7&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCRZ3mJKjR4-7HY9fltOfJnMmUI9zvwnHCHJPGKj1MozQ&oe=6647EAC0",
-        "Organizer": "Groove & Bass Festival",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/436334160_736989681968549_4647581382535378529_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=c75FbDt12tUQ7kNvgHUrvn7&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCRZ3mJKjR4-7HY9fltOfJnMmUI9zvwnHCHJPGKj1MozQ&oe=6647EAC0",
-        "EventUrl": "https://www.facebook.com/events/6531451670288377/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "9:00\u202fPM",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438801691_743828841269362_7153890851000894728_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=U7WJ6pIDdl8Q7kNvgFjMj_Q&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAIgPkqwzGsjlZVloC8CA5Vr77a1jwhqoBtlqBkiXBeWg&oe=66484821",
+        "Organizer": "McGill University School of Continuing Studies",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438801691_743828841269362_7153890851000894728_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=U7WJ6pIDdl8Q7kNvgFjMj_Q&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAIgPkqwzGsjlZVloC8CA5Vr77a1jwhqoBtlqBkiXBeWg&oe=66484821",
+        "EventUrl": "https://www.facebook.com/events/1173014317194015/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+        "StartTime": "9:00\u202fAM",
         "EndTime": null,
         "Tags": [
             {
-                "id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Techno",
-                "emoji": "\ud83c\udfa7",
-                "tagCategory": "Musique"
+                "id": "005a4420-88c3-11ee-ab49-69be32c19a11",
+                "name": "Startup",
+                "emoji": "\ud83d\ude80",
+                "tagCategory": "Education"
             }
         ]
     },
@@ -741,13 +762,25 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432438950_817307743747687_469106703847991220_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ah7yGJvAcCEQ7kNvgEAUlAt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCCJzAFkHIqeRYlnIJlxeVP716WnNzqGMAehyWmlyhwvg&oe=6647D837",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432438950_817307743747687_469106703847991220_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ah7yGJvAcCEQ7kNvgEAUlAt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAD7sVKFx50HM1HyWQpdej6UBgqVilqL-EaPY_kE0jA9Q&oe=664848B7",
         "Organizer": "Heavy Trip",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432438950_817307743747687_469106703847991220_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ah7yGJvAcCEQ7kNvgEAUlAt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYCCJzAFkHIqeRYlnIJlxeVP716WnNzqGMAehyWmlyhwvg&oe=6647D837",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/432438950_817307743747687_469106703847991220_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ah7yGJvAcCEQ7kNvgEAUlAt&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAD7sVKFx50HM1HyWQpdej6UBgqVilqL-EaPY_kE0jA9Q&oe=664848B7",
         "EventUrl": "https://www.facebook.com/events/1811096186030394/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "7:00\u202fPM",
         "EndTime": null,
         "Tags": [
+            {
+                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Jazz",
+                "emoji": " \ud83c\udfb5",
+                "tagCategory": "Musique"
+            },
+            {
+                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Pop",
+                "emoji": "\ud83c\udfb6",
+                "tagCategory": "Musique"
+            },
             {
                 "id": "21882c20-3c46-11ee-bb59-7f5156da6f07",
                 "name": "Folk",
@@ -757,6 +790,12 @@
             {
                 "id": "2307f3e0-3c47-11ee-bb59-7f5156da6f07",
                 "name": "Indie",
+                "emoji": " \ud83c\udfb6",
+                "tagCategory": "Musique"
+            },
+            {
+                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Jazz",
                 "emoji": " \ud83c\udfb6",
                 "tagCategory": "Musique"
             }
@@ -787,9 +826,9 @@
             "City": "Montreal",
             "CountryCode": "ca"
         },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429850111_10161615606358641_1464857041186703708_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D-EvmJkiDfAQ7kNvgH-Kr5d&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAEGpaLIJ3P5kjnq_o1lllx6mNBGD3XEVWvTgvWKOjhWQ&oe=6647D0A8",
+        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429850111_10161615606358641_1464857041186703708_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D-EvmJkiDfAQ7kNvgH-Kr5d&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAXYGST8MbvTX-hXW_KrpVkhJgjuCIajyUZLHWS_7_ZZg&oe=66484128",
         "Organizer": "Parc Jean-Drapeau",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429850111_10161615606358641_1464857041186703708_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D-EvmJkiDfAQ7kNvgH-Kr5d&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAEGpaLIJ3P5kjnq_o1lllx6mNBGD3XEVWvTgvWKOjhWQ&oe=6647D0A8",
+        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/429850111_10161615606358641_1464857041186703708_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D-EvmJkiDfAQ7kNvgH-Kr5d&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYAXYGST8MbvTX-hXW_KrpVkhJgjuCIajyUZLHWS_7_ZZg&oe=66484128",
         "EventUrl": "https://www.facebook.com/events/969133537966327/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
         "StartTime": "6:00\u202fPM",
         "EndTime": null,
@@ -798,54 +837,6 @@
                 "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
                 "name": "Pop",
                 "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            }
-        ]
-    },
-    {
-        "Title": "Hanabie With Special Guests Left To Suffer, Outline In Color",
-        "Description": "Sale Dates and Times:",
-        "Date": null,
-        "Location": {
-            "Location": "Hanabie.  from JP",
-            "Address": {
-                "man_made": "Soul Buoy"
-            },
-            "Latitude": null,
-            "Longitude": null,
-            "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=None,None",
-            "City": "Montreal",
-            "CountryCode": "ca"
-        },
-        "ImageURL": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438802819_10161694582863641_480533154294428936_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Rm4XHhtDIawQ7kNvgGn-pgc&_nc_oc=Adj8ov3tg8_4NwxXmAfDkJIdRepJ-GU2aXIUx2j-5AsXKYlz-F_4lzM3yFBZLW3-cmguMNhariyFh7q19GptzQ2t&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYC7EncD6OriT5ckZh93MDMENy5iufVoq6mBxH5OEa23vg&oe=6647D6FC",
-        "Organizer": "Hanabie.  from JP",
-        "Organizer_IMG": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/438802819_10161694582863641_480533154294428936_n.jpg?stp=dst-jpg_fb50_s320x320&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Rm4XHhtDIawQ7kNvgGn-pgc&_nc_oc=Adj8ov3tg8_4NwxXmAfDkJIdRepJ-GU2aXIUx2j-5AsXKYlz-F_4lzM3yFBZLW3-cmguMNhariyFh7q19GptzQ2t&_nc_ht=scontent.fmgf1-1.fna&oh=00_AYC7EncD6OriT5ckZh93MDMENy5iufVoq6mBxH5OEa23vg&oe=6647D6FC",
-        "EventUrl": "https://www.facebook.com/events/946726800790283/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22lov_feed%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
-        "StartTime": "7:00\u202fPM",
-        "EndTime": null,
-        "Tags": [
-            {
-                "id": "11164b60-4381-11ee-b8b1-a1b868b635cd",
-                "name": "Punk",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1de59e30-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Rock",
-                "emoji": "\ud83c\udfb8",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "2401c100-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Metal",
-                "emoji": "\ud83e\udd18",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "244cfde0-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Punk Rock",
-                "emoji": "\ud83d\udc69\u200d\ud83c\udfa4",
                 "tagCategory": "Musique"
             }
         ]
@@ -932,12 +923,6 @@
                 "name": "Dance",
                 "emoji": "\ud83d\udc83",
                 "tagCategory": "Leisure"
-            },
-            {
-                "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "World Music",
-                "emoji": "\ud83c\udf0d",
-                "tagCategory": "Musique"
             }
         ]
     },
@@ -958,38 +943,14 @@
         "EventUrl": "https://www.eventbrite.ca/e/billets-concert-de-fin-dannee-895436192757?aff=ebdssbdestsearch",
         "Tags": [
             {
-                "id": "06759f60-5c8d-11ee-8ae0-fb963ffbedc0",
-                "name": "Holiday",
-                "emoji": "\ud83c\udf1e",
-                "tagCategory": "Musique"
-            },
-            {
                 "id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa",
                 "name": "Singing",
                 "emoji": "\ud83c\udfa4",
                 "tagCategory": "Leisure"
             },
             {
-                "id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
-                "emoji": " \ud83c\udfb5",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1d344290-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Pop",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
                 "id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07",
                 "name": "Classical",
-                "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "263997d0-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Jazz",
                 "emoji": " \ud83c\udfb6",
                 "tagCategory": "Musique"
             }
@@ -998,14 +959,14 @@
     {
         "Title": "Gala des Lauriers 2024",
         "Description": "Le 27 mai 2024, c'est la 6\u00e8me \u00e9dition du Gala des Lauriers de la Gastronomie Qu\u00e9b\u00e9coise !",
-        "Date": "D\u00e9bute le lun., 27 mai 2024 17:00 GMT-4",
+        "Date": "D\u00e9bute le lun., 27 mai 2024 17:00 UTC\u22124",
         "Location": "New City Gas",
         "Price": 123.0,
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
         "Organizer": null,
         "Organizer_IMG": null,
         "Image URL Organizer": null,
-        "StartTime": null,
+        "StartTime": "17:00",
         "EndTime": null,
         "Latitude": 45.4951527,
         "Longitude": -73.55777079800217,
@@ -1051,29 +1012,12 @@
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5209934,-73.5536799"
     },
     {
-        "Title": "Canadian Women in Aviation Conference",
-        "Description": "Join us at the Canadian Women in Aviation Conference from May 13-16, where we network with and learn from women in the aviation industry!",
-        "Date": "Mon, May 13, 2024 5:00 PM - Thu, May 16, 2024 11:00 PM EDT",
-        "Location": "Le Centre Sheraton Montreal Hotel, Ren\u00e9-L\u00e9vesque Boulevard West, Montreal, QC, Canada",
-        "Price": 0.0,
-        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
-        "Organizer": null,
-        "Organizer_IMG": null,
-        "Image URL Organizer": null,
-        "StartTime": "Mon, May 13, 2024 5:00 PM",
-        "EndTime": "Thu, May 16, 2024 11:00 PM",
-        "Latitude": null,
-        "Longitude": null,
-        "EventUrl": "https://www.eventbrite.com/e/canadian-women-in-aviation-conference-tickets-733714789687?aff=ebdssbdestsearch",
-        "Tags": []
-    },
-    {
         "Title": "A night with Sal \"The Voice\" Valentinetti! Dinner & Dance event",
         "Description": "The #1 Italian annual event INSIEME is back, Sunday, May 19th, 2024 (Victoria day weekend). INSIEME is celebrating its 15th anniversary!",
         "Date": "Sunday, May 19 \u00b7 6:30 - 11:30pm EDT",
         "Location": "Embassy Plaza",
         "Price": null,
-        "ImageURL": null,
+        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
         "Organizer": null,
         "Organizer_IMG": null,
         "Image URL Organizer": null,
@@ -1215,7 +1159,7 @@
     {
         "Title": "CARRIVIBES",
         "Description": "Get ready for a wild night of Caribbean vibes, music, and dancing at CARRIVIBES!!!",
-        "Date": "May 19 \u00b7 10pm - May 20 \u00b7 3am GMT-4",
+        "Date": "May 19 \u00b7 10pm - May 20 \u00b7 3am EDT",
         "Location": "Pandora Supper Club",
         "Price": null,
         "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
@@ -1239,6 +1183,12 @@
                 "name": "Dance",
                 "emoji": "\ud83d\udc83",
                 "tagCategory": "Leisure"
+            },
+            {
+                "id": "24883e40-3c46-11ee-bb59-7f5156da6f07",
+                "name": "Reggaeton",
+                "emoji": "\ud83c\udfb5",
+                "tagCategory": "Musique"
             },
             {
                 "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
@@ -1282,15 +1232,15 @@
         "EventUrl": "https://www.eventbrite.ca/e/smokedto-sweetlikehoney-presents-muthaland-tickets-896141572567?aff=ebdssbdestsearch",
         "Tags": [
             {
+                "id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Fashion",
+                "emoji": "\ud83e\udd7b",
+                "tagCategory": "Leisure"
+            },
+            {
                 "id": "1d809850-3c47-11ee-bb59-7f5156da6f07",
                 "name": "R&B",
                 "emoji": " \ud83c\udfb6",
-                "tagCategory": "Musique"
-            },
-            {
-                "id": "1e2c0d80-3c47-11ee-bb59-7f5156da6f07",
-                "name": "Soul",
-                "emoji": "\ud83c\udfb6",
                 "tagCategory": "Musique"
             },
             {
@@ -1304,12 +1254,6 @@
                 "name": "Dance",
                 "emoji": "\ud83d\udc83",
                 "tagCategory": "Leisure"
-            },
-            {
-                "id": "28ab7800-3c46-11ee-bb59-7f5156da6f07",
-                "name": "Soul",
-                "emoji": "\ud83c\udfb6",
-                "tagCategory": "Musique"
             },
             {
                 "id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07",
@@ -1369,7 +1313,38 @@
         "Latitude": 45.5027839,
         "Longitude": -73.56451445014896,
         "EventUrl": "https://www.eventbrite.ca/e/billets-58-inspiration-sports-876231089777?aff=ebdssbdestsearch",
-        "Tags": [],
+        "Tags": [
+            {
+                "id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Squash",
+                "emoji": "\ud83c\udff8",
+                "tagCategory": "Sports"
+            },
+            {
+                "id": "0159ac60-3d0c-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Aquatics",
+                "emoji": "\ud83c\udfca\u200d\u2642\ufe0f",
+                "tagCategory": "Sports"
+            },
+            {
+                "id": "0693e050-5c8e-11ee-8ae0-fb963ffbedc0",
+                "name": "Roller Derby",
+                "emoji": "\ud83d\udefc",
+                "tagCategory": "Sports"
+            },
+            {
+                "id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Golf",
+                "emoji": "\u26f3",
+                "tagCategory": "Sports"
+            },
+            {
+                "id": "0b379d00-3d0c-11ee-a0b5-a3a6fbdfc7e4",
+                "name": "Athletic Races",
+                "emoji": "\ud83c\udfc5",
+                "tagCategory": "Sports"
+            }
+        ],
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5027839,-73.56451445014896"
     },
     {
@@ -1389,5 +1364,23 @@
         "EventUrl": "https://www.eventbrite.com/e/despierta-tus-sentidos-edicion-salud-mental-montreal-ca-tickets-808544828347?aff=ebdssbdestsearch",
         "Tags": [],
         "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5052895,-73.5640756"
+    },
+    {
+        "Title": "63e congr\u00e8s annuel - Soci\u00e9t\u00e9 canadienne de science \u00e9conomique",
+        "Description": "Le 63e congr\u00e8s annuel de la SCSE se tiendra du 15 au 17 mai 2024 \u00e0 Montr\u00e9al au HEC Montr\u00e9al - \u00c9difice H\u00e9l\u00e8ne Desmarais",
+        "Date": "mer. 15 mai 2024 08:00 - ven. 17 mai 2024 12:30 EDT",
+        "Location": "HEC Montr\u00e9al - \u00c9difice H\u00e9l\u00e8ne-Desmarais",
+        "Price": null,
+        "ImageURL": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F745012429%2F2025139735093%2F1%2Foriginal.20240412-190741?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=206%2C175%2C1450%2C725&s=c573daa81300fddd203ae2685ff312ce",
+        "Organizer": null,
+        "Organizer_IMG": null,
+        "Image URL Organizer": null,
+        "StartTime": null,
+        "EndTime": null,
+        "Latitude": 45.5027839,
+        "Longitude": -73.56451445014896,
+        "EventUrl": "https://www.eventbrite.com/e/billets-63e-congres-annuel-societe-canadienne-de-science-economique-860141876507?aff=ebdssbdestsearch",
+        "Tags": [],
+        "GoogleMaps_URL": "https://www.google.com/maps/search/?api=1&query=45.5027839,-73.56451445014896"
     }
 ]
