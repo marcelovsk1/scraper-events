@@ -5,101 +5,6 @@ import time
 from geopy.geocoders import Nominatim
 import re
 from datetime import datetime
-import openai
-
-client = openai.OpenAI(api_key='sk-proj-9u5cdlccA0ZcAuhepyhGT3BlbkFJb8GBvlHY8d6DvxuElr6F') # to do: move it into .env variables
-
-def generate_tags(title, description):
-    predefined_tags = [
-        {"id": "005a4420-88c3-11ee-ab49-69be32c19a11", "name": "Startup", "emoji": "🚀", "tagCategory": "Education"},
-        {"id": "00fb7c50-3c47-11ee-bb59-7f5156da6f07", "name": "Reggae", "emoji": " 💚", "tagCategory": "Musique"},
-        {"id": "00fe8220-3d0e-11ee-a0b5-a3a6fbdfc7e4", "name": "Squash", "emoji": "🏸", "tagCategory": "Sports"},
-        {"id": "0159ac60-3d0c-11ee-a0b5-a3a6fbdfc7e4", "name": "Aquatics", "emoji": "🏊‍♂️", "tagCategory": "Sports"},
-        {"id": "01785870-4ce5-11ee-931a-073fc9abbdfa", "name": "Karaoke", "emoji": "🎤", "tagCategory": "Leisure"},
-        {"id": "06759f60-5c8d-11ee-8ae0-fb963ffbedc0", "name": "Holiday", "emoji": "🌞", "tagCategory": "Musique"},
-        {"id": "0693e050-5c8e-11ee-8ae0-fb963ffbedc0", "name": "Roller Derby", "emoji": "🛼", "tagCategory": "Sports"},
-        {"id": "099b2b90-4ce5-11ee-931a-073fc9abbdfa", "name": "Singing", "emoji": "🎤", "tagCategory": "Leisure"},
-        {"id": "09dddaa0-573d-11ee-8b78-9b77053f08ef", "name": "Chess", "emoji": "♟", "tagCategory": "Leisure"},
-        {"id": "0a3f4540-3c46-11ee-bb59-7f5156da6f07", "name": "Blues", "emoji": " 🎵", "tagCategory": "Musique"},
-        {"id": "0ad207f0-3d0d-11ee-a0b5-a3a6fbdfc7e4", "name": "Golf", "emoji": "⛳", "tagCategory": "Sports"},
-        {"id": "0b379d00-3d0c-11ee-a0b5-a3a6fbdfc7e4", "name": "Athletic Races", "emoji": "🏅", "tagCategory": "Sports"},
-        {"id": "0cafac20-3d0e-11ee-a0b5-a3a6fbdfc7e4", "name": "Surfing", "emoji": "🏄‍♀️", "tagCategory": "Sports"},
-        {"id": "0dc9b310-45df-11ee-837b-e184466a9b82", "name": "Book", "emoji": "📖", "tagCategory": "Leisure"},
-        {"id": "108f37a0-3d0b-11ee-a0b5-a3a6fbdfc7e4", "name": "Fashion", "emoji": "🥻", "tagCategory": "Leisure"},
-        {"id": "11164b60-4381-11ee-b8b1-a1b868b635cd", "name": "Punk", "emoji": "👩‍🎤", "tagCategory": "Musique"},
-        {"id": "133a3370-3c47-11ee-bb59-7f5156da6f07", "name": "Religious", "emoji": "✝", "tagCategory": "Musique"},
-        {"id": "1453a7c0-3d0d-11ee-a0b5-a3a6fbdfc7e4", "name": "Gymnastics", "emoji": "🤸‍♀️", "tagCategory": "Sports"},
-        {"id": "15de0a70-45e3-11ee-837b-e184466a9b82", "name": "Hiking", "emoji": "🏃‍♂️", "tagCategory": "Sports"},
-        {"id": "1859e020-6ec5-11ee-839e-4b70ecb92583", "name": "Cycling", "emoji": "🚴‍♂️", "tagCategory": "Sports"},
-        {"id": "18f44470-6ec6-11ee-839e-4b70ecb92583", "name": "Fencing", "emoji": "🤺", "tagCategory": "Sports"},
-        {"id": "19783bb0-45e3-11ee-837b-e184466a9b82", "name": "Yoga", "emoji": "🧘‍♂️", "tagCategory": "Sports"},
-        {"id": "1b7e1210-3d0b-11ee-a0b5-a3a6fbdfc7e4", "name": "Photography", "emoji": "📸", "tagCategory": "Leisure"},
-        {"id": "1cbfc5a0-3c46-11ee-bb59-7f5156da6f07", "name": "Jazz", "emoji": " 🎵", "tagCategory": "Musique"},
-        {"id": "1d344290-3c46-11ee-bb59-7f5156da6f07", "name": "Pop", "emoji": "🎶", "tagCategory": "Musique"},
-        {"id": "1d809850-3c47-11ee-bb59-7f5156da6f07", "name": "R&B", "emoji": " 🎶", "tagCategory": "Musique"},
-        {"id": "1de59e30-3c47-11ee-bb59-7f5156da6f07", "name": "Rock", "emoji": "🎸", "tagCategory": "Musique"},
-        {"id": "1e2c0d80-3c47-11ee-bb59-7f5156da6f07", "name": "Soul", "emoji": "🎶", "tagCategory": "Musique"},
-        {"id": "1ec41b90-3c46-11ee-bb59-7f5156da6f07", "name": "Classical", "emoji": " 🎶", "tagCategory": "Musique"},
-        {"id": "1f39ec90-3d0c-11ee-a0b5-a3a6fbdfc7e4", "name": "Baseball", "emoji": "⚾", "tagCategory": "Sports"},
-        {"id": "201cbff0-3c47-11ee-bb59-7f5156da6f07", "name": "Country", "emoji": "🤠", "tagCategory": "Musique"},
-        {"id": "21882c20-3c46-11ee-bb59-7f5156da6f07", "name": "Folk", "emoji": "🎻", "tagCategory": "Musique"},
-        {"id": "2211e6d0-3c46-11ee-bb59-7f5156da6f07", "name": "Hip-Hop", "emoji": "🎤", "tagCategory": "Musique"},
-        {"id": "226300e0-3d0b-11ee-a0b5-a3a6fbdfc7e4", "name": "Dance", "emoji": "💃", "tagCategory": "Leisure"},
-        {"id": "2307f3e0-3c47-11ee-bb59-7f5156da6f07", "name": "Indie", "emoji": " 🎶", "tagCategory": "Musique"},
-        {"id": "2401c100-3c46-11ee-bb59-7f5156da6f07", "name": "Metal", "emoji": "🤘", "tagCategory": "Musique"},
-        {"id": "244cfde0-3c47-11ee-bb59-7f5156da6f07", "name": "Punk Rock", "emoji": "👩‍🎤", "tagCategory": "Musique"},
-        {"id": "24883e40-3c46-11ee-bb59-7f5156da6f07", "name": "Reggaeton", "emoji": "🎵", "tagCategory": "Musique"},
-        {"id": "24d07ab0-3d0d-11ee-a0b5-a3a6fbdfc7e4", "name": "Tennis", "emoji": "🎾", "tagCategory": "Sports"},
-        {"id": "253b9e90-3d0d-11ee-a0b5-a3a6fbdfc7e4", "name": "Basketball", "emoji": "🏀", "tagCategory": "Sports"},
-        {"id": "2602b960-3c47-11ee-bb59-7f5156da6f07", "name": "Gospel", "emoji": "🎶", "tagCategory": "Musique"},
-        {"id": "263997d0-3c46-11ee-bb59-7f5156da6f07", "name": "Jazz", "emoji": " 🎶", "tagCategory": "Musique"},
-        {"id": "274d8200-3c46-11ee-bb59-7f5156da6f07", "name": "Rap", "emoji": "🎤", "tagCategory": "Musique"},
-        {"id": "27a4a0f0-3c47-11ee-bb59-7f5156da6f07", "name": "Rock and Roll", "emoji": "🎸", "tagCategory": "Musique"},
-        {"id": "27fb1d20-3c47-11ee-bb59-7f5156da6f07", "name": "Ska", "emoji": "🎺", "tagCategory": "Musique"},
-        {"id": "28ab7800-3c46-11ee-bb59-7f5156da6f07", "name": "Soul", "emoji": "🎶", "tagCategory": "Musique"},
-        {"id": "290a1bb0-3c47-11ee-bb59-7f5156da6f07", "name": "Techno", "emoji": "🎧", "tagCategory": "Musique"},
-        {"id": "2995c8b0-3c46-11ee-bb59-7f5156da6f07", "name": "World Music", "emoji": "🌍", "tagCategory": "Musique"}
-    ]
-
-    prompt = (
-        f"You are a meticulous selector, trained on identifying relevant tags for events.\n" +
-        f"Your task is to select, only from the list below, at most 5 tags that are very relevant for the event \"{title}\" (description: \"{description}\").\n" +
-        f"Here are the exhaustive list of tags to select from:\n" +
-        ''.join([f"{index+1}. {tag['name']} ({tag['tagCategory']})\n" for index, tag in enumerate(predefined_tags)]) +
-        f"Only output the selected tags from this list, separated by comma.\n" +
-        f"Do not output any other tag.\n" +
-        f"If there is no relevant tag in the list, output 'NO TAG'."
-    )
-    print(prompt)
-
-    completion = client.chat.completions.create(
-        model="gpt-4-turbo",
-        temperature=0,
-        messages=[
-            {"role": "system", "content": prompt}
-        ]
-    )
-
-    response = completion.choices[0].message.content
-
-    print('response', response)
-
-    relevant_tags = []
-
-    for predefined_tag in predefined_tags:
-        if (predefined_tag["name"] in response):
-            relevant_tags.append(predefined_tag)
-
-    print(relevant_tags)
-
-    return relevant_tags
-
-# Exemplo de uso:
-title = "Psy Crisis IV: JUNGLE"
-description = "With immense joy and excitement, Wizard Tribe in collaboration with AlpaKa MuziK/Productions present..."
-
-tags = generate_tags(title, description)
-print("Tags relacionadas encontradas:", tags)
 
 
 def scroll_to_bottom(driver, max_scroll=1):
@@ -112,6 +17,7 @@ def scroll_to_bottom(driver, max_scroll=1):
     for _ in range(max_scroll):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
+
 
 def format_date(date_str):
     print("Original date string:", date_str)
@@ -122,27 +28,31 @@ def format_date(date_str):
         return None
 
     # Usar expressões regulares para extrair os componentes da data
-    match = re.match(r"(\w+), (\w+ \d{1,2}, \d{4}) AT (\d{1,2}:\d{2}\s*(?:AM|PM)) – (\d{1,2}:\d{2}\s*(?:AM|PM))", date_str)
+    pattern = r"(\w+) (\d+) AT (\d{1,2}:\d{2}\s*(?:AM|PM)) – (\w+) (\d+) AT (\d{1,2}:\d{2}\s*(?:AM|PM)) EDT"
+    match = re.match(pattern, date_str)
     if match:
-        day_of_week, date, start_time, end_time = match.groups()
+        start_month, start_day, start_time, end_month, end_day, end_time = match.groups()
 
-        # Extrair o nome abreviado do mês
-        start_month = date.split()[0]
+        # Converter os nomes dos meses para seu equivalente numérico
+        start_month_num = datetime.strptime(start_month, '%b').month
+        end_month_num = datetime.strptime(end_month, '%b').month
 
-        # Converter o nome do mês para seu equivalente numérico
-        start_month_num = datetime.strptime(start_month, '%B').month
+        # Formatar as datas de início e fim
+        formatted_start_date = f"{start_day}/{start_month_num:02d} at {start_time}"
+        formatted_end_date = f"{end_day}/{end_month_num:02d} at {end_time}"
 
-        # Extrair o dia do mês e o ano
-        start_day, year = re.search(r"(\d{1,2}), (\d{4})", date).groups()
-
-        # Formatando a data de início com dia, mês e ano
-        formatted_start_date = f"{start_day}/{start_month_num:02d}/{year}"
         print("Formatted start date:", formatted_start_date)
+        print("Formatted end date:", formatted_end_date)
 
-        return formatted_start_date
+        return (formatted_start_date, formatted_end_date)
     else:
         print("Erro: Formato de data inválido.")
         return None
+
+# Exemplo de uso:
+date_str = "MAY 31 AT 11:00 AM – JUN 1 AT 4:00 PM EDT"
+format_date(date_str)
+
 
 def get_coordinates(location):
     geolocator = Nominatim(user_agent="event_scraper", timeout=30)  # Aumentando o tempo limite para 10 segundos
@@ -181,7 +91,7 @@ def get_location_details(latitude, longitude):
         print(f"An error occurred while fetching location details: {e}")
         return None, None, None
 
-def scrape_facebook_events(driver, url, selectors, max_scroll=30):
+def scrape_facebook_events(driver, url, selectors, max_scroll=3):
     global event_id_counter  # Referencing the global variable
 
     driver.get(url)
@@ -283,8 +193,8 @@ def scrape_facebook_events(driver, url, selectors, max_scroll=30):
         }
 
         # Call generate_tags function here passing event title and description
-        event_tags = generate_tags(event_title, description)
-        event_info['Tags'] = event_tags
+        # event_tags = generate_tags(event_title, description)
+        # event_info['Tags'] = event_tags
 
         all_events.append(event_info)
         unique_event_titles.add(event_title)
@@ -320,10 +230,4 @@ if __name__ == "__main__":
 
                 all_events.extend(events)
             else:
-                print("No events found.")
-
-    # Save events to JSON file
-    with open('facebook.json', 'w') as f:
-        json.dump(all_events, f, indent=4)
-
-    driver.quit()
+     
